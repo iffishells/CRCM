@@ -53,7 +53,7 @@ df = normalize_values(df,'attractive','d_attractive','attractive_normalized')
 df.reset_index(inplace=True)
 df['compatbilityScore'] = 0 
 
-st.set_page_config(layout='wide',page_icon='!',page_title='Roomate Compactibility Tests')
+st.set_page_config(layout='wide',page_icon='!',page_title='Roommate Compatibility Test')
 path =  os.path.dirname(__file__)
 today = date.today()
 # Column 1
