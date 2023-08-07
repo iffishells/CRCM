@@ -50,7 +50,7 @@ df['compatbilityScore'] = 0
 
 # Column 1
 # Title of the app
-st.title("Roomate Compactibility Tests")
+st.title("Roomate Compactibility Testssss")
 st.markdown("Use the options below to select your preferences for finding compatible roommates.")
 
 # Create two columns
