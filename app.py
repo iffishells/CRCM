@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import warnings
+from datetime import date
+import os
+import glob
+warnings.simplefilter(action='ignore',category=FutureWarning)
+
 
 def normalize_values(df,current_feature_name ,current_scaled_feature_name , new_feature_name):
     # current_feature_name = 'yoga'
@@ -47,10 +53,12 @@ df = normalize_values(df,'attractive','d_attractive','attractive_normalized')
 df.reset_index(inplace=True)
 df['compatbilityScore'] = 0 
 
-
+st.set_page_config(layout='wide',page_icon='!',page_title='Roomate Compactibility Tests')
+path =  os.path.dirname(__file__)
+today = date.today()
 # Column 1
 # Title of the app
-st.title("Roomate Compactibility Testssss")
+st.title("Roomate Compactibility Test")
 st.markdown("Use the options below to select your preferences for finding compatible roommates.")
 
 # Create two columns
