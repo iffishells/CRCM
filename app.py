@@ -43,7 +43,7 @@ col1, col2,col3 = st.columns(3)
 with col1:
     
     # Add style to differentiate columns
-    st.markdown("<style>div[role='listbox'] { background-color: #f2f2f2; padding: 10px; }</style>", unsafe_allow_html=True)
+    st.markdown("<style>div[role='listbox'] { background-color: #f2f2f2; padding: 5px; }</style>", unsafe_allow_html=True)
     
     # Dropdown menu
     selected_option_age = st.selectbox("Select an option for Age :", df['age-range'].unique().tolist())
@@ -93,7 +93,7 @@ with col2:
     selected_option_sports = st.selectbox("Select an option for Sports Habit(Preference order(0-1)) :", df['sports_normalized'].unique().tolist())
     # Display the selected option
     st.write("You selected:", selected_option_sports)
-    selected_option_food = st.selectbox("Select an option for Sports Habit(Preference order(0-1)) :", df['FoodChoice'].unique().tolist())
+    selected_option_food = st.selectbox("Select an option for Food Choice :", df['FoodChoice'].unique().tolist())
     # Display the selected option
     st.write("You selected:", selected_option_food)
 
@@ -138,10 +138,11 @@ user_preferences = {'age-range': selected_option_age,
                 'tv_normalized':selected_option_tv,
                 'clubbing_normalized':selected_option_clubbing,
                 'hiking_normalized':selected_option_hiking,
-
                 'exercise_normalized':selected_option_exercise,
                 'sports_normalized':selected_option_sports,
-                'importance_same_religion_normalized':selected_option_religion
+                'importance_same_religion_normalized':selected_option_religion,
+                'FoodChoice':selected_option_food
+
             }
 
 interested_records = []
@@ -158,12 +159,14 @@ for index , row in df.iterrows():
                      # <img src="path_to_signal_image.png" alt="Signal Image" width="300">
 
 # Calculate the maximum compatibility score in the dataset
-max_compatibility_score = df['compatbilityScore'].max()
+# max_compatibility_score = df['compatbilityScore'].max()
+max_compatibility_score = len(list(user_preferences.keys()))
+
 # Iterate through the DataFrame and calculate the normalized compatibility score as a percentage
 for index, row in df.iterrows():
     df.loc[index, 'compatbilityScore'] = np.round(int((row['compatbilityScore'] / max_compatibility_score) * 100),2)
                
-compatible_df = df[df['compatbilityScore'] != 0][['age-range','gender','race','field','compatbilityScore']]
+compatible_df = df[df['compatbilityScore'] != 0]#[['age-range','gender','race','field','compatbilityScore']]
 compatible_sorted_df = compatible_df.sort_values(by='compatbilityScore', ascending=False)
 # st.title("Available Roommates - Sorted by Compatibility Score")
 # styled_sorted_df = compatible_sorted_df.style.set_properties(**{'background-color': 'white', 'color': 'black'})
@@ -176,13 +179,42 @@ with col1:
         st.markdown(
             f"""
             <div style="background-color: #f9f9f9; padding: 15px; border-radius: 15px; box-shadow: 2px 2px 5px #888888;">
-                <h3>Name- XYZ </h3>
-                <p><strong>Age Range :</strong> {row['age-range']}</p>
-                <p><strong>Gender :</strong> {row['gender']}</p>
-                <p><strong>Race :</strong> {row['race']}</p>
-                <p><strong>field of work :</strong> {row['field']}</p>
-                <p><strong>compatbilityScore:</strong>{row['compatbilityScore']} </p>
-                <p><strong>Description:</strong> This is a sample signal with some information.</p>
+             <h3>Name- XYZ </h3>
+            <table border="0">
+                 <tr>
+                    <td><strong>Age Range:</strong> {row['age-range']}</td>
+                    <td><strong>Gender:</strong> {row['gender']}</td>
+                    <td><strong>Race:</strong> {row['race']}</td>
+                </tr>
+                 <tr>
+                    <td><strong>Field of Work:</strong> {row['field']}</td>
+                    <td><strong>Compatibility Score:</strong> {row['compatbilityScore']}</td>
+                    <td><strong>Reading Habit:</strong> {row['reading_normalized']}</td>
+                </tr>
+                <tr>
+                    <td><strong>Gaming Habit :</strong> {row['gaming_normalized']}</td>
+                    <td><strong>Music Listening Habit :</strong> {row['music_normalized']}</td>
+                    <td><strong>Dining Habit :</strong> {row['dining_normalized']}</td>
+                </tr>
+                 <tr>
+                    <td><strong>Wactching Moies :</strong> {row['movies_normalized']}</td>
+                    <td><strong>Watching TV :</strong> {row['tv_normalized']}</td>
+                    <td><strong>clubbing :</strong> {row['clubbing_normalized']}</td>
+                </tr>
+                 <tr>
+                    <td><strong>Hiking :</strong> {row['hiking_normalized']}</td>
+                    <td><strong>Exercise Habit :</strong> {row['exercise_normalized']}</td>
+                    <td><strong>Sports Habit :</strong> {row['sports_normalized']}</td>
+                </tr>
+                <tr>
+                    <td><strong>Importance of same religion Level :</strong> {row['importance_same_religion_normalized']}</td>
+                    <td><strong>Food choice :</strong> {row['FoodChoice']}</td>
+                    <td><strong>Location :</strong> {row['locations']}</td>
+                </tr>
+                
+                
+            </table>
+                
             </div>
             """,
             unsafe_allow_html=True
