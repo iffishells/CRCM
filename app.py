@@ -5,13 +5,13 @@ import warnings
 from datetime import date
 import os
 import glob
+import requests
+import math
+
 warnings.simplefilter(action='ignore',category=FutureWarning)
 
 
 def normalize_values(df,current_feature_name ,current_scaled_feature_name , new_feature_name):
-    # current_feature_name = 'yoga'
-    # current_scaled_feature_name = 'd_yoga'
-    # new_feature_name = 'yoga_normalized'
     temp = df.copy()  # Create a copy of the DataFrame to avoid modifying the original
     temp[new_feature_name] = 0  # Add a new column to store normalized values
     
@@ -22,6 +22,65 @@ def normalize_values(df,current_feature_name ,current_scaled_feature_name , new_
         temp.loc[index, new_feature_name] = yoga_normalized
     
     return temp
+
+
+def haversine_distance(lat1, lon1, lat2, lon2):
+    R = 6371  # Radius of the Earth in kilometers
+
+    lat1_rad = math.radians(lat1)
+    lon1_rad = math.radians(lon1)
+    lat2_rad = math.radians(lat2)
+    lon2_rad = math.radians(lon2)
+
+    dlat = lat2_rad - lat1_rad
+    dlon = lon2_rad - lon1_rad
+
+    a = math.sin(dlat / 2) ** 2 + math.cos(lat1_rad) * math.cos(lat2_rad) * math.sin(dlon / 2) ** 2
+    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+
+    distance = R * c
+    return distance
+def get_coordinates(api_key, city_name):
+    base_url = "https://atlas.microsoft.com/search/address/json"
+    params = {
+        "api-version": "1.0",
+        "subscription-key": api_key,
+        "query": city_name
+    }
+
+    response = requests.get(base_url, params=params)
+    data = response.json()
+
+    if "results" in data and data["results"]:
+        location = data["results"][0]["position"]
+        latitude = location["lat"]
+        longitude = location["lon"]
+        return latitude, longitude
+    else:
+        return None, None
+    
+def get_distance(from_city_name,to_city_name):
+    
+    api_key = "szf6w7lIXw-H0uNVASqmK2TqlaNO-LRXXbt91ODbEb8"
+    from_latitude, from_longitude = get_coordinates(api_key, from_city_name)
+    to_latitude, to_longitude = get_coordinates(api_key, to_city_name)
+    
+    # if from_latitude is not None and from_longitude is not None:
+    #     print(f"Coordinates for {from_city_name}: Latitude={from_latitude}, Longitude={from_longitude}")
+    # else:
+    #     print(f"Coordinates not found for {from_city_name}")
+
+    # if to_latitude is not None and to_longitude is not None:
+    #     print(f"Coordinates for {to_city_name}: Latitude={to_latitude}, Longitude={to_longitude}")
+    # else:
+    #     print(f"Coordinates not found for {to_city_name}")
+
+    distance = haversine_distance(from_latitude, from_longitude, to_latitude, to_longitude)
+    # print(f"Distance between the cities: {distance:.2f} km")
+    
+    return np.round(distance,2)
+
+
 
 df = pd.read_csv('CleadedSpeedDatingData.csv') 
 df.reset_index(inplace=True)
@@ -123,99 +182,102 @@ with col3:
     st.write("You selected:", selected_option_religion)
 
   
+selected_option_origon_location = st.text_input("Enter Your University/office/Home location:")
+# Display the entered text
+st.write("You entered:", selected_option_origon_location)
+
+if selected_option_origon_location:
+        
+    user_preferences = {'age-range': selected_option_age,
+                    'gender': selected_option_gender,
+                    'race': selected_option_race,
+                    'field': selected_option_field,
+                    'reading_normalized':selected_option_reading,
+                    'gaming_normalized':selected_option_gaming,
+                    'music_normalized':selected_option_music,
+                    'dining_normalized':selected_option_dining,
+                    'movies_normalized':selected_option_movie,
+                    'tv_normalized':selected_option_tv,
+                    'clubbing_normalized':selected_option_clubbing,
+                    'hiking_normalized':selected_option_hiking,
+                    'exercise_normalized':selected_option_exercise,
+                    'sports_normalized':selected_option_sports,
+                    'importance_same_religion_normalized':selected_option_religion,
+                    'FoodChoice':selected_option_food
+
+                }
+
+    interested_records = []
+    for index , row in df.iterrows():
+        # logging.info(f'Iterating row number {index}')
+        for key,value in user_preferences.items():
+            if row[key]== user_preferences[key]:
+                df.at[index,'compatbilityScore'] +=1
 
 
-
-user_preferences = {'age-range': selected_option_age,
-                'gender': selected_option_gender,
-                'race': selected_option_race,
-                'field': selected_option_field,
-                'reading_normalized':selected_option_reading,
-                'gaming_normalized':selected_option_gaming,
-                'music_normalized':selected_option_music,
-                'dining_normalized':selected_option_dining,
-                'movies_normalized':selected_option_movie,
-                'tv_normalized':selected_option_tv,
-                'clubbing_normalized':selected_option_clubbing,
-                'hiking_normalized':selected_option_hiking,
-                'exercise_normalized':selected_option_exercise,
-                'sports_normalized':selected_option_sports,
-                'importance_same_religion_normalized':selected_option_religion,
-                'FoodChoice':selected_option_food
-
-            }
-
-interested_records = []
-for index , row in df.iterrows():
-    # logging.info(f'Iterating row number {index}')
-    for key,value in user_preferences.items():
-        if row[key]== user_preferences[key]:
-            
-            df.loc[index,'compatbilityScore'] +=1
-            interested_records.append(index)
-            
-            
-            
-                     # <img src="path_to_signal_image.png" alt="Signal Image" width="300">
-
-# Calculate the maximum compatibility score in the dataset
-# max_compatibility_score = df['compatbilityScore'].max()
-max_compatibility_score = len(list(user_preferences.keys()))
-
-# Iterate through the DataFrame and calculate the normalized compatibility score as a percentage
-for index, row in df.iterrows():
-    df.loc[index, 'compatbilityScore'] = np.round(int((row['compatbilityScore'] / max_compatibility_score) * 100),2)
-               
-compatible_df = df[df['compatbilityScore'] != 0]#[['age-range','gender','race','field','compatbilityScore']]
-compatible_sorted_df = compatible_df.sort_values(by='compatbilityScore', ascending=False)
-# st.title("Available Roommates - Sorted by Compatibility Score")
-# styled_sorted_df = compatible_sorted_df.style.set_properties(**{'background-color': 'white', 'color': 'black'})
-# st.dataframe(styled_sorted_df)
-col1,col2 = st.columns(2)
-with col1:
-    
-    compatible_df = compatible_df.head()
-    for index,row in compatible_df.iterrows():
-        st.markdown(
-            f"""
-            <div style="background-color: #f9f9f9; padding: 15px; border-radius: 15px; box-shadow: 2px 2px 5px #888888;">
-             <h3>Name- XYZ </h3>
-            <table border="0">
-                 <tr>
-                    <td><strong>Age Range:</strong> {row['age-range']}</td>
-                    <td><strong>Gender:</strong> {row['gender']}</td>
-                    <td><strong>Race:</strong> {row['race']}</td>
-                </tr>
-                 <tr>
-                    <td><strong>Field of Work:</strong> {row['field']}</td>
-                    <td><strong>Compatibility Score:</strong> {row['compatbilityScore']}</td>
-                    <td><strong>Reading Habit:</strong> {row['reading_normalized']}</td>
-                </tr>
-                <tr>
-                    <td><strong>Gaming Habit :</strong> {row['gaming_normalized']}</td>
-                    <td><strong>Music Listening Habit :</strong> {row['music_normalized']}</td>
-                    <td><strong>Dining Habit :</strong> {row['dining_normalized']}</td>
-                </tr>
-                 <tr>
-                    <td><strong>Wactching Moies :</strong> {row['movies_normalized']}</td>
-                    <td><strong>Watching TV :</strong> {row['tv_normalized']}</td>
-                    <td><strong>clubbing :</strong> {row['clubbing_normalized']}</td>
-                </tr>
-                 <tr>
-                    <td><strong>Hiking :</strong> {row['hiking_normalized']}</td>
-                    <td><strong>Exercise Habit :</strong> {row['exercise_normalized']}</td>
-                    <td><strong>Sports Habit :</strong> {row['sports_normalized']}</td>
-                </tr>
-                <tr>
-                    <td><strong>Importance of same religion Level :</strong> {row['importance_same_religion_normalized']}</td>
-                    <td><strong>Food choice :</strong> {row['FoodChoice']}</td>
-                    <td><strong>Location :</strong> {row['locations']}</td>
-                </tr>
                 
                 
-            </table>
+    # Calculate the maximum compatibility score in the dataset
+    max_compatibility_score = len(list(user_preferences.keys()))
+
+    # Iterate through the DataFrame and calculate the normalized compatibility score as a percentage
+    for index, row in df.iterrows():
+        df.at[index, 'compatbilityScore'] = np.round(int((row['compatbilityScore'] / max_compatibility_score) * 100),2)
                 
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
+    compatible_df = df[df['compatbilityScore'] != 0]#[['age-range','gender','race','field','compatbilityScore']]
+    compatible_sorted_df = compatible_df.sort_values(by='compatbilityScore', ascending=False)
+    st.title("Available Roommates - Sorted by Compatibility Score")
+    # styled_sorted_df = compatible_sorted_df.style.set_properties(**{'background-color': 'white', 'color': 'black'})
+    # st.dataframe(styled_sorted_df)
+    col1,col2 = st.columns(2)
+    with col1:
+        
+        compatible_sorted_df = compatible_sorted_df.head()
+        for index,row in compatible_sorted_df.iterrows():
+            distance = get_distance(row['locations'], selected_option_origon_location)
+
+            if distance:
+                st.markdown(
+                    f"""
+                    <div style="background-color: #f9f9f9; padding: 15px; border-radius: 15px; box-shadow: 2px 2px 5px #888888;">
+                    <h3>Name- XYZ </h3>
+                    <h5>Distance between {row['locations']} - {selected_option_origon_location} : {distance}-KM</h5>
+                    <table border="0">
+                        <tr>
+                            <td><strong>Age Range:</strong> {row['age-range']}</td>
+                            <td><strong>Gender:</strong> {row['gender']}</td>
+                            <td><strong>Race:</strong> {row['race']}</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Field of Work:</strong> {row['field']}</td>
+                            <td><strong>Compatibility Score:</strong> {row['compatbilityScore']}</td>
+                            <td><strong>Reading Habit:</strong> {row['reading_normalized']}</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gaming Habit :</strong> {row['gaming_normalized']}</td>
+                            <td><strong>Music Listening Habit :</strong> {row['music_normalized']}</td>
+                            <td><strong>Dining Habit :</strong> {row['dining_normalized']}</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Wactching Moies :</strong> {row['movies_normalized']}</td>
+                            <td><strong>Watching TV :</strong> {row['tv_normalized']}</td>
+                            <td><strong>clubbing :</strong> {row['clubbing_normalized']}</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Hiking :</strong> {row['hiking_normalized']}</td>
+                            <td><strong>Exercise Habit :</strong> {row['exercise_normalized']}</td>
+                            <td><strong>Sports Habit :</strong> {row['sports_normalized']}</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Importance of same religion Level :</strong> {row['importance_same_religion_normalized']}</td>
+                            <td><strong>Food choice :</strong> {row['FoodChoice']}</td>
+                            <td><strong>Location :</strong> {row['locations']}</td>
+                        </tr>
+                        
+                        
+                    </table>
+                        
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
