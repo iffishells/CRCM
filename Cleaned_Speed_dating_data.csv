@@ -1,0 +1,1037 @@
+age-range,gender,race,importance_same_religion,field,reading,gaming,dining,music,movies,tv,clubbing,hiking,exercise,Smoking,Drinking,sports,tvsports,FoodChoice,locations,reading_normalized,gaming_normalized,dining_normalized,music_normalized,movies_normalized,tv_normalized,clubbing_normalized,hiking_normalized,exercise_normalized,sports_normalized,tvsports_normalized,importance_same_religion_normalized
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,6,1,9,9,10,9,5,5,8,No,No,9,2,Vegetarian,Dewdney Place,0.75,0.2,0.9,0.9,1.0,0.9,1.0,1.0,1.0,0.9,0.4,0.8
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,6,1,9,9,10,9,5,5,8,No,Yes,9,2,Vegetarian,Harbour Landing,0.75,0.2,0.9,0.9,1.0,0.9,1.0,1.0,1.0,0.9,0.4,0.8
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,6,1,9,9,10,9,5,5,8,Sometime,Occasionally,9,2,Non-Vegetarian,Grand Trunk Annex,0.75,0.2,0.9,0.9,1.0,0.9,1.0,1.0,1.0,0.9,0.4,0.8
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,6,1,9,9,10,9,5,5,8,No,No,9,2,Non-Vegetarian,Arcola Sub,0.75,0.2,0.9,0.9,1.0,0.9,1.0,1.0,1.0,0.9,0.4,0.8
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,6,1,9,9,10,9,5,5,8,No,Yes,9,2,Vegetarian,Arcola Sub,0.75,0.2,0.9,0.9,1.0,0.9,1.0,1.0,1.0,0.9,0.4,0.8
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,6,1,9,9,10,9,5,5,8,No,No,9,2,Non-Vegetarian,Balbrigan Place,0.75,0.2,0.9,0.9,1.0,0.9,1.0,1.0,1.0,0.9,0.4,0.8
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,6,1,9,9,10,9,5,5,8,No,No,9,2,Vegetarian,Highland Park,0.75,0.2,0.9,0.9,1.0,0.9,1.0,1.0,1.0,0.9,0.4,0.8
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,6,1,9,9,10,9,5,5,8,Sometime,No,9,2,Non-Vegetarian,Dewdney Place,0.75,0.2,0.9,0.9,1.0,0.9,1.0,1.0,1.0,0.9,0.4,0.8
+"(21, 25)",female,european/caucasian-american,5,law,10,5,10,8,8,1,8,3,7,No,Yes,3,2,Non-Vegetarian,Belvedere,1.0,1.0,1.0,1.0,1.0,0.2,1.0,0.6,0.875,0.6,0.4,1.0
+"(21, 25)",female,european/caucasian-american,5,law,10,5,10,8,8,1,8,3,7,No,Occasionally,3,2,Non-Vegetarian,Sherwood Estates,1.0,1.0,1.0,1.0,1.0,0.2,1.0,0.6,0.875,0.6,0.4,1.0
+"(21, 25)",female,european/caucasian-american,5,law,10,5,10,8,8,1,8,3,7,Sometime,Occasionally,3,2,Non-Vegetarian,Lakewood,1.0,1.0,1.0,1.0,1.0,0.2,1.0,0.6,0.875,0.6,0.4,1.0
+"(21, 25)",female,european/caucasian-american,5,law,10,5,10,8,8,1,8,3,7,No,Occasionally,3,2,Non-Vegetarian,Balbrigan Place,1.0,1.0,1.0,1.0,1.0,0.2,1.0,0.6,0.875,0.6,0.4,1.0
+"(21, 25)",female,european/caucasian-american,5,law,10,5,10,8,8,1,8,3,7,Sometime,Occasionally,3,2,Vegetarian,Highland Park,1.0,1.0,1.0,1.0,1.0,0.2,1.0,0.6,0.875,0.6,0.4,1.0
+"(21, 25)",female,european/caucasian-american,5,law,10,5,10,8,8,1,8,3,7,Sometime,No,3,2,Non-Vegetarian,City View,1.0,1.0,1.0,1.0,1.0,0.2,1.0,0.6,0.875,0.6,0.4,1.0
+"(21, 25)",female,european/caucasian-american,5,law,10,5,10,8,8,1,8,3,7,No,Yes,3,2,Non-Vegetarian,Arcola Sub,1.0,1.0,1.0,1.0,1.0,0.2,1.0,0.6,0.875,0.6,0.4,1.0
+"(21, 25)",female,european/caucasian-american,5,law,10,5,10,8,8,1,8,3,7,No,Yes,3,2,Vegetarian,Riverside,1.0,1.0,1.0,1.0,1.0,0.2,1.0,0.6,0.875,0.6,0.4,1.0
+"(21, 25)",female,european/caucasian-american,5,law,10,5,10,8,8,1,8,3,7,No,Yes,3,2,Non-Vegetarian,Creekside,1.0,1.0,1.0,1.0,1.0,0.2,1.0,0.6,0.875,0.6,0.4,1.0
+"(21, 25)",female,european/caucasian-american,5,law,10,5,10,8,8,1,8,3,7,Sometime,No,3,2,Vegetarian,Albert Park,1.0,1.0,1.0,1.0,1.0,0.2,1.0,0.6,0.875,0.6,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,law,7,5,7,7,7,7,7,7,6,Yes,No,1,1,Vegetarian,Parkridge,0.875,1.0,0.875,0.875,0.875,0.875,0.875,0.875,0.75,0.2,0.2,1.0
+"(21, 25)",female,european/caucasian-american,1,law,7,5,7,7,7,7,7,7,6,No,No,1,1,Non-Vegetarian,Garden Ridge,0.875,1.0,0.875,0.875,0.875,0.875,0.875,0.875,0.75,0.2,0.2,1.0
+"(21, 25)",female,european/caucasian-american,1,law,7,5,7,7,7,7,7,7,6,No,Yes,1,1,Vegetarian,Uplands,0.875,1.0,0.875,0.875,0.875,0.875,0.875,0.875,0.75,0.2,0.2,1.0
+"(21, 25)",female,european/caucasian-american,1,law,7,5,7,7,7,7,7,7,6,Yes,Occasionally,1,1,Non-Vegetarian,City View,0.875,1.0,0.875,0.875,0.875,0.875,0.875,0.875,0.75,0.2,0.2,1.0
+"(21, 25)",female,european/caucasian-american,1,law,7,5,7,7,7,7,7,7,6,Sometime,Yes,1,1,Vegetarian,Garden Ridge,0.875,1.0,0.875,0.875,0.875,0.875,0.875,0.875,0.75,0.2,0.2,1.0
+"(21, 25)",female,european/caucasian-american,1,law,7,5,7,7,7,7,7,7,6,Yes,Occasionally,1,1,Non-Vegetarian,Parkridge,0.875,1.0,0.875,0.875,0.875,0.875,0.875,0.875,0.75,0.2,0.2,1.0
+"(21, 25)",female,european/caucasian-american,1,law,7,5,7,7,7,7,7,7,6,No,No,1,1,Non-Vegetarian,Albert Park,0.875,1.0,0.875,0.875,0.875,0.875,0.875,0.875,0.75,0.2,0.2,1.0
+"(21, 25)",female,european/caucasian-american,1,law,7,5,7,7,7,7,7,7,6,Sometime,Occasionally,1,1,Non-Vegetarian,Grand Trunk Annex,0.875,1.0,0.875,0.875,0.875,0.875,0.875,0.875,0.75,0.2,0.2,1.0
+"(21, 25)",female,european/caucasian-american,1,law,7,5,7,7,7,7,7,7,6,Sometime,Occasionally,1,1,Vegetarian,Lakewood,0.875,1.0,0.875,0.875,0.875,0.875,0.875,0.875,0.75,0.2,0.2,1.0
+"(21, 25)",female,european/caucasian-american,1,law,7,5,7,7,7,7,7,7,6,Sometime,Occasionally,1,1,Non-Vegetarian,Highland Park,0.875,1.0,0.875,0.875,0.875,0.875,0.875,0.875,0.75,0.2,0.2,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,law,9,2,7,4,6,2,6,9,9,Sometime,Yes,10,8,Non-Vegetarian,Sherwood Estates,0.9,0.4,0.875,0.8,0.75,0.4,0.75,0.9,0.9,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,law,9,2,7,4,6,2,6,9,9,Sometime,Occasionally,10,8,Vegetarian,Grand Trunk Annex,0.9,0.4,0.875,0.8,0.75,0.4,0.75,0.9,0.9,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,law,9,2,7,4,6,2,6,9,9,Yes,Occasionally,10,8,Non-Vegetarian,Arcola Sub,0.9,0.4,0.875,0.8,0.75,0.4,0.75,0.9,0.9,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,law,9,2,7,4,6,2,6,9,9,Sometime,Occasionally,10,8,Non-Vegetarian,Albert Park,0.9,0.4,0.875,0.8,0.75,0.4,0.75,0.9,0.9,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,law,9,2,7,4,6,2,6,9,9,Sometime,Occasionally,10,8,Vegetarian,Sherwood Estates,0.9,0.4,0.875,0.8,0.75,0.4,0.75,0.9,0.9,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,law,9,2,7,4,6,2,6,9,9,Yes,Yes,10,8,Non-Vegetarian,Grand Trunk Annex,0.9,0.4,0.875,0.8,0.75,0.4,0.75,0.9,0.9,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,law,9,2,7,4,6,2,6,9,9,Sometime,No,10,8,Vegetarian,Harbour Landing,0.9,0.4,0.875,0.8,0.75,0.4,0.75,0.9,0.9,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,law,9,2,7,4,6,2,6,9,9,Yes,Occasionally,10,8,Vegetarian,Lakewood,0.9,0.4,0.875,0.8,0.75,0.4,0.75,0.9,0.9,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,law,9,2,7,4,6,2,6,9,9,No,No,10,8,Non-Vegetarian,Garden Ridge,0.9,0.4,0.875,0.8,0.75,0.4,0.75,0.9,0.9,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,law,9,2,7,4,6,2,6,9,9,Yes,Yes,10,8,Non-Vegetarian,City View,0.9,0.4,0.875,0.8,0.75,0.4,0.75,0.9,0.9,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,8,3,10,10,10,8,8,2,4,Yes,No,5,3,Vegetarian,Wascana Crescents,1.0,0.6,1.0,1.0,1.0,1.0,1.0,0.4,0.8,1.0,0.6,0.8
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,8,3,10,10,10,8,8,2,4,No,Occasionally,5,3,Non-Vegetarian,Uplands,1.0,0.6,1.0,1.0,1.0,1.0,1.0,0.4,0.8,1.0,0.6,0.8
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,8,3,10,10,10,8,8,2,4,Sometime,Yes,5,3,Non-Vegetarian,Creekside,1.0,0.6,1.0,1.0,1.0,1.0,1.0,0.4,0.8,1.0,0.6,0.8
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,8,3,10,10,10,8,8,2,4,Yes,No,5,3,Vegetarian,Arcola Sub,1.0,0.6,1.0,1.0,1.0,1.0,1.0,0.4,0.8,1.0,0.6,0.8
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,8,3,10,10,10,8,8,2,4,Yes,Occasionally,5,3,Vegetarian,Creekside,1.0,0.6,1.0,1.0,1.0,1.0,1.0,0.4,0.8,1.0,0.6,0.8
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,8,3,10,10,10,8,8,2,4,No,No,5,3,Non-Vegetarian,Riverside,1.0,0.6,1.0,1.0,1.0,1.0,1.0,0.4,0.8,1.0,0.6,0.8
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,8,3,10,10,10,8,8,2,4,No,No,5,3,Vegetarian,Parkridge,1.0,0.6,1.0,1.0,1.0,1.0,1.0,0.4,0.8,1.0,0.6,0.8
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,8,3,10,10,10,8,8,2,4,No,Yes,5,3,Vegetarian,Uplands,1.0,0.6,1.0,1.0,1.0,1.0,1.0,0.4,0.8,1.0,0.6,0.8
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,8,3,10,10,10,8,8,2,4,Sometime,Yes,5,3,Non-Vegetarian,Grand Trunk Annex,1.0,0.6,1.0,1.0,1.0,1.0,1.0,0.4,0.8,1.0,0.6,0.8
+"(21, 25)",female,asian/pacific islander/asian-american,4,law,8,3,10,10,10,8,8,2,4,No,Occasionally,5,3,Vegetarian,City View,1.0,0.6,1.0,1.0,1.0,1.0,1.0,0.4,0.8,1.0,0.6,0.8
+"(26, 30)",female,other,1,masters in public administration,8,2,8,9,10,8,10,2,1,Sometime,Yes,4,3,Non-Vegetarian,Balbrigan Place,1.0,0.4,1.0,0.9,1.0,1.0,1.0,0.4,0.2,0.8,0.6,1.0
+"(26, 30)",female,other,1,masters in public administration,8,2,8,9,10,8,10,2,1,No,Occasionally,4,3,Non-Vegetarian,Belvedere,1.0,0.4,1.0,0.9,1.0,1.0,1.0,0.4,0.2,0.8,0.6,1.0
+"(26, 30)",female,other,1,masters in public administration,8,2,8,9,10,8,10,2,1,Yes,Yes,4,3,Vegetarian,Westhill,1.0,0.4,1.0,0.9,1.0,1.0,1.0,0.4,0.2,0.8,0.6,1.0
+"(26, 30)",female,other,1,masters in public administration,8,2,8,9,10,8,10,2,1,No,No,4,3,Vegetarian,Sherwood Estates,1.0,0.4,1.0,0.9,1.0,1.0,1.0,0.4,0.2,0.8,0.6,1.0
+"(26, 30)",female,other,1,masters in public administration,8,2,8,9,10,8,10,2,1,No,No,4,3,Non-Vegetarian,Dewdney Place,1.0,0.4,1.0,0.9,1.0,1.0,1.0,0.4,0.2,0.8,0.6,1.0
+"(26, 30)",female,other,1,masters in public administration,8,2,8,9,10,8,10,2,1,Sometime,Yes,4,3,Vegetarian,Balbrigan Place,1.0,0.4,1.0,0.9,1.0,1.0,1.0,0.4,0.2,0.8,0.6,1.0
+"(26, 30)",female,other,1,masters in public administration,8,2,8,9,10,8,10,2,1,No,Yes,4,3,Non-Vegetarian,Regent Park,1.0,0.4,1.0,0.9,1.0,1.0,1.0,0.4,0.2,0.8,0.6,1.0
+"(26, 30)",female,other,1,masters in public administration,8,2,8,9,10,8,10,2,1,Sometime,Occasionally,4,3,Vegetarian,Lakewood,1.0,0.4,1.0,0.9,1.0,1.0,1.0,0.4,0.2,0.8,0.6,1.0
+"(26, 30)",female,other,1,masters in public administration,8,2,8,9,10,8,10,2,1,Yes,Occasionally,4,3,Vegetarian,Garden Ridge,1.0,0.4,1.0,0.9,1.0,1.0,1.0,0.4,0.2,0.8,0.6,1.0
+"(26, 30)",female,other,1,masters in public administration,8,2,8,9,10,8,10,2,1,Yes,Yes,4,3,Non-Vegetarian,Grand Trunk Annex,1.0,0.4,1.0,0.9,1.0,1.0,1.0,0.4,0.2,0.8,0.6,1.0
+"(26, 30)",male,european/caucasian-american,3,finance,9,5,6,8,8,2,4,5,2,No,No,8,7,Non-Vegetarian,Arcola Sub,0.9,1.0,0.75,1.0,1.0,0.4,0.8,1.0,0.4,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finance,9,5,6,8,8,2,4,5,2,Yes,No,8,7,Vegetarian,Arcola Sub,0.9,1.0,0.75,1.0,1.0,0.4,0.8,1.0,0.4,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finance,9,5,6,8,8,2,4,5,2,Yes,Occasionally,8,7,Vegetarian,Westhill,0.9,1.0,0.75,1.0,1.0,0.4,0.8,1.0,0.4,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finance,9,5,6,8,8,2,4,5,2,Sometime,Yes,8,7,Vegetarian,CPR Annex,0.9,1.0,0.75,1.0,1.0,0.4,0.8,1.0,0.4,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finance,9,5,6,8,8,2,4,5,2,Yes,Yes,8,7,Non-Vegetarian,Lakewood,0.9,1.0,0.75,1.0,1.0,0.4,0.8,1.0,0.4,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finance,9,5,6,8,8,2,4,5,2,Yes,No,8,7,Vegetarian,Sherwood Estates,0.9,1.0,0.75,1.0,1.0,0.4,0.8,1.0,0.4,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finance,9,5,6,8,8,2,4,5,2,No,Occasionally,8,7,Vegetarian,Riverside,0.9,1.0,0.75,1.0,1.0,0.4,0.8,1.0,0.4,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finance,9,5,6,8,8,2,4,5,2,Yes,No,8,7,Non-Vegetarian,City View,0.9,1.0,0.75,1.0,1.0,0.4,0.8,1.0,0.4,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finance,9,5,6,8,8,2,4,5,2,Sometime,No,8,7,Non-Vegetarian,Garden Ridge,0.9,1.0,0.75,1.0,1.0,0.4,0.8,1.0,0.4,1.0,0.875,0.6
+"(21, 25)",male,european/caucasian-american,1,law,6,3,8,9,7,6,5,3,9,Sometime,Yes,9,7,Non-Vegetarian,City View,0.75,0.6,1.0,0.9,0.875,0.75,1.0,0.6,0.9,0.9,0.875,1.0
+"(21, 25)",male,european/caucasian-american,1,law,6,3,8,9,7,6,5,3,9,Sometime,Occasionally,9,7,Vegetarian,Albert Park,0.75,0.6,1.0,0.9,0.875,0.75,1.0,0.6,0.9,0.9,0.875,1.0
+"(21, 25)",male,european/caucasian-american,1,law,6,3,8,9,7,6,5,3,9,No,No,9,7,Non-Vegetarian,Lakewood,0.75,0.6,1.0,0.9,0.875,0.75,1.0,0.6,0.9,0.9,0.875,1.0
+"(21, 25)",male,european/caucasian-american,1,law,6,3,8,9,7,6,5,3,9,Sometime,Yes,9,7,Non-Vegetarian,Dewdney Place,0.75,0.6,1.0,0.9,0.875,0.75,1.0,0.6,0.9,0.9,0.875,1.0
+"(21, 25)",male,european/caucasian-american,1,law,6,3,8,9,7,6,5,3,9,No,No,9,7,Non-Vegetarian,Riverside,0.75,0.6,1.0,0.9,0.875,0.75,1.0,0.6,0.9,0.9,0.875,1.0
+"(21, 25)",male,european/caucasian-american,1,law,6,3,8,9,7,6,5,3,9,Sometime,Yes,9,7,Vegetarian,Westhill,0.75,0.6,1.0,0.9,0.875,0.75,1.0,0.6,0.9,0.9,0.875,1.0
+"(21, 25)",male,european/caucasian-american,1,law,6,3,8,9,7,6,5,3,9,Yes,No,9,7,Vegetarian,Belvedere,0.75,0.6,1.0,0.9,0.875,0.75,1.0,0.6,0.9,0.9,0.875,1.0
+"(21, 25)",male,european/caucasian-american,1,law,6,3,8,9,7,6,5,3,9,Sometime,No,9,7,Vegetarian,City View,0.75,0.6,1.0,0.9,0.875,0.75,1.0,0.6,0.9,0.9,0.875,1.0
+"(21, 25)",male,european/caucasian-american,1,law,6,3,8,9,7,6,5,3,9,No,No,9,7,Non-Vegetarian,Highland Park,0.75,0.6,1.0,0.9,0.875,0.75,1.0,0.6,0.9,0.9,0.875,1.0
+"(21, 25)",male,european/caucasian-american,2,business,8,5,7,8,8,3,5,5,6,Yes,Occasionally,7,2,Vegetarian,Westhill,1.0,1.0,0.875,1.0,1.0,0.6,1.0,1.0,0.75,0.875,0.4,0.4
+"(21, 25)",male,european/caucasian-american,2,business,8,5,7,8,8,3,5,5,6,Sometime,Yes,7,2,Vegetarian,Garden Ridge,1.0,1.0,0.875,1.0,1.0,0.6,1.0,1.0,0.75,0.875,0.4,0.4
+"(21, 25)",male,european/caucasian-american,2,business,8,5,7,8,8,3,5,5,6,Yes,Yes,7,2,Non-Vegetarian,Arcola Sub,1.0,1.0,0.875,1.0,1.0,0.6,1.0,1.0,0.75,0.875,0.4,0.4
+"(21, 25)",male,european/caucasian-american,2,business,8,5,7,8,8,3,5,5,6,Yes,Occasionally,7,2,Non-Vegetarian,Lakewood,1.0,1.0,0.875,1.0,1.0,0.6,1.0,1.0,0.75,0.875,0.4,0.4
+"(21, 25)",male,european/caucasian-american,2,business,8,5,7,8,8,3,5,5,6,Sometime,Occasionally,7,2,Non-Vegetarian,Uplands,1.0,1.0,0.875,1.0,1.0,0.6,1.0,1.0,0.75,0.875,0.4,0.4
+"(21, 25)",male,european/caucasian-american,2,business,8,5,7,8,8,3,5,5,6,Sometime,Occasionally,7,2,Non-Vegetarian,Wascana Crescents,1.0,1.0,0.875,1.0,1.0,0.6,1.0,1.0,0.75,0.875,0.4,0.4
+"(21, 25)",male,european/caucasian-american,2,business,8,5,7,8,8,3,5,5,6,Yes,Yes,7,2,Non-Vegetarian,Parkridge,1.0,1.0,0.875,1.0,1.0,0.6,1.0,1.0,0.75,0.875,0.4,0.4
+"(21, 25)",male,european/caucasian-american,2,business,8,5,7,8,8,3,5,5,6,Sometime,No,7,2,Vegetarian,Creekside,1.0,1.0,0.875,1.0,1.0,0.6,1.0,1.0,0.75,0.875,0.4,0.4
+"(21, 25)",male,european/caucasian-american,2,business,8,5,7,8,8,3,5,5,6,Sometime,Occasionally,7,2,Non-Vegetarian,CPR Annex,1.0,1.0,0.875,1.0,1.0,0.6,1.0,1.0,0.75,0.875,0.4,0.4
+"(26, 30)",male,european/caucasian-american,1,political science,4,2,7,7,9,2,6,4,9,Sometime,No,8,2,Non-Vegetarian,Balbrigan Place,0.8,0.4,0.875,0.875,0.9,0.4,0.75,0.8,0.9,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,political science,4,2,7,7,9,2,6,4,9,Sometime,Yes,8,2,Vegetarian,Westhill,0.8,0.4,0.875,0.875,0.9,0.4,0.75,0.8,0.9,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,political science,4,2,7,7,9,2,6,4,9,Sometime,Yes,8,2,Vegetarian,Garden Ridge,0.8,0.4,0.875,0.875,0.9,0.4,0.75,0.8,0.9,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,political science,4,2,7,7,9,2,6,4,9,Sometime,No,8,2,Non-Vegetarian,Sherwood Estates,0.8,0.4,0.875,0.875,0.9,0.4,0.75,0.8,0.9,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,political science,4,2,7,7,9,2,6,4,9,No,No,8,2,Vegetarian,Uplands,0.8,0.4,0.875,0.875,0.9,0.4,0.75,0.8,0.9,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,political science,4,2,7,7,9,2,6,4,9,Yes,No,8,2,Non-Vegetarian,Grand Trunk Annex,0.8,0.4,0.875,0.875,0.9,0.4,0.75,0.8,0.9,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,political science,4,2,7,7,9,2,6,4,9,Sometime,Yes,8,2,Vegetarian,Riverside,0.8,0.4,0.875,0.875,0.9,0.4,0.75,0.8,0.9,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,political science,4,2,7,7,9,2,6,4,9,Yes,Occasionally,8,2,Vegetarian,Wascana Crescents,0.8,0.4,0.875,0.875,0.9,0.4,0.75,0.8,0.9,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,8,business,6,4,9,6,9,9,2,4,5,No,No,5,5,Non-Vegetarian,Riverside,0.75,0.8,0.9,0.75,0.9,0.9,0.4,0.8,1.0,1.0,1.0,0.8
+"(26, 30)",male,european/caucasian-american,8,business,6,4,9,6,9,9,2,4,5,No,No,5,5,Non-Vegetarian,Wascana Crescents,0.75,0.8,0.9,0.75,0.9,0.9,0.4,0.8,1.0,1.0,1.0,0.8
+"(26, 30)",male,european/caucasian-american,8,business,6,4,9,6,9,9,2,4,5,Yes,Yes,5,5,Non-Vegetarian,Lakewood,0.75,0.8,0.9,0.75,0.9,0.9,0.4,0.8,1.0,1.0,1.0,0.8
+"(26, 30)",male,european/caucasian-american,8,business,6,4,9,6,9,9,2,4,5,No,No,5,5,Vegetarian,Harbour Landing,0.75,0.8,0.9,0.75,0.9,0.9,0.4,0.8,1.0,1.0,1.0,0.8
+"(26, 30)",male,european/caucasian-american,8,business,6,4,9,6,9,9,2,4,5,Sometime,Yes,5,5,Vegetarian,Grand Trunk Annex,0.75,0.8,0.9,0.75,0.9,0.9,0.4,0.8,1.0,1.0,1.0,0.8
+"(26, 30)",male,european/caucasian-american,8,business,6,4,9,6,9,9,2,4,5,Yes,Occasionally,5,5,Non-Vegetarian,Balbrigan Place,0.75,0.8,0.9,0.75,0.9,0.9,0.4,0.8,1.0,1.0,1.0,0.8
+"(26, 30)",male,european/caucasian-american,8,business,6,4,9,6,9,9,2,4,5,Yes,Occasionally,5,5,Non-Vegetarian,Albert Park,0.75,0.8,0.9,0.75,0.9,0.9,0.4,0.8,1.0,1.0,1.0,0.8
+"(26, 30)",male,european/caucasian-american,8,business,6,4,9,6,9,9,2,4,5,Sometime,No,5,5,Non-Vegetarian,Garden Ridge,0.75,0.8,0.9,0.75,0.9,0.9,0.4,0.8,1.0,1.0,1.0,0.8
+"(26, 30)",male,european/caucasian-american,8,business,6,4,9,6,9,9,2,4,5,Sometime,No,5,5,Non-Vegetarian,Arcola Sub,0.75,0.8,0.9,0.75,0.9,0.9,0.4,0.8,1.0,1.0,1.0,0.8
+"(21, 25)",male,european/caucasian-american,1,finance,8,10,10,6,8,3,10,4,10,Sometime,Occasionally,10,10,Vegetarian,Belvedere,1.0,1.0,1.0,0.75,1.0,0.6,1.0,0.8,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,finance,8,10,10,6,8,3,10,4,10,Sometime,Yes,10,10,Non-Vegetarian,Balbrigan Place,1.0,1.0,1.0,0.75,1.0,0.6,1.0,0.8,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,finance,8,10,10,6,8,3,10,4,10,Yes,Yes,10,10,Non-Vegetarian,Balbrigan Place,1.0,1.0,1.0,0.75,1.0,0.6,1.0,0.8,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,finance,8,10,10,6,8,3,10,4,10,No,Yes,10,10,Non-Vegetarian,Highland Park,1.0,1.0,1.0,0.75,1.0,0.6,1.0,0.8,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,finance,8,10,10,6,8,3,10,4,10,Yes,Yes,10,10,Vegetarian,Lakewood,1.0,1.0,1.0,0.75,1.0,0.6,1.0,0.8,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,finance,8,10,10,6,8,3,10,4,10,No,No,10,10,Non-Vegetarian,Lakewood,1.0,1.0,1.0,0.75,1.0,0.6,1.0,0.8,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,finance,8,10,10,6,8,3,10,4,10,Sometime,Occasionally,10,10,Non-Vegetarian,Arcola Sub,1.0,1.0,1.0,0.75,1.0,0.6,1.0,0.8,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,finance,8,10,10,6,8,3,10,4,10,Sometime,No,10,10,Vegetarian,Sherwood Estates,1.0,1.0,1.0,0.75,1.0,0.6,1.0,0.8,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,finance,8,10,10,6,8,3,10,4,10,No,Occasionally,10,10,Non-Vegetarian,Harbour Landing,1.0,1.0,1.0,0.75,1.0,0.6,1.0,0.8,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,finance,8,10,10,6,8,3,10,4,10,No,No,10,10,Vegetarian,Belvedere,1.0,1.0,1.0,0.75,1.0,0.6,1.0,0.8,1.0,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,10,operations research,7,1,5,8,7,10,3,2,10,No,No,10,8,Vegetarian,Dewdney Place,0.875,0.2,1.0,1.0,0.875,1.0,0.6,0.4,1.0,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,10,operations research,7,1,5,8,7,10,3,2,10,Yes,Yes,10,8,Vegetarian,Dewdney Place,0.875,0.2,1.0,1.0,0.875,1.0,0.6,0.4,1.0,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,10,operations research,7,1,5,8,7,10,3,2,10,Yes,Occasionally,10,8,Non-Vegetarian,Highland Park,0.875,0.2,1.0,1.0,0.875,1.0,0.6,0.4,1.0,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,10,operations research,7,1,5,8,7,10,3,2,10,No,No,10,8,Non-Vegetarian,Dewdney Place,0.875,0.2,1.0,1.0,0.875,1.0,0.6,0.4,1.0,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,10,operations research,7,1,5,8,7,10,3,2,10,Sometime,No,10,8,Vegetarian,Regent Park,0.875,0.2,1.0,1.0,0.875,1.0,0.6,0.4,1.0,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,10,operations research,7,1,5,8,7,10,3,2,10,Yes,No,10,8,Vegetarian,Highland Park,0.875,0.2,1.0,1.0,0.875,1.0,0.6,0.4,1.0,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,10,operations research,7,1,5,8,7,10,3,2,10,No,Yes,10,8,Vegetarian,Wascana Crescents,0.875,0.2,1.0,1.0,0.875,1.0,0.6,0.4,1.0,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,10,operations research,7,1,5,8,7,10,3,2,10,Sometime,No,10,8,Non-Vegetarian,Dewdney Place,0.875,0.2,1.0,1.0,0.875,1.0,0.6,0.4,1.0,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,10,operations research,7,1,5,8,7,10,3,2,10,Sometime,No,10,8,Vegetarian,Westhill,0.875,0.2,1.0,1.0,0.875,1.0,0.6,0.4,1.0,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,10,operations research,7,1,5,8,7,10,3,2,10,Yes,Occasionally,10,8,Non-Vegetarian,Wascana Crescents,0.875,0.2,1.0,1.0,0.875,1.0,0.6,0.4,1.0,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,10,operations research,7,1,5,8,7,10,3,2,10,Sometime,Yes,10,8,Non-Vegetarian,City View,0.875,0.2,1.0,1.0,0.875,1.0,0.6,0.4,1.0,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,10,operations research,7,1,5,8,7,10,3,2,10,Yes,Yes,10,8,Vegetarian,City View,0.875,0.2,1.0,1.0,0.875,1.0,0.6,0.4,1.0,1.0,1.0,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,10,operations research,7,1,5,8,7,10,3,2,10,Sometime,Yes,10,8,Vegetarian,Dewdney Place,0.875,0.2,1.0,1.0,0.875,1.0,0.6,0.4,1.0,1.0,1.0,1.0
+"(26, 30)",female,black/african american,2,tc [health ed],8,2,8,7,9,8,6,1,2,Sometime,Occasionally,1,2,Non-Vegetarian,Albert Park,1.0,0.4,1.0,0.875,0.9,1.0,0.75,0.2,0.4,0.2,0.4,0.4
+"(26, 30)",female,black/african american,2,tc [health ed],8,2,8,7,9,8,6,1,2,No,Occasionally,1,2,Non-Vegetarian,Westhill,1.0,0.4,1.0,0.875,0.9,1.0,0.75,0.2,0.4,0.2,0.4,0.4
+"(26, 30)",female,black/african american,2,tc [health ed],8,2,8,7,9,8,6,1,2,Sometime,Yes,1,2,Non-Vegetarian,Albert Park,1.0,0.4,1.0,0.875,0.9,1.0,0.75,0.2,0.4,0.2,0.4,0.4
+"(26, 30)",female,black/african american,2,tc [health ed],8,2,8,7,9,8,6,1,2,Yes,No,1,2,Vegetarian,Westhill,1.0,0.4,1.0,0.875,0.9,1.0,0.75,0.2,0.4,0.2,0.4,0.4
+"(26, 30)",female,black/african american,2,tc [health ed],8,2,8,7,9,8,6,1,2,Sometime,No,1,2,Non-Vegetarian,Riverside,1.0,0.4,1.0,0.875,0.9,1.0,0.75,0.2,0.4,0.2,0.4,0.4
+"(26, 30)",female,black/african american,2,tc [health ed],8,2,8,7,9,8,6,1,2,No,Occasionally,1,2,Non-Vegetarian,Balbrigan Place,1.0,0.4,1.0,0.875,0.9,1.0,0.75,0.2,0.4,0.2,0.4,0.4
+"(26, 30)",female,black/african american,2,tc [health ed],8,2,8,7,9,8,6,1,2,Yes,No,1,2,Non-Vegetarian,Garden Ridge,1.0,0.4,1.0,0.875,0.9,1.0,0.75,0.2,0.4,0.2,0.4,0.4
+"(26, 30)",female,black/african american,2,tc [health ed],8,2,8,7,9,8,6,1,2,Sometime,Yes,1,2,Non-Vegetarian,Dewdney Place,1.0,0.4,1.0,0.875,0.9,1.0,0.75,0.2,0.4,0.2,0.4,0.4
+"(26, 30)",female,black/african american,2,tc [health ed],8,2,8,7,9,8,6,1,2,No,Yes,1,2,Non-Vegetarian,CPR Annex,1.0,0.4,1.0,0.875,0.9,1.0,0.75,0.2,0.4,0.2,0.4,0.4
+"(26, 30)",female,black/african american,2,tc [health ed],8,2,8,7,9,8,6,1,2,Sometime,No,1,2,Non-Vegetarian,Regent Park,1.0,0.4,1.0,0.875,0.9,1.0,0.75,0.2,0.4,0.2,0.4,0.4
+"(26, 30)",female,black/african american,2,tc [health ed],8,2,8,7,9,8,6,1,2,Sometime,Occasionally,1,2,Vegetarian,Uplands,1.0,0.4,1.0,0.875,0.9,1.0,0.75,0.2,0.4,0.2,0.4,0.4
+"(21, 25)",female,asian/pacific islander/asian-american,6,psychology,10,7,9,10,10,9,7,6,3,No,No,2,2,Vegetarian,Arcola Sub,1.0,0.875,0.9,1.0,1.0,0.9,0.875,0.75,0.6,0.4,0.4,0.6
+"(21, 25)",female,asian/pacific islander/asian-american,6,psychology,10,7,9,10,10,9,7,6,3,Yes,No,2,2,Vegetarian,Albert Park,1.0,0.875,0.9,1.0,1.0,0.9,0.875,0.75,0.6,0.4,0.4,0.6
+"(21, 25)",female,asian/pacific islander/asian-american,6,psychology,10,7,9,10,10,9,7,6,3,Yes,No,2,2,Vegetarian,Parkridge,1.0,0.875,0.9,1.0,1.0,0.9,0.875,0.75,0.6,0.4,0.4,0.6
+"(21, 25)",female,asian/pacific islander/asian-american,6,psychology,10,7,9,10,10,9,7,6,3,Yes,Occasionally,2,2,Vegetarian,City View,1.0,0.875,0.9,1.0,1.0,0.9,0.875,0.75,0.6,0.4,0.4,0.6
+"(21, 25)",female,asian/pacific islander/asian-american,6,psychology,10,7,9,10,10,9,7,6,3,Sometime,Yes,2,2,Vegetarian,City View,1.0,0.875,0.9,1.0,1.0,0.9,0.875,0.75,0.6,0.4,0.4,0.6
+"(21, 25)",female,asian/pacific islander/asian-american,6,psychology,10,7,9,10,10,9,7,6,3,No,Yes,2,2,Vegetarian,Balbrigan Place,1.0,0.875,0.9,1.0,1.0,0.9,0.875,0.75,0.6,0.4,0.4,0.6
+"(21, 25)",female,asian/pacific islander/asian-american,6,psychology,10,7,9,10,10,9,7,6,3,Yes,Occasionally,2,2,Vegetarian,Parkridge,1.0,0.875,0.9,1.0,1.0,0.9,0.875,0.75,0.6,0.4,0.4,0.6
+"(21, 25)",female,asian/pacific islander/asian-american,6,psychology,10,7,9,10,10,9,7,6,3,Sometime,Yes,2,2,Non-Vegetarian,CPR Annex,1.0,0.875,0.9,1.0,1.0,0.9,0.875,0.75,0.6,0.4,0.4,0.6
+"(21, 25)",female,asian/pacific islander/asian-american,6,psychology,10,7,9,10,10,9,7,6,3,Sometime,Yes,2,2,Non-Vegetarian,Garden Ridge,1.0,0.875,0.9,1.0,1.0,0.9,0.875,0.75,0.6,0.4,0.4,0.6
+"(21, 25)",female,asian/pacific islander/asian-american,6,psychology,10,7,9,10,10,9,7,6,3,No,Occasionally,2,2,Vegetarian,Balbrigan Place,1.0,0.875,0.9,1.0,1.0,0.9,0.875,0.75,0.6,0.4,0.4,0.6
+"(21, 25)",female,asian/pacific islander/asian-american,6,psychology,10,7,9,10,10,9,7,6,3,Yes,No,2,2,Non-Vegetarian,Sherwood Estates,1.0,0.875,0.9,1.0,1.0,0.9,0.875,0.75,0.6,0.4,0.4,0.6
+"(21, 25)",female,asian/pacific islander/asian-american,6,psychology,10,7,9,10,10,9,7,6,3,Yes,Occasionally,2,2,Vegetarian,Wascana Crescents,1.0,0.875,0.9,1.0,1.0,0.9,0.875,0.75,0.6,0.4,0.4,0.6
+"(26, 30)",female,european/caucasian-american,3,social work,6,6,9,8,9,1,3,10,10,Yes,Yes,10,1,Vegetarian,Riverside,0.75,0.75,0.9,1.0,0.9,0.2,0.6,1.0,1.0,1.0,0.2,0.6
+"(21, 25)",female,european/caucasian-american,2,social work,9,6,7,8,10,9,8,5,7,Sometime,Occasionally,7,4,Non-Vegetarian,CPR Annex,0.9,0.75,0.875,1.0,1.0,0.9,1.0,1.0,0.875,0.875,0.8,0.4
+"(21, 25)",female,european/caucasian-american,2,social work,9,6,7,8,10,9,8,5,7,No,No,7,4,Non-Vegetarian,CPR Annex,0.9,0.75,0.875,1.0,1.0,0.9,1.0,1.0,0.875,0.875,0.8,0.4
+"(21, 25)",female,european/caucasian-american,2,social work,9,6,7,8,10,9,8,5,7,Sometime,Occasionally,7,4,Vegetarian,Grand Trunk Annex,0.9,0.75,0.875,1.0,1.0,0.9,1.0,1.0,0.875,0.875,0.8,0.4
+"(21, 25)",female,european/caucasian-american,2,social work,9,6,7,8,10,9,8,5,7,No,Yes,7,4,Vegetarian,Belvedere,0.9,0.75,0.875,1.0,1.0,0.9,1.0,1.0,0.875,0.875,0.8,0.4
+"(21, 25)",female,european/caucasian-american,2,social work,9,6,7,8,10,9,8,5,7,Sometime,No,7,4,Vegetarian,Sherwood Estates,0.9,0.75,0.875,1.0,1.0,0.9,1.0,1.0,0.875,0.875,0.8,0.4
+"(21, 25)",female,european/caucasian-american,2,social work,9,6,7,8,10,9,8,5,7,Yes,No,7,4,Non-Vegetarian,Sherwood Estates,0.9,0.75,0.875,1.0,1.0,0.9,1.0,1.0,0.875,0.875,0.8,0.4
+"(21, 25)",female,european/caucasian-american,2,social work,9,6,7,8,10,9,8,5,7,No,Occasionally,7,4,Vegetarian,Parkridge,0.9,0.75,0.875,1.0,1.0,0.9,1.0,1.0,0.875,0.875,0.8,0.4
+"(21, 25)",female,european/caucasian-american,2,social work,9,6,7,8,10,9,8,5,7,No,Yes,7,4,Vegetarian,City View,0.9,0.75,0.875,1.0,1.0,0.9,1.0,1.0,0.875,0.875,0.8,0.4
+"(21, 25)",female,european/caucasian-american,2,social work,9,6,7,8,10,9,8,5,7,Yes,Yes,7,4,Non-Vegetarian,Dewdney Place,0.9,0.75,0.875,1.0,1.0,0.9,1.0,1.0,0.875,0.875,0.8,0.4
+"(21, 25)",female,european/caucasian-american,2,social work,9,6,7,8,10,9,8,5,7,No,Occasionally,7,4,Vegetarian,Balbrigan Place,0.9,0.75,0.875,1.0,1.0,0.9,1.0,1.0,0.875,0.875,0.8,0.4
+"(21, 25)",female,european/caucasian-american,2,social work,9,6,7,8,10,9,8,5,7,Yes,Occasionally,7,4,Non-Vegetarian,Harbour Landing,0.9,0.75,0.875,1.0,1.0,0.9,1.0,1.0,0.875,0.875,0.8,0.4
+"(21, 25)",female,european/caucasian-american,2,social work,9,6,7,8,10,9,8,5,7,No,Yes,7,4,Non-Vegetarian,Sherwood Estates,0.9,0.75,0.875,1.0,1.0,0.9,1.0,1.0,0.875,0.875,0.8,0.4
+"(21, 25)",female,european/caucasian-american,4,social work,5,5,7,4,9,3,7,6,9,Yes,Yes,9,4,Non-Vegetarian,Dewdney Place,1.0,1.0,0.875,0.8,0.9,0.6,0.875,0.75,0.9,0.9,0.8,0.8
+"(21, 25)",female,european/caucasian-american,4,social work,5,5,7,4,9,3,7,6,9,Sometime,No,9,4,Vegetarian,Riverside,1.0,1.0,0.875,0.8,0.9,0.6,0.875,0.75,0.9,0.9,0.8,0.8
+"(21, 25)",female,european/caucasian-american,4,social work,5,5,7,4,9,3,7,6,9,Yes,No,9,4,Vegetarian,Harbour Landing,1.0,1.0,0.875,0.8,0.9,0.6,0.875,0.75,0.9,0.9,0.8,0.8
+"(21, 25)",female,european/caucasian-american,4,social work,5,5,7,4,9,3,7,6,9,Sometime,Yes,9,4,Vegetarian,Westhill,1.0,1.0,0.875,0.8,0.9,0.6,0.875,0.75,0.9,0.9,0.8,0.8
+"(21, 25)",female,european/caucasian-american,4,social work,5,5,7,4,9,3,7,6,9,Sometime,No,9,4,Non-Vegetarian,Riverside,1.0,1.0,0.875,0.8,0.9,0.6,0.875,0.75,0.9,0.9,0.8,0.8
+"(21, 25)",female,european/caucasian-american,4,social work,5,5,7,4,9,3,7,6,9,Yes,Occasionally,9,4,Vegetarian,Albert Park,1.0,1.0,0.875,0.8,0.9,0.6,0.875,0.75,0.9,0.9,0.8,0.8
+"(21, 25)",female,european/caucasian-american,4,social work,5,5,7,4,9,3,7,6,9,No,No,9,4,Non-Vegetarian,Belvedere,1.0,1.0,0.875,0.8,0.9,0.6,0.875,0.75,0.9,0.9,0.8,0.8
+"(21, 25)",female,european/caucasian-american,4,social work,5,5,7,4,9,3,7,6,9,Yes,Yes,9,4,Non-Vegetarian,Uplands,1.0,1.0,0.875,0.8,0.9,0.6,0.875,0.75,0.9,0.9,0.8,0.8
+"(21, 25)",female,european/caucasian-american,4,social work,5,5,7,4,9,3,7,6,9,Sometime,Occasionally,9,4,Non-Vegetarian,Creekside,1.0,1.0,0.875,0.8,0.9,0.6,0.875,0.75,0.9,0.9,0.8,0.8
+"(21, 25)",female,european/caucasian-american,4,social work,5,5,7,4,9,3,7,6,9,Yes,No,9,4,Vegetarian,Dewdney Place,1.0,1.0,0.875,0.8,0.9,0.6,0.875,0.75,0.9,0.9,0.8,0.8
+"(21, 25)",female,european/caucasian-american,4,social work,5,5,7,4,9,3,7,6,9,Yes,Yes,9,4,Non-Vegetarian,Balbrigan Place,1.0,1.0,0.875,0.8,0.9,0.6,0.875,0.75,0.9,0.9,0.8,0.8
+"(21, 25)",female,latino/hispanic american,5,speech language pathology,8,7,8,7,5,5,8,8,8,Yes,No,7,6,Vegetarian,Harbour Landing,1.0,0.875,1.0,0.875,1.0,1.0,1.0,1.0,1.0,0.875,0.75,1.0
+"(21, 25)",female,latino/hispanic american,5,speech language pathology,8,7,8,7,5,5,8,8,8,No,No,7,6,Vegetarian,Creekside,1.0,0.875,1.0,0.875,1.0,1.0,1.0,1.0,1.0,0.875,0.75,1.0
+"(21, 25)",female,latino/hispanic american,5,speech language pathology,8,7,8,7,5,5,8,8,8,Yes,No,7,6,Non-Vegetarian,Arcola Sub,1.0,0.875,1.0,0.875,1.0,1.0,1.0,1.0,1.0,0.875,0.75,1.0
+"(21, 25)",female,latino/hispanic american,5,speech language pathology,8,7,8,7,5,5,8,8,8,Sometime,No,7,6,Vegetarian,Garden Ridge,1.0,0.875,1.0,0.875,1.0,1.0,1.0,1.0,1.0,0.875,0.75,1.0
+"(21, 25)",female,latino/hispanic american,5,speech language pathology,8,7,8,7,5,5,8,8,8,Yes,No,7,6,Vegetarian,Regent Park,1.0,0.875,1.0,0.875,1.0,1.0,1.0,1.0,1.0,0.875,0.75,1.0
+"(21, 25)",female,latino/hispanic american,5,speech language pathology,8,7,8,7,5,5,8,8,8,Yes,Occasionally,7,6,Non-Vegetarian,Garden Ridge,1.0,0.875,1.0,0.875,1.0,1.0,1.0,1.0,1.0,0.875,0.75,1.0
+"(21, 25)",female,latino/hispanic american,5,speech language pathology,8,7,8,7,5,5,8,8,8,No,No,7,6,Non-Vegetarian,Belvedere,1.0,0.875,1.0,0.875,1.0,1.0,1.0,1.0,1.0,0.875,0.75,1.0
+"(21, 25)",female,latino/hispanic american,5,speech language pathology,8,7,8,7,5,5,8,8,8,No,Occasionally,7,6,Non-Vegetarian,Balbrigan Place,1.0,0.875,1.0,0.875,1.0,1.0,1.0,1.0,1.0,0.875,0.75,1.0
+"(21, 25)",female,latino/hispanic american,5,speech language pathology,8,7,8,7,5,5,8,8,8,Sometime,No,7,6,Vegetarian,Balbrigan Place,1.0,0.875,1.0,0.875,1.0,1.0,1.0,1.0,1.0,0.875,0.75,1.0
+"(21, 25)",female,latino/hispanic american,5,speech language pathology,8,7,8,7,5,5,8,8,8,No,Occasionally,7,6,Non-Vegetarian,Highland Park,1.0,0.875,1.0,0.875,1.0,1.0,1.0,1.0,1.0,0.875,0.75,1.0
+"(21, 25)",female,european/caucasian-american,5,social work,7,2,7,8,7,7,7,2,7,Yes,Yes,8,9,Vegetarian,Sherwood Estates,0.875,0.4,0.875,1.0,0.875,0.875,0.875,0.4,0.875,1.0,0.9,1.0
+"(21, 25)",female,european/caucasian-american,5,social work,7,2,7,8,7,7,7,2,7,Sometime,No,8,9,Non-Vegetarian,Dewdney Place,0.875,0.4,0.875,1.0,0.875,0.875,0.875,0.4,0.875,1.0,0.9,1.0
+"(21, 25)",female,european/caucasian-american,5,social work,7,2,7,8,7,7,7,2,7,Sometime,Occasionally,8,9,Vegetarian,Harbour Landing,0.875,0.4,0.875,1.0,0.875,0.875,0.875,0.4,0.875,1.0,0.9,1.0
+"(21, 25)",female,european/caucasian-american,5,social work,7,2,7,8,7,7,7,2,7,No,No,8,9,Vegetarian,Sherwood Estates,0.875,0.4,0.875,1.0,0.875,0.875,0.875,0.4,0.875,1.0,0.9,1.0
+"(21, 25)",female,european/caucasian-american,5,social work,7,2,7,8,7,7,7,2,7,Sometime,Occasionally,8,9,Vegetarian,Parkridge,0.875,0.4,0.875,1.0,0.875,0.875,0.875,0.4,0.875,1.0,0.9,1.0
+"(21, 25)",female,european/caucasian-american,5,social work,7,2,7,8,7,7,7,2,7,No,No,8,9,Vegetarian,Lakewood,0.875,0.4,0.875,1.0,0.875,0.875,0.875,0.4,0.875,1.0,0.9,1.0
+"(21, 25)",female,european/caucasian-american,5,social work,7,2,7,8,7,7,7,2,7,Sometime,Yes,8,9,Non-Vegetarian,Parkridge,0.875,0.4,0.875,1.0,0.875,0.875,0.875,0.4,0.875,1.0,0.9,1.0
+"(21, 25)",female,european/caucasian-american,4,law,8,1,7,9,7,5,7,2,8,Sometime,Occasionally,5,6,Non-Vegetarian,City View,1.0,0.2,0.875,0.9,0.875,1.0,0.875,0.4,1.0,1.0,0.75,0.8
+"(21, 25)",female,european/caucasian-american,4,law,8,1,7,9,7,5,7,2,8,Yes,Occasionally,5,6,Non-Vegetarian,Highland Park,1.0,0.2,0.875,0.9,0.875,1.0,0.875,0.4,1.0,1.0,0.75,0.8
+"(21, 25)",female,european/caucasian-american,4,law,8,1,7,9,7,5,7,2,8,Sometime,No,5,6,Non-Vegetarian,Westhill,1.0,0.2,0.875,0.9,0.875,1.0,0.875,0.4,1.0,1.0,0.75,0.8
+"(21, 25)",female,european/caucasian-american,4,law,8,1,7,9,7,5,7,2,8,No,Yes,5,6,Vegetarian,Garden Ridge,1.0,0.2,0.875,0.9,0.875,1.0,0.875,0.4,1.0,1.0,0.75,0.8
+"(21, 25)",female,european/caucasian-american,4,law,8,1,7,9,7,5,7,2,8,Yes,Yes,5,6,Non-Vegetarian,Harbour Landing,1.0,0.2,0.875,0.9,0.875,1.0,0.875,0.4,1.0,1.0,0.75,0.8
+"(21, 25)",female,european/caucasian-american,4,law,8,1,7,9,7,5,7,2,8,No,Yes,5,6,Vegetarian,Lakewood,1.0,0.2,0.875,0.9,0.875,1.0,0.875,0.4,1.0,1.0,0.75,0.8
+"(21, 25)",female,european/caucasian-american,4,law,8,1,7,9,7,5,7,2,8,Yes,Yes,5,6,Vegetarian,Riverside,1.0,0.2,0.875,0.9,0.875,1.0,0.875,0.4,1.0,1.0,0.75,0.8
+"(21, 25)",female,european/caucasian-american,4,law,8,1,7,9,7,5,7,2,8,No,Occasionally,5,6,Non-Vegetarian,Harbour Landing,1.0,0.2,0.875,0.9,0.875,1.0,0.875,0.4,1.0,1.0,0.75,0.8
+"(21, 25)",female,european/caucasian-american,4,law,8,1,7,9,7,5,7,2,8,Sometime,Occasionally,5,6,Vegetarian,CPR Annex,1.0,0.2,0.875,0.9,0.875,1.0,0.875,0.4,1.0,1.0,0.75,0.8
+"(21, 25)",female,european/caucasian-american,4,law,8,1,7,9,7,5,7,2,8,Sometime,Occasionally,5,6,Vegetarian,Creekside,1.0,0.2,0.875,0.9,0.875,1.0,0.875,0.4,1.0,1.0,0.75,0.8
+"(21, 25)",female,european/caucasian-american,4,law,8,1,7,9,7,5,7,2,8,Yes,Yes,5,6,Non-Vegetarian,CPR Annex,1.0,0.2,0.875,0.9,0.875,1.0,0.875,0.4,1.0,1.0,0.75,0.8
+"(21, 25)",female,european/caucasian-american,8,law,6,2,10,7,8,8,6,7,7,Yes,Occasionally,3,3,Vegetarian,Uplands,0.75,0.4,1.0,0.875,1.0,1.0,0.75,0.875,0.875,0.6,0.6,0.8
+"(21, 25)",female,european/caucasian-american,8,law,6,2,10,7,8,8,6,7,7,Yes,Occasionally,3,3,Non-Vegetarian,City View,0.75,0.4,1.0,0.875,1.0,1.0,0.75,0.875,0.875,0.6,0.6,0.8
+"(21, 25)",female,european/caucasian-american,8,law,6,2,10,7,8,8,6,7,7,No,No,3,3,Non-Vegetarian,City View,0.75,0.4,1.0,0.875,1.0,1.0,0.75,0.875,0.875,0.6,0.6,0.8
+"(21, 25)",female,european/caucasian-american,8,law,6,2,10,7,8,8,6,7,7,No,Occasionally,3,3,Vegetarian,Regent Park,0.75,0.4,1.0,0.875,1.0,1.0,0.75,0.875,0.875,0.6,0.6,0.8
+"(21, 25)",female,european/caucasian-american,8,law,6,2,10,7,8,8,6,7,7,Yes,Occasionally,3,3,Non-Vegetarian,Arcola Sub,0.75,0.4,1.0,0.875,1.0,1.0,0.75,0.875,0.875,0.6,0.6,0.8
+"(21, 25)",female,european/caucasian-american,8,law,6,2,10,7,8,8,6,7,7,Sometime,Occasionally,3,3,Non-Vegetarian,Riverside,0.75,0.4,1.0,0.875,1.0,1.0,0.75,0.875,0.875,0.6,0.6,0.8
+"(21, 25)",female,european/caucasian-american,8,law,6,2,10,7,8,8,6,7,7,Sometime,No,3,3,Non-Vegetarian,Riverside,0.75,0.4,1.0,0.875,1.0,1.0,0.75,0.875,0.875,0.6,0.6,0.8
+"(21, 25)",female,european/caucasian-american,8,law,6,2,10,7,8,8,6,7,7,Yes,No,3,3,Vegetarian,Lakewood,0.75,0.4,1.0,0.875,1.0,1.0,0.75,0.875,0.875,0.6,0.6,0.8
+"(21, 25)",female,european/caucasian-american,8,law,6,2,10,7,8,8,6,7,7,Sometime,No,3,3,Non-Vegetarian,Belvedere,0.75,0.4,1.0,0.875,1.0,1.0,0.75,0.875,0.875,0.6,0.6,0.8
+"(21, 25)",female,european/caucasian-american,8,law,6,2,10,7,8,8,6,7,7,Sometime,No,3,3,Vegetarian,Uplands,0.75,0.4,1.0,0.875,1.0,1.0,0.75,0.875,0.875,0.6,0.6,0.8
+"(26, 30)",female,asian/pacific islander/asian-american,1,psychology,9,2,9,8,7,6,4,1,5,Yes,Occasionally,4,1,Non-Vegetarian,Riverside,0.9,0.4,0.9,1.0,0.875,0.75,0.8,0.2,1.0,0.8,0.2,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,psychology,9,2,9,8,7,6,4,1,5,Sometime,No,4,1,Non-Vegetarian,Lakewood,0.9,0.4,0.9,1.0,0.875,0.75,0.8,0.2,1.0,0.8,0.2,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,psychology,9,2,9,8,7,6,4,1,5,No,No,4,1,Vegetarian,Sherwood Estates,0.9,0.4,0.9,1.0,0.875,0.75,0.8,0.2,1.0,0.8,0.2,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,psychology,9,2,9,8,7,6,4,1,5,Sometime,Occasionally,4,1,Non-Vegetarian,Arcola Sub,0.9,0.4,0.9,1.0,0.875,0.75,0.8,0.2,1.0,0.8,0.2,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,psychology,9,2,9,8,7,6,4,1,5,Yes,No,4,1,Non-Vegetarian,Belvedere,0.9,0.4,0.9,1.0,0.875,0.75,0.8,0.2,1.0,0.8,0.2,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,psychology,9,2,9,8,7,6,4,1,5,Sometime,No,4,1,Vegetarian,Regent Park,0.9,0.4,0.9,1.0,0.875,0.75,0.8,0.2,1.0,0.8,0.2,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,psychology,9,2,9,8,7,6,4,1,5,Yes,No,4,1,Non-Vegetarian,Albert Park,0.9,0.4,0.9,1.0,0.875,0.75,0.8,0.2,1.0,0.8,0.2,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,psychology,9,2,9,8,7,6,4,1,5,Yes,Yes,4,1,Non-Vegetarian,Harbour Landing,0.9,0.4,0.9,1.0,0.875,0.75,0.8,0.2,1.0,0.8,0.2,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,psychology,9,2,9,8,7,6,4,1,5,Yes,Yes,4,1,Non-Vegetarian,Belvedere,0.9,0.4,0.9,1.0,0.875,0.75,0.8,0.2,1.0,0.8,0.2,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,psychology,9,2,9,8,7,6,4,1,5,No,No,4,1,Non-Vegetarian,Lakewood,0.9,0.4,0.9,1.0,0.875,0.75,0.8,0.2,1.0,0.8,0.2,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,psychology,9,2,9,8,7,6,4,1,5,No,Yes,4,1,Vegetarian,Garden Ridge,0.9,0.4,0.9,1.0,0.875,0.75,0.8,0.2,1.0,0.8,0.2,1.0
+"(26, 30)",female,european/caucasian-american,8,educational psychology,10,8,7,6,8,10,6,6,10,Yes,Yes,4,6,Vegetarian,Grand Trunk Annex,1.0,1.0,0.875,0.75,1.0,1.0,0.75,0.75,1.0,0.8,0.75,0.8
+"(26, 30)",female,european/caucasian-american,8,educational psychology,10,8,7,6,8,10,6,6,10,Sometime,Occasionally,4,6,Vegetarian,Garden Ridge,1.0,1.0,0.875,0.75,1.0,1.0,0.75,0.75,1.0,0.8,0.75,0.8
+"(26, 30)",female,european/caucasian-american,8,educational psychology,10,8,7,6,8,10,6,6,10,Sometime,Occasionally,4,6,Non-Vegetarian,Albert Park,1.0,1.0,0.875,0.75,1.0,1.0,0.75,0.75,1.0,0.8,0.75,0.8
+"(26, 30)",female,european/caucasian-american,8,educational psychology,10,8,7,6,8,10,6,6,10,No,Yes,4,6,Non-Vegetarian,City View,1.0,1.0,0.875,0.75,1.0,1.0,0.75,0.75,1.0,0.8,0.75,0.8
+"(26, 30)",female,european/caucasian-american,8,educational psychology,10,8,7,6,8,10,6,6,10,Sometime,No,4,6,Non-Vegetarian,Lakewood,1.0,1.0,0.875,0.75,1.0,1.0,0.75,0.75,1.0,0.8,0.75,0.8
+"(26, 30)",female,european/caucasian-american,8,educational psychology,10,8,7,6,8,10,6,6,10,No,Yes,4,6,Non-Vegetarian,Highland Park,1.0,1.0,0.875,0.75,1.0,1.0,0.75,0.75,1.0,0.8,0.75,0.8
+"(26, 30)",female,european/caucasian-american,8,educational psychology,10,8,7,6,8,10,6,6,10,No,Occasionally,4,6,Non-Vegetarian,Belvedere,1.0,1.0,0.875,0.75,1.0,1.0,0.75,0.75,1.0,0.8,0.75,0.8
+"(26, 30)",female,european/caucasian-american,8,educational psychology,10,8,7,6,8,10,6,6,10,Yes,No,4,6,Non-Vegetarian,City View,1.0,1.0,0.875,0.75,1.0,1.0,0.75,0.75,1.0,0.8,0.75,0.8
+"(26, 30)",female,european/caucasian-american,8,educational psychology,10,8,7,6,8,10,6,6,10,No,Occasionally,4,6,Non-Vegetarian,Lakewood,1.0,1.0,0.875,0.75,1.0,1.0,0.75,0.75,1.0,0.8,0.75,0.8
+"(26, 30)",female,european/caucasian-american,8,educational psychology,10,8,7,6,8,10,6,6,10,No,Occasionally,4,6,Non-Vegetarian,Harbour Landing,1.0,1.0,0.875,0.75,1.0,1.0,0.75,0.75,1.0,0.8,0.75,0.8
+"(26, 30)",female,european/caucasian-american,8,educational psychology,10,8,7,6,8,10,6,6,10,Yes,Occasionally,4,6,Vegetarian,Regent Park,1.0,1.0,0.875,0.75,1.0,1.0,0.75,0.75,1.0,0.8,0.75,0.8
+"(26, 30)",female,european/caucasian-american,8,educational psychology,10,8,7,6,8,10,6,6,10,No,Yes,4,6,Non-Vegetarian,Balbrigan Place,1.0,1.0,0.875,0.75,1.0,1.0,0.75,0.75,1.0,0.8,0.75,0.8
+"(26, 30)",female,european/caucasian-american,8,educational psychology,10,8,7,6,8,10,6,6,10,Yes,Yes,4,6,Vegetarian,Regent Park,1.0,1.0,0.875,0.75,1.0,1.0,0.75,0.75,1.0,0.8,0.75,0.8
+"(26, 30)",female,european/caucasian-american,8,educational psychology,10,8,7,6,8,10,6,6,10,No,Yes,4,6,Vegetarian,Lakewood,1.0,1.0,0.875,0.75,1.0,1.0,0.75,0.75,1.0,0.8,0.75,0.8
+"(21, 25)",female,asian/pacific islander/asian-american,2,applied maths/econs,7,4,7,7,10,6,7,5,6,Sometime,Yes,7,6,Non-Vegetarian,Creekside,0.875,0.8,0.875,0.875,1.0,0.75,0.875,1.0,0.75,0.875,0.75,0.4
+"(21, 25)",female,asian/pacific islander/asian-american,2,applied maths/econs,7,4,7,7,10,6,7,5,6,No,Yes,7,6,Vegetarian,Creekside,0.875,0.8,0.875,0.875,1.0,0.75,0.875,1.0,0.75,0.875,0.75,0.4
+"(21, 25)",female,asian/pacific islander/asian-american,2,applied maths/econs,7,4,7,7,10,6,7,5,6,No,Occasionally,7,6,Vegetarian,Creekside,0.875,0.8,0.875,0.875,1.0,0.75,0.875,1.0,0.75,0.875,0.75,0.4
+"(21, 25)",female,asian/pacific islander/asian-american,2,applied maths/econs,7,4,7,7,10,6,7,5,6,Sometime,No,7,6,Non-Vegetarian,Highland Park,0.875,0.8,0.875,0.875,1.0,0.75,0.875,1.0,0.75,0.875,0.75,0.4
+"(21, 25)",female,asian/pacific islander/asian-american,2,applied maths/econs,7,4,7,7,10,6,7,5,6,Yes,Yes,7,6,Non-Vegetarian,Riverside,0.875,0.8,0.875,0.875,1.0,0.75,0.875,1.0,0.75,0.875,0.75,0.4
+"(21, 25)",female,asian/pacific islander/asian-american,2,applied maths/econs,7,4,7,7,10,6,7,5,6,Sometime,Occasionally,7,6,Non-Vegetarian,City View,0.875,0.8,0.875,0.875,1.0,0.75,0.875,1.0,0.75,0.875,0.75,0.4
+"(21, 25)",female,asian/pacific islander/asian-american,2,applied maths/econs,7,4,7,7,10,6,7,5,6,Yes,Yes,7,6,Vegetarian,Garden Ridge,0.875,0.8,0.875,0.875,1.0,0.75,0.875,1.0,0.75,0.875,0.75,0.4
+"(21, 25)",female,asian/pacific islander/asian-american,2,applied maths/econs,7,4,7,7,10,6,7,5,6,Sometime,No,7,6,Non-Vegetarian,Sherwood Estates,0.875,0.8,0.875,0.875,1.0,0.75,0.875,1.0,0.75,0.875,0.75,0.4
+"(21, 25)",female,asian/pacific islander/asian-american,2,applied maths/econs,7,4,7,7,10,6,7,5,6,No,Occasionally,7,6,Vegetarian,Westhill,0.875,0.8,0.875,0.875,1.0,0.75,0.875,1.0,0.75,0.875,0.75,0.4
+"(21, 25)",female,european/caucasian-american,7,mathematics,7,6,8,7,8,9,9,5,9,No,Yes,9,7,Vegetarian,Harbour Landing,0.875,0.75,1.0,0.875,1.0,0.9,0.9,1.0,0.9,0.9,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,mathematics,7,6,8,7,8,9,9,5,9,Yes,Yes,9,7,Vegetarian,CPR Annex,0.875,0.75,1.0,0.875,1.0,0.9,0.9,1.0,0.9,0.9,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,mathematics,7,6,8,7,8,9,9,5,9,Sometime,Occasionally,9,7,Vegetarian,Wascana Crescents,0.875,0.75,1.0,0.875,1.0,0.9,0.9,1.0,0.9,0.9,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,mathematics,7,6,8,7,8,9,9,5,9,Yes,Yes,9,7,Non-Vegetarian,Uplands,0.875,0.75,1.0,0.875,1.0,0.9,0.9,1.0,0.9,0.9,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,mathematics,7,6,8,7,8,9,9,5,9,Sometime,Occasionally,9,7,Non-Vegetarian,Highland Park,0.875,0.75,1.0,0.875,1.0,0.9,0.9,1.0,0.9,0.9,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,mathematics,7,6,8,7,8,9,9,5,9,Sometime,Yes,9,7,Non-Vegetarian,Wascana Crescents,0.875,0.75,1.0,0.875,1.0,0.9,0.9,1.0,0.9,0.9,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,mathematics,7,6,8,7,8,9,9,5,9,No,Occasionally,9,7,Vegetarian,Garden Ridge,0.875,0.75,1.0,0.875,1.0,0.9,0.9,1.0,0.9,0.9,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,mathematics,7,6,8,7,8,9,9,5,9,No,Occasionally,9,7,Vegetarian,Wascana Crescents,0.875,0.75,1.0,0.875,1.0,0.9,0.9,1.0,0.9,0.9,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,mathematics,7,6,8,7,8,9,9,5,9,Yes,Yes,9,7,Non-Vegetarian,Parkridge,0.875,0.75,1.0,0.875,1.0,0.9,0.9,1.0,0.9,0.9,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,mathematics,7,6,8,7,8,9,9,5,9,Sometime,No,9,7,Vegetarian,Creekside,0.875,0.75,1.0,0.875,1.0,0.9,0.9,1.0,0.9,0.9,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,mathematics,7,6,8,7,8,9,9,5,9,Sometime,No,9,7,Non-Vegetarian,Garden Ridge,0.875,0.75,1.0,0.875,1.0,0.9,0.9,1.0,0.9,0.9,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,mathematics,7,6,8,7,8,9,9,5,9,Sometime,Yes,9,7,Non-Vegetarian,Harbour Landing,0.875,0.75,1.0,0.875,1.0,0.9,0.9,1.0,0.9,0.9,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,mathematics,7,6,8,7,8,9,9,5,9,Sometime,Occasionally,9,7,Non-Vegetarian,Creekside,0.875,0.75,1.0,0.875,1.0,0.9,0.9,1.0,0.9,0.9,0.875,0.7
+"(26, 30)",female,european/caucasian-american,8,statistics,9,1,6,7,6,1,3,7,4,Sometime,Yes,6,1,Vegetarian,Regent Park,0.9,0.2,0.75,0.875,0.75,0.2,0.6,0.875,0.8,0.75,0.2,0.8
+"(26, 30)",female,european/caucasian-american,8,statistics,9,1,6,7,6,1,3,7,4,Sometime,Occasionally,6,1,Non-Vegetarian,Albert Park,0.9,0.2,0.75,0.875,0.75,0.2,0.6,0.875,0.8,0.75,0.2,0.8
+"(26, 30)",female,european/caucasian-american,8,statistics,9,1,6,7,6,1,3,7,4,Sometime,Yes,6,1,Vegetarian,Highland Park,0.9,0.2,0.75,0.875,0.75,0.2,0.6,0.875,0.8,0.75,0.2,0.8
+"(26, 30)",female,european/caucasian-american,8,statistics,9,1,6,7,6,1,3,7,4,No,Yes,6,1,Vegetarian,Riverside,0.9,0.2,0.75,0.875,0.75,0.2,0.6,0.875,0.8,0.75,0.2,0.8
+"(26, 30)",female,european/caucasian-american,8,statistics,9,1,6,7,6,1,3,7,4,Sometime,No,6,1,Vegetarian,Arcola Sub,0.9,0.2,0.75,0.875,0.75,0.2,0.6,0.875,0.8,0.75,0.2,0.8
+"(26, 30)",female,european/caucasian-american,8,statistics,9,1,6,7,6,1,3,7,4,Sometime,No,6,1,Non-Vegetarian,Creekside,0.9,0.2,0.75,0.875,0.75,0.2,0.6,0.875,0.8,0.75,0.2,0.8
+"(26, 30)",female,european/caucasian-american,8,statistics,9,1,6,7,6,1,3,7,4,Sometime,No,6,1,Vegetarian,Highland Park,0.9,0.2,0.75,0.875,0.75,0.2,0.6,0.875,0.8,0.75,0.2,0.8
+"(26, 30)",female,european/caucasian-american,8,statistics,9,1,6,7,6,1,3,7,4,No,Occasionally,6,1,Vegetarian,Uplands,0.9,0.2,0.75,0.875,0.75,0.2,0.6,0.875,0.8,0.75,0.2,0.8
+"(26, 30)",female,european/caucasian-american,8,statistics,9,1,6,7,6,1,3,7,4,Sometime,Yes,6,1,Non-Vegetarian,Wascana Crescents,0.9,0.2,0.75,0.875,0.75,0.2,0.6,0.875,0.8,0.75,0.2,0.8
+"(26, 30)",female,european/caucasian-american,8,statistics,9,1,6,7,6,1,3,7,4,Sometime,Occasionally,6,1,Vegetarian,Wascana Crescents,0.9,0.2,0.75,0.875,0.75,0.2,0.6,0.875,0.8,0.75,0.2,0.8
+"(26, 30)",female,european/caucasian-american,8,statistics,9,1,6,7,6,1,3,7,4,No,Occasionally,6,1,Vegetarian,Westhill,0.9,0.2,0.75,0.875,0.75,0.2,0.6,0.875,0.8,0.75,0.2,0.8
+"(26, 30)",female,european/caucasian-american,8,statistics,9,1,6,7,6,1,3,7,4,Yes,Yes,6,1,Non-Vegetarian,Balbrigan Place,0.9,0.2,0.75,0.875,0.75,0.2,0.6,0.875,0.8,0.75,0.2,0.8
+"(26, 30)",female,european/caucasian-american,8,organizational psychology,5,6,10,7,7,6,7,7,6,No,Yes,6,4,Non-Vegetarian,Wascana Crescents,1.0,0.75,1.0,0.875,0.875,0.75,0.875,0.875,0.75,0.75,0.8,0.8
+"(26, 30)",female,european/caucasian-american,8,organizational psychology,5,6,10,7,7,6,7,7,6,No,Occasionally,6,4,Non-Vegetarian,CPR Annex,1.0,0.75,1.0,0.875,0.875,0.75,0.875,0.875,0.75,0.75,0.8,0.8
+"(26, 30)",female,european/caucasian-american,8,organizational psychology,5,6,10,7,7,6,7,7,6,Yes,Yes,6,4,Vegetarian,Garden Ridge,1.0,0.75,1.0,0.875,0.875,0.75,0.875,0.875,0.75,0.75,0.8,0.8
+"(26, 30)",female,european/caucasian-american,8,organizational psychology,5,6,10,7,7,6,7,7,6,Yes,No,6,4,Non-Vegetarian,Balbrigan Place,1.0,0.75,1.0,0.875,0.875,0.75,0.875,0.875,0.75,0.75,0.8,0.8
+"(26, 30)",female,european/caucasian-american,8,organizational psychology,5,6,10,7,7,6,7,7,6,Sometime,Yes,6,4,Vegetarian,Sherwood Estates,1.0,0.75,1.0,0.875,0.875,0.75,0.875,0.875,0.75,0.75,0.8,0.8
+"(26, 30)",female,european/caucasian-american,8,organizational psychology,5,6,10,7,7,6,7,7,6,No,No,6,4,Vegetarian,CPR Annex,1.0,0.75,1.0,0.875,0.875,0.75,0.875,0.875,0.75,0.75,0.8,0.8
+"(26, 30)",female,european/caucasian-american,8,organizational psychology,5,6,10,7,7,6,7,7,6,No,Occasionally,6,4,Vegetarian,City View,1.0,0.75,1.0,0.875,0.875,0.75,0.875,0.875,0.75,0.75,0.8,0.8
+"(26, 30)",female,european/caucasian-american,8,organizational psychology,5,6,10,7,7,6,7,7,6,Sometime,Occasionally,6,4,Vegetarian,Wascana Crescents,1.0,0.75,1.0,0.875,0.875,0.75,0.875,0.875,0.75,0.75,0.8,0.8
+"(26, 30)",female,european/caucasian-american,8,organizational psychology,5,6,10,7,7,6,7,7,6,Sometime,No,6,4,Vegetarian,Grand Trunk Annex,1.0,0.75,1.0,0.875,0.875,0.75,0.875,0.875,0.75,0.75,0.8,0.8
+"(26, 30)",female,european/caucasian-american,8,organizational psychology,5,6,10,7,7,6,7,7,6,Yes,Yes,6,4,Non-Vegetarian,Sherwood Estates,1.0,0.75,1.0,0.875,0.875,0.75,0.875,0.875,0.75,0.75,0.8,0.8
+"(26, 30)",female,european/caucasian-american,8,organizational psychology,5,6,10,7,7,6,7,7,6,Yes,Occasionally,6,4,Vegetarian,Westhill,1.0,0.75,1.0,0.875,0.875,0.75,0.875,0.875,0.75,0.75,0.8,0.8
+"(21, 25)",female,black/african american,1,law,2,4,10,10,10,8,7,7,7,Sometime,Yes,7,2,Vegetarian,Westhill,0.4,0.8,1.0,1.0,1.0,1.0,0.875,0.875,0.875,0.875,0.4,1.0
+"(21, 25)",female,black/african american,1,law,2,4,10,10,10,8,7,7,7,No,No,7,2,Vegetarian,Sherwood Estates,0.4,0.8,1.0,1.0,1.0,1.0,0.875,0.875,0.875,0.875,0.4,1.0
+"(21, 25)",female,black/african american,1,law,2,4,10,10,10,8,7,7,7,No,Occasionally,7,2,Vegetarian,Wascana Crescents,0.4,0.8,1.0,1.0,1.0,1.0,0.875,0.875,0.875,0.875,0.4,1.0
+"(21, 25)",female,black/african american,1,law,2,4,10,10,10,8,7,7,7,Sometime,Occasionally,7,2,Non-Vegetarian,Dewdney Place,0.4,0.8,1.0,1.0,1.0,1.0,0.875,0.875,0.875,0.875,0.4,1.0
+"(21, 25)",female,black/african american,1,law,2,4,10,10,10,8,7,7,7,No,Occasionally,7,2,Vegetarian,Arcola Sub,0.4,0.8,1.0,1.0,1.0,1.0,0.875,0.875,0.875,0.875,0.4,1.0
+"(21, 25)",female,black/african american,1,law,2,4,10,10,10,8,7,7,7,No,Yes,7,2,Vegetarian,Highland Park,0.4,0.8,1.0,1.0,1.0,1.0,0.875,0.875,0.875,0.875,0.4,1.0
+"(21, 25)",female,black/african american,1,law,2,4,10,10,10,8,7,7,7,Yes,Yes,7,2,Non-Vegetarian,Highland Park,0.4,0.8,1.0,1.0,1.0,1.0,0.875,0.875,0.875,0.875,0.4,1.0
+"(21, 25)",female,black/african american,1,law,2,4,10,10,10,8,7,7,7,Yes,Yes,7,2,Non-Vegetarian,Grand Trunk Annex,0.4,0.8,1.0,1.0,1.0,1.0,0.875,0.875,0.875,0.875,0.4,1.0
+"(21, 25)",female,black/african american,1,law,2,4,10,10,10,8,7,7,7,Yes,No,7,2,Non-Vegetarian,Creekside,0.4,0.8,1.0,1.0,1.0,1.0,0.875,0.875,0.875,0.875,0.4,1.0
+"(21, 25)",female,black/african american,1,law,2,4,10,10,10,8,7,7,7,Yes,No,7,2,Non-Vegetarian,Sherwood Estates,0.4,0.8,1.0,1.0,1.0,1.0,0.875,0.875,0.875,0.875,0.4,1.0
+"(21, 25)",female,black/african american,1,law,2,4,10,10,10,8,7,7,7,No,Occasionally,7,2,Non-Vegetarian,City View,0.4,0.8,1.0,1.0,1.0,1.0,0.875,0.875,0.875,0.875,0.4,1.0
+"(21, 25)",female,black/african american,1,law,2,4,10,10,10,8,7,7,7,Yes,Yes,7,2,Non-Vegetarian,Sherwood Estates,0.4,0.8,1.0,1.0,1.0,1.0,0.875,0.875,0.875,0.875,0.4,1.0
+"(21, 25)",female,latino/hispanic american,4,law,10,1,10,9,10,9,5,7,4,No,Occasionally,3,2,Vegetarian,Parkridge,1.0,0.2,1.0,0.9,1.0,0.9,1.0,0.875,0.8,0.6,0.4,0.8
+"(21, 25)",female,latino/hispanic american,4,law,10,1,10,9,10,9,5,7,4,Yes,Yes,3,2,Vegetarian,Balbrigan Place,1.0,0.2,1.0,0.9,1.0,0.9,1.0,0.875,0.8,0.6,0.4,0.8
+"(21, 25)",female,latino/hispanic american,4,law,10,1,10,9,10,9,5,7,4,No,Occasionally,3,2,Non-Vegetarian,Lakewood,1.0,0.2,1.0,0.9,1.0,0.9,1.0,0.875,0.8,0.6,0.4,0.8
+"(21, 25)",female,latino/hispanic american,4,law,10,1,10,9,10,9,5,7,4,Sometime,No,3,2,Non-Vegetarian,Garden Ridge,1.0,0.2,1.0,0.9,1.0,0.9,1.0,0.875,0.8,0.6,0.4,0.8
+"(21, 25)",female,latino/hispanic american,4,law,10,1,10,9,10,9,5,7,4,No,Occasionally,3,2,Vegetarian,Highland Park,1.0,0.2,1.0,0.9,1.0,0.9,1.0,0.875,0.8,0.6,0.4,0.8
+"(21, 25)",female,latino/hispanic american,4,law,10,1,10,9,10,9,5,7,4,Yes,Occasionally,3,2,Non-Vegetarian,Harbour Landing,1.0,0.2,1.0,0.9,1.0,0.9,1.0,0.875,0.8,0.6,0.4,0.8
+"(21, 25)",male,asian/pacific islander/asian-american,6,operations research,7,7,7,10,8,5,9,5,3,No,No,4,9,Non-Vegetarian,Belvedere,0.875,0.875,0.875,1.0,1.0,1.0,0.9,1.0,0.6,0.8,0.9,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,6,operations research,7,7,7,10,8,5,9,5,3,No,No,4,9,Vegetarian,Westhill,0.875,0.875,0.875,1.0,1.0,1.0,0.9,1.0,0.6,0.8,0.9,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,6,operations research,7,7,7,10,8,5,9,5,3,No,Occasionally,4,9,Vegetarian,Highland Park,0.875,0.875,0.875,1.0,1.0,1.0,0.9,1.0,0.6,0.8,0.9,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,6,operations research,7,7,7,10,8,5,9,5,3,Sometime,Occasionally,4,9,Non-Vegetarian,Harbour Landing,0.875,0.875,0.875,1.0,1.0,1.0,0.9,1.0,0.6,0.8,0.9,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,6,operations research,7,7,7,10,8,5,9,5,3,Sometime,No,4,9,Non-Vegetarian,Wascana Crescents,0.875,0.875,0.875,1.0,1.0,1.0,0.9,1.0,0.6,0.8,0.9,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,6,operations research,7,7,7,10,8,5,9,5,3,Sometime,Yes,4,9,Non-Vegetarian,Uplands,0.875,0.875,0.875,1.0,1.0,1.0,0.9,1.0,0.6,0.8,0.9,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,6,operations research,7,7,7,10,8,5,9,5,3,No,Occasionally,4,9,Non-Vegetarian,Sherwood Estates,0.875,0.875,0.875,1.0,1.0,1.0,0.9,1.0,0.6,0.8,0.9,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,6,operations research,7,7,7,10,8,5,9,5,3,Sometime,Occasionally,4,9,Non-Vegetarian,Westhill,0.875,0.875,0.875,1.0,1.0,1.0,0.9,1.0,0.6,0.8,0.9,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,6,operations research,7,7,7,10,8,5,9,5,3,Sometime,Yes,4,9,Vegetarian,Belvedere,0.875,0.875,0.875,1.0,1.0,1.0,0.9,1.0,0.6,0.8,0.9,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,6,operations research,7,7,7,10,8,5,9,5,3,Yes,No,4,9,Vegetarian,Riverside,0.875,0.875,0.875,1.0,1.0,1.0,0.9,1.0,0.6,0.8,0.9,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,6,operations research,7,7,7,10,8,5,9,5,3,No,No,4,9,Non-Vegetarian,Regent Park,0.875,0.875,0.875,1.0,1.0,1.0,0.9,1.0,0.6,0.8,0.9,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,6,operations research,7,7,7,10,8,5,9,5,3,Sometime,Occasionally,4,9,Vegetarian,Highland Park,0.875,0.875,0.875,1.0,1.0,1.0,0.9,1.0,0.6,0.8,0.9,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,6,operations research,7,7,7,10,8,5,9,5,3,No,Occasionally,4,9,Non-Vegetarian,Albert Park,0.875,0.875,0.875,1.0,1.0,1.0,0.9,1.0,0.6,0.8,0.9,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,6,mechanical engineering,9,1,5,5,7,8,1,3,7,Sometime,No,1,1,Vegetarian,Garden Ridge,0.9,0.2,1.0,1.0,0.875,1.0,0.2,0.6,0.875,0.2,0.2,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,6,mechanical engineering,9,1,5,5,7,8,1,3,7,Yes,Yes,1,1,Non-Vegetarian,Highland Park,0.9,0.2,1.0,1.0,0.875,1.0,0.2,0.6,0.875,0.2,0.2,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,6,mechanical engineering,9,1,5,5,7,8,1,3,7,Yes,Occasionally,1,1,Non-Vegetarian,Grand Trunk Annex,0.9,0.2,1.0,1.0,0.875,1.0,0.2,0.6,0.875,0.2,0.2,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,6,mechanical engineering,9,1,5,5,7,8,1,3,7,Yes,No,1,1,Vegetarian,Arcola Sub,0.9,0.2,1.0,1.0,0.875,1.0,0.2,0.6,0.875,0.2,0.2,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,6,mechanical engineering,9,1,5,5,7,8,1,3,7,Sometime,Occasionally,1,1,Vegetarian,Regent Park,0.9,0.2,1.0,1.0,0.875,1.0,0.2,0.6,0.875,0.2,0.2,0.6
+"(21, 25)",male,european/caucasian-american,1,economics,9,5,5,5,4,6,5,2,6,No,No,8,9,Non-Vegetarian,City View,0.9,1.0,1.0,1.0,0.8,0.75,1.0,0.4,0.75,1.0,0.9,1.0
+"(21, 25)",male,european/caucasian-american,1,economics,9,5,5,5,4,6,5,2,6,Yes,Occasionally,8,9,Vegetarian,Harbour Landing,0.9,1.0,1.0,1.0,0.8,0.75,1.0,0.4,0.75,1.0,0.9,1.0
+"(21, 25)",male,european/caucasian-american,1,economics,9,5,5,5,4,6,5,2,6,No,No,8,9,Vegetarian,Dewdney Place,0.9,1.0,1.0,1.0,0.8,0.75,1.0,0.4,0.75,1.0,0.9,1.0
+"(21, 25)",male,european/caucasian-american,1,economics,9,5,5,5,4,6,5,2,6,Yes,Occasionally,8,9,Vegetarian,Lakewood,0.9,1.0,1.0,1.0,0.8,0.75,1.0,0.4,0.75,1.0,0.9,1.0
+"(21, 25)",male,european/caucasian-american,1,economics,9,5,5,5,4,6,5,2,6,Sometime,Yes,8,9,Vegetarian,Westhill,0.9,1.0,1.0,1.0,0.8,0.75,1.0,0.4,0.75,1.0,0.9,1.0
+"(21, 25)",male,european/caucasian-american,1,economics,9,5,5,5,4,6,5,2,6,No,Yes,8,9,Non-Vegetarian,Balbrigan Place,0.9,1.0,1.0,1.0,0.8,0.75,1.0,0.4,0.75,1.0,0.9,1.0
+"(21, 25)",male,european/caucasian-american,1,economics,9,5,5,5,4,6,5,2,6,Sometime,Occasionally,8,9,Vegetarian,Creekside,0.9,1.0,1.0,1.0,0.8,0.75,1.0,0.4,0.75,1.0,0.9,1.0
+"(21, 25)",male,european/caucasian-american,1,economics,9,5,5,5,4,6,5,2,6,No,Occasionally,8,9,Non-Vegetarian,City View,0.9,1.0,1.0,1.0,0.8,0.75,1.0,0.4,0.75,1.0,0.9,1.0
+"(21, 25)",male,european/caucasian-american,1,economics,9,5,5,5,4,6,5,2,6,Yes,Occasionally,8,9,Vegetarian,City View,0.9,1.0,1.0,1.0,0.8,0.75,1.0,0.4,0.75,1.0,0.9,1.0
+"(21, 25)",male,european/caucasian-american,1,economics,9,5,5,5,4,6,5,2,6,Yes,No,8,9,Vegetarian,City View,0.9,1.0,1.0,1.0,0.8,0.75,1.0,0.4,0.75,1.0,0.9,1.0
+"(21, 25)",male,european/caucasian-american,1,economics,9,5,5,5,4,6,5,2,6,Yes,Occasionally,8,9,Non-Vegetarian,Dewdney Place,0.9,1.0,1.0,1.0,0.8,0.75,1.0,0.4,0.75,1.0,0.9,1.0
+"(21, 25)",male,european/caucasian-american,1,economics,9,5,5,5,4,6,5,2,6,No,Occasionally,8,9,Vegetarian,Sherwood Estates,0.9,1.0,1.0,1.0,0.8,0.75,1.0,0.4,0.75,1.0,0.9,1.0
+"(21, 25)",male,european/caucasian-american,1,economics,9,5,5,5,4,6,5,2,6,Sometime,Yes,8,9,Non-Vegetarian,City View,0.9,1.0,1.0,1.0,0.8,0.75,1.0,0.4,0.75,1.0,0.9,1.0
+"(21, 25)",male,european/caucasian-american,1,economics,9,5,5,5,4,6,5,2,6,Sometime,No,8,9,Vegetarian,Arcola Sub,0.9,1.0,1.0,1.0,0.8,0.75,1.0,0.4,0.75,1.0,0.9,1.0
+"(21, 25)",male,european/caucasian-american,3,psychology,8,6,7,1,3,1,7,10,8,No,Occasionally,9,1,Non-Vegetarian,Balbrigan Place,1.0,0.75,0.875,0.2,0.6,0.2,0.875,1.0,1.0,0.9,0.2,0.6
+"(21, 25)",male,european/caucasian-american,3,psychology,8,6,7,1,3,1,7,10,8,Sometime,Yes,9,1,Non-Vegetarian,Arcola Sub,1.0,0.75,0.875,0.2,0.6,0.2,0.875,1.0,1.0,0.9,0.2,0.6
+"(21, 25)",male,european/caucasian-american,3,psychology,8,6,7,1,3,1,7,10,8,Sometime,Yes,9,1,Non-Vegetarian,Creekside,1.0,0.75,0.875,0.2,0.6,0.2,0.875,1.0,1.0,0.9,0.2,0.6
+"(21, 25)",male,european/caucasian-american,3,psychology,8,6,7,1,3,1,7,10,8,No,No,9,1,Non-Vegetarian,Harbour Landing,1.0,0.75,0.875,0.2,0.6,0.2,0.875,1.0,1.0,0.9,0.2,0.6
+"(21, 25)",male,european/caucasian-american,3,psychology,8,6,7,1,3,1,7,10,8,No,Yes,9,1,Non-Vegetarian,Wascana Crescents,1.0,0.75,0.875,0.2,0.6,0.2,0.875,1.0,1.0,0.9,0.2,0.6
+"(21, 25)",male,european/caucasian-american,3,psychology,8,6,7,1,3,1,7,10,8,No,Occasionally,9,1,Non-Vegetarian,Parkridge,1.0,0.75,0.875,0.2,0.6,0.2,0.875,1.0,1.0,0.9,0.2,0.6
+"(21, 25)",male,european/caucasian-american,3,psychology,8,6,7,1,3,1,7,10,8,Sometime,Yes,9,1,Non-Vegetarian,Harbour Landing,1.0,0.75,0.875,0.2,0.6,0.2,0.875,1.0,1.0,0.9,0.2,0.6
+"(21, 25)",male,european/caucasian-american,3,psychology,8,6,7,1,3,1,7,10,8,No,Yes,9,1,Non-Vegetarian,CPR Annex,1.0,0.75,0.875,0.2,0.6,0.2,0.875,1.0,1.0,0.9,0.2,0.6
+"(21, 25)",male,european/caucasian-american,3,psychology,8,6,7,1,3,1,7,10,8,Sometime,No,9,1,Non-Vegetarian,Creekside,1.0,0.75,0.875,0.2,0.6,0.2,0.875,1.0,1.0,0.9,0.2,0.6
+"(21, 25)",male,european/caucasian-american,3,psychology,8,6,7,1,3,1,7,10,8,No,Yes,9,1,Vegetarian,Garden Ridge,1.0,0.75,0.875,0.2,0.6,0.2,0.875,1.0,1.0,0.9,0.2,0.6
+"(21, 25)",male,european/caucasian-american,3,psychology,8,6,7,1,3,1,7,10,8,No,Yes,9,1,Vegetarian,Harbour Landing,1.0,0.75,0.875,0.2,0.6,0.2,0.875,1.0,1.0,0.9,0.2,0.6
+"(21, 25)",male,european/caucasian-american,3,psychology,8,6,7,1,3,1,7,10,8,Yes,No,9,1,Vegetarian,Parkridge,1.0,0.75,0.875,0.2,0.6,0.2,0.875,1.0,1.0,0.9,0.2,0.6
+"(21, 25)",male,european/caucasian-american,3,psychology,8,6,7,1,3,1,7,10,8,No,Yes,9,1,Non-Vegetarian,Arcola Sub,1.0,0.75,0.875,0.2,0.6,0.2,0.875,1.0,1.0,0.9,0.2,0.6
+"(21, 25)",male,european/caucasian-american,3,psychology,8,6,7,1,3,1,7,10,8,Sometime,Occasionally,9,1,Non-Vegetarian,Riverside,1.0,0.75,0.875,0.2,0.6,0.2,0.875,1.0,1.0,0.9,0.2,0.6
+"(21, 25)",male,european/caucasian-american,3,psychology,8,6,7,1,3,1,7,10,8,Yes,Occasionally,9,1,Non-Vegetarian,Parkridge,1.0,0.75,0.875,0.2,0.6,0.2,0.875,1.0,1.0,0.9,0.2,0.6
+"(26, 30)",male,european/caucasian-american,6,finance,6,7,6,6,7,7,6,6,3,Yes,Yes,9,7,Non-Vegetarian,Westhill,0.75,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.6,0.9,0.875,0.6
+"(26, 30)",male,european/caucasian-american,6,finance,6,7,6,6,7,7,6,6,3,Sometime,Occasionally,9,7,Vegetarian,Harbour Landing,0.75,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.6,0.9,0.875,0.6
+"(26, 30)",male,european/caucasian-american,6,finance,6,7,6,6,7,7,6,6,3,Yes,Yes,9,7,Non-Vegetarian,City View,0.75,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.6,0.9,0.875,0.6
+"(26, 30)",male,european/caucasian-american,6,finance,6,7,6,6,7,7,6,6,3,No,Occasionally,9,7,Non-Vegetarian,Sherwood Estates,0.75,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.6,0.9,0.875,0.6
+"(26, 30)",male,european/caucasian-american,6,finance,6,7,6,6,7,7,6,6,3,Yes,Occasionally,9,7,Vegetarian,CPR Annex,0.75,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.6,0.9,0.875,0.6
+"(26, 30)",male,european/caucasian-american,6,finance,6,7,6,6,7,7,6,6,3,Sometime,Yes,9,7,Vegetarian,Arcola Sub,0.75,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.6,0.9,0.875,0.6
+"(26, 30)",male,european/caucasian-american,6,finance,6,7,6,6,7,7,6,6,3,Sometime,No,9,7,Vegetarian,Harbour Landing,0.75,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.6,0.9,0.875,0.6
+"(26, 30)",male,european/caucasian-american,6,finance,6,7,6,6,7,7,6,6,3,Sometime,No,9,7,Non-Vegetarian,Belvedere,0.75,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.6,0.9,0.875,0.6
+"(26, 30)",male,european/caucasian-american,6,finance,6,7,6,6,7,7,6,6,3,Yes,Yes,9,7,Vegetarian,Creekside,0.75,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.6,0.9,0.875,0.6
+"(26, 30)",male,european/caucasian-american,6,finance,6,7,6,6,7,7,6,6,3,No,No,9,7,Non-Vegetarian,Balbrigan Place,0.75,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.6,0.9,0.875,0.6
+"(26, 30)",male,european/caucasian-american,6,finance,6,7,6,6,7,7,6,6,3,No,Occasionally,9,7,Vegetarian,Albert Park,0.75,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.6,0.9,0.875,0.6
+"(26, 30)",male,european/caucasian-american,6,finance,6,7,6,6,7,7,6,6,3,No,Yes,9,7,Vegetarian,Parkridge,0.75,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.6,0.9,0.875,0.6
+"(26, 30)",male,european/caucasian-american,6,finance,6,7,6,6,7,7,6,6,3,Yes,Yes,9,7,Vegetarian,Sherwood Estates,0.75,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.6,0.9,0.875,0.6
+"(26, 30)",male,european/caucasian-american,6,finance,6,7,6,6,7,7,6,6,3,Yes,No,9,7,Non-Vegetarian,Riverside,0.75,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.6,0.9,0.875,0.6
+"(26, 30)",male,european/caucasian-american,6,finance,6,7,6,6,7,7,6,6,3,Yes,Occasionally,9,7,Non-Vegetarian,Dewdney Place,0.75,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.6,0.9,0.875,0.6
+"(26, 30)",male,european/caucasian-american,6,finance,6,7,6,6,7,7,6,6,3,No,No,9,7,Non-Vegetarian,Sherwood Estates,0.75,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.6,0.9,0.875,0.6
+"(26, 30)",male,european/caucasian-american,6,finance,6,7,6,6,7,7,6,6,3,Yes,Yes,9,7,Non-Vegetarian,Lakewood,0.75,0.875,0.75,0.75,0.875,0.875,0.75,0.75,0.6,0.9,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finanace,7,3,6,6,6,4,7,8,5,No,No,10,7,Vegetarian,Parkridge,0.875,0.6,0.75,0.75,0.75,0.8,0.875,1.0,1.0,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finanace,7,3,6,6,6,4,7,8,5,Yes,No,10,7,Non-Vegetarian,Parkridge,0.875,0.6,0.75,0.75,0.75,0.8,0.875,1.0,1.0,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finanace,7,3,6,6,6,4,7,8,5,Yes,No,10,7,Non-Vegetarian,Balbrigan Place,0.875,0.6,0.75,0.75,0.75,0.8,0.875,1.0,1.0,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finanace,7,3,6,6,6,4,7,8,5,Yes,Yes,10,7,Non-Vegetarian,Dewdney Place,0.875,0.6,0.75,0.75,0.75,0.8,0.875,1.0,1.0,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finanace,7,3,6,6,6,4,7,8,5,Sometime,Yes,10,7,Non-Vegetarian,Grand Trunk Annex,0.875,0.6,0.75,0.75,0.75,0.8,0.875,1.0,1.0,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finanace,7,3,6,6,6,4,7,8,5,Yes,No,10,7,Vegetarian,Regent Park,0.875,0.6,0.75,0.75,0.75,0.8,0.875,1.0,1.0,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finanace,7,3,6,6,6,4,7,8,5,Yes,Occasionally,10,7,Vegetarian,City View,0.875,0.6,0.75,0.75,0.75,0.8,0.875,1.0,1.0,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finanace,7,3,6,6,6,4,7,8,5,Sometime,No,10,7,Non-Vegetarian,Sherwood Estates,0.875,0.6,0.75,0.75,0.75,0.8,0.875,1.0,1.0,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finanace,7,3,6,6,6,4,7,8,5,No,Yes,10,7,Vegetarian,Sherwood Estates,0.875,0.6,0.75,0.75,0.75,0.8,0.875,1.0,1.0,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finanace,7,3,6,6,6,4,7,8,5,No,Occasionally,10,7,Vegetarian,CPR Annex,0.875,0.6,0.75,0.75,0.75,0.8,0.875,1.0,1.0,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finanace,7,3,6,6,6,4,7,8,5,No,Occasionally,10,7,Non-Vegetarian,Westhill,0.875,0.6,0.75,0.75,0.75,0.8,0.875,1.0,1.0,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finanace,7,3,6,6,6,4,7,8,5,Sometime,Yes,10,7,Vegetarian,Dewdney Place,0.875,0.6,0.75,0.75,0.75,0.8,0.875,1.0,1.0,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,3,finanace,7,3,6,6,6,4,7,8,5,Sometime,Yes,10,7,Non-Vegetarian,Garden Ridge,0.875,0.6,0.75,0.75,0.75,0.8,0.875,1.0,1.0,1.0,0.875,0.6
+"(26, 30)",male,european/caucasian-american,2,finance&economics,7,7,8,7,8,4,4,3,2,Sometime,Occasionally,6,7,Vegetarian,Belvedere,0.875,0.875,1.0,0.875,1.0,0.8,0.8,0.6,0.4,0.75,0.875,0.4
+"(26, 30)",male,european/caucasian-american,2,finance&economics,7,7,8,7,8,4,4,3,2,Yes,Yes,6,7,Non-Vegetarian,Creekside,0.875,0.875,1.0,0.875,1.0,0.8,0.8,0.6,0.4,0.75,0.875,0.4
+"(26, 30)",male,european/caucasian-american,2,finance&economics,7,7,8,7,8,4,4,3,2,Yes,No,6,7,Non-Vegetarian,Sherwood Estates,0.875,0.875,1.0,0.875,1.0,0.8,0.8,0.6,0.4,0.75,0.875,0.4
+"(26, 30)",male,european/caucasian-american,2,finance&economics,7,7,8,7,8,4,4,3,2,Yes,Occasionally,6,7,Vegetarian,Parkridge,0.875,0.875,1.0,0.875,1.0,0.8,0.8,0.6,0.4,0.75,0.875,0.4
+"(26, 30)",male,european/caucasian-american,2,finance&economics,7,7,8,7,8,4,4,3,2,Yes,Yes,6,7,Non-Vegetarian,Belvedere,0.875,0.875,1.0,0.875,1.0,0.8,0.8,0.6,0.4,0.75,0.875,0.4
+"(26, 30)",male,european/caucasian-american,2,finance&economics,7,7,8,7,8,4,4,3,2,Yes,Yes,6,7,Non-Vegetarian,Balbrigan Place,0.875,0.875,1.0,0.875,1.0,0.8,0.8,0.6,0.4,0.75,0.875,0.4
+"(26, 30)",male,european/caucasian-american,2,finance&economics,7,7,8,7,8,4,4,3,2,No,Occasionally,6,7,Vegetarian,CPR Annex,0.875,0.875,1.0,0.875,1.0,0.8,0.8,0.6,0.4,0.75,0.875,0.4
+"(26, 30)",male,european/caucasian-american,2,finance&economics,7,7,8,7,8,4,4,3,2,Sometime,No,6,7,Non-Vegetarian,Belvedere,0.875,0.875,1.0,0.875,1.0,0.8,0.8,0.6,0.4,0.75,0.875,0.4
+"(26, 30)",male,european/caucasian-american,2,finance&economics,7,7,8,7,8,4,4,3,2,Sometime,Occasionally,6,7,Vegetarian,Westhill,0.875,0.875,1.0,0.875,1.0,0.8,0.8,0.6,0.4,0.75,0.875,0.4
+"(26, 30)",male,european/caucasian-american,2,finance&economics,7,7,8,7,8,4,4,3,2,Sometime,Occasionally,6,7,Non-Vegetarian,Dewdney Place,0.875,0.875,1.0,0.875,1.0,0.8,0.8,0.6,0.4,0.75,0.875,0.4
+"(26, 30)",male,european/caucasian-american,2,finance&economics,7,7,8,7,8,4,4,3,2,Sometime,Occasionally,6,7,Non-Vegetarian,Sherwood Estates,0.875,0.875,1.0,0.875,1.0,0.8,0.8,0.6,0.4,0.75,0.875,0.4
+"(26, 30)",male,european/caucasian-american,2,finance&economics,7,7,8,7,8,4,4,3,2,Yes,Yes,6,7,Vegetarian,Belvedere,0.875,0.875,1.0,0.875,1.0,0.8,0.8,0.6,0.4,0.75,0.875,0.4
+"(26, 30)",male,european/caucasian-american,2,finance&economics,7,7,8,7,8,4,4,3,2,No,Occasionally,6,7,Non-Vegetarian,Sherwood Estates,0.875,0.875,1.0,0.875,1.0,0.8,0.8,0.6,0.4,0.75,0.875,0.4
+"(26, 30)",male,european/caucasian-american,2,finance&economics,7,7,8,7,8,4,4,3,2,Yes,Occasionally,6,7,Non-Vegetarian,Garden Ridge,0.875,0.875,1.0,0.875,1.0,0.8,0.8,0.6,0.4,0.75,0.875,0.4
+"(26, 30)",male,european/caucasian-american,2,finance&economics,7,7,8,7,8,4,4,3,2,No,Yes,6,7,Non-Vegetarian,Albert Park,0.875,0.875,1.0,0.875,1.0,0.8,0.8,0.6,0.4,0.75,0.875,0.4
+"(21, 25)",male,european/caucasian-american,2,undergrad - gs,4,5,7,8,10,6,8,1,6,Sometime,No,3,1,Vegetarian,City View,0.8,1.0,0.875,1.0,1.0,0.75,1.0,0.2,0.75,0.6,0.2,0.4
+"(21, 25)",male,european/caucasian-american,2,undergrad - gs,4,5,7,8,10,6,8,1,6,No,Occasionally,3,1,Vegetarian,Westhill,0.8,1.0,0.875,1.0,1.0,0.75,1.0,0.2,0.75,0.6,0.2,0.4
+"(21, 25)",male,european/caucasian-american,2,undergrad - gs,4,5,7,8,10,6,8,1,6,Sometime,No,3,1,Non-Vegetarian,Highland Park,0.8,1.0,0.875,1.0,1.0,0.75,1.0,0.2,0.75,0.6,0.2,0.4
+"(21, 25)",male,european/caucasian-american,2,undergrad - gs,4,5,7,8,10,6,8,1,6,Sometime,Occasionally,3,1,Non-Vegetarian,Wascana Crescents,0.8,1.0,0.875,1.0,1.0,0.75,1.0,0.2,0.75,0.6,0.2,0.4
+"(21, 25)",male,european/caucasian-american,2,undergrad - gs,4,5,7,8,10,6,8,1,6,No,No,3,1,Vegetarian,Westhill,0.8,1.0,0.875,1.0,1.0,0.75,1.0,0.2,0.75,0.6,0.2,0.4
+"(21, 25)",male,european/caucasian-american,2,undergrad - gs,4,5,7,8,10,6,8,1,6,No,Yes,3,1,Non-Vegetarian,Regent Park,0.8,1.0,0.875,1.0,1.0,0.75,1.0,0.2,0.75,0.6,0.2,0.4
+"(21, 25)",male,european/caucasian-american,2,undergrad - gs,4,5,7,8,10,6,8,1,6,No,Occasionally,3,1,Non-Vegetarian,Arcola Sub,0.8,1.0,0.875,1.0,1.0,0.75,1.0,0.2,0.75,0.6,0.2,0.4
+"(21, 25)",male,european/caucasian-american,2,undergrad - gs,4,5,7,8,10,6,8,1,6,Yes,Occasionally,3,1,Non-Vegetarian,Sherwood Estates,0.8,1.0,0.875,1.0,1.0,0.75,1.0,0.2,0.75,0.6,0.2,0.4
+"(21, 25)",male,european/caucasian-american,2,undergrad - gs,4,5,7,8,10,6,8,1,6,Sometime,Occasionally,3,1,Vegetarian,Dewdney Place,0.8,1.0,0.875,1.0,1.0,0.75,1.0,0.2,0.75,0.6,0.2,0.4
+"(21, 25)",male,asian/pacific islander/asian-american,3,mathematical finance,9,8,7,8,6,5,7,2,5,Sometime,Yes,10,7,Vegetarian,Uplands,0.9,1.0,0.875,1.0,0.75,1.0,0.875,0.4,1.0,1.0,0.875,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,3,mathematical finance,9,8,7,8,6,5,7,2,5,Sometime,Yes,10,7,Non-Vegetarian,Uplands,0.9,1.0,0.875,1.0,0.75,1.0,0.875,0.4,1.0,1.0,0.875,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,3,mathematical finance,9,8,7,8,6,5,7,2,5,Yes,No,10,7,Vegetarian,Garden Ridge,0.9,1.0,0.875,1.0,0.75,1.0,0.875,0.4,1.0,1.0,0.875,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,3,mathematical finance,9,8,7,8,6,5,7,2,5,No,No,10,7,Non-Vegetarian,Wascana Crescents,0.9,1.0,0.875,1.0,0.75,1.0,0.875,0.4,1.0,1.0,0.875,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,3,mathematical finance,9,8,7,8,6,5,7,2,5,No,Occasionally,10,7,Vegetarian,Lakewood,0.9,1.0,0.875,1.0,0.75,1.0,0.875,0.4,1.0,1.0,0.875,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,3,mathematical finance,9,8,7,8,6,5,7,2,5,Sometime,Yes,10,7,Vegetarian,Sherwood Estates,0.9,1.0,0.875,1.0,0.75,1.0,0.875,0.4,1.0,1.0,0.875,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,3,mathematical finance,9,8,7,8,6,5,7,2,5,No,No,10,7,Vegetarian,Parkridge,0.9,1.0,0.875,1.0,0.75,1.0,0.875,0.4,1.0,1.0,0.875,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,3,mathematical finance,9,8,7,8,6,5,7,2,5,No,No,10,7,Non-Vegetarian,Balbrigan Place,0.9,1.0,0.875,1.0,0.75,1.0,0.875,0.4,1.0,1.0,0.875,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,3,mathematical finance,9,8,7,8,6,5,7,2,5,Yes,No,10,7,Vegetarian,Albert Park,0.9,1.0,0.875,1.0,0.75,1.0,0.875,0.4,1.0,1.0,0.875,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,3,mathematical finance,9,8,7,8,6,5,7,2,5,Sometime,Occasionally,10,7,Vegetarian,Regent Park,0.9,1.0,0.875,1.0,0.75,1.0,0.875,0.4,1.0,1.0,0.875,0.6
+"(21, 25)",male,asian/pacific islander/asian-american,3,mathematical finance,9,8,7,8,6,5,7,2,5,Yes,No,10,7,Non-Vegetarian,Westhill,0.9,1.0,0.875,1.0,0.75,1.0,0.875,0.4,1.0,1.0,0.875,0.6
+"(26, 30)",male,black/african american,4,law,5,3,8,10,10,6,10,4,3,Sometime,No,10,10,Non-Vegetarian,Dewdney Place,1.0,0.6,1.0,1.0,1.0,0.75,1.0,0.8,0.6,1.0,1.0,0.8
+"(21, 25)",male,european/caucasian-american,10,law,5,5,3,2,6,7,4,6,7,Yes,No,6,6,Non-Vegetarian,Lakewood,1.0,1.0,0.6,0.4,0.75,0.875,0.8,0.75,0.875,0.75,0.75,1.0
+"(21, 25)",male,european/caucasian-american,10,law,5,5,3,2,6,7,4,6,7,Sometime,No,6,6,Non-Vegetarian,Westhill,1.0,1.0,0.6,0.4,0.75,0.875,0.8,0.75,0.875,0.75,0.75,1.0
+"(21, 25)",male,european/caucasian-american,10,law,5,5,3,2,6,7,4,6,7,Yes,Yes,6,6,Vegetarian,Dewdney Place,1.0,1.0,0.6,0.4,0.75,0.875,0.8,0.75,0.875,0.75,0.75,1.0
+"(21, 25)",male,european/caucasian-american,10,law,5,5,3,2,6,7,4,6,7,Yes,No,6,6,Non-Vegetarian,Belvedere,1.0,1.0,0.6,0.4,0.75,0.875,0.8,0.75,0.875,0.75,0.75,1.0
+"(21, 25)",male,european/caucasian-american,10,law,5,5,3,2,6,7,4,6,7,Sometime,Occasionally,6,6,Non-Vegetarian,Creekside,1.0,1.0,0.6,0.4,0.75,0.875,0.8,0.75,0.875,0.75,0.75,1.0
+"(21, 25)",male,european/caucasian-american,10,law,5,5,3,2,6,7,4,6,7,No,No,6,6,Non-Vegetarian,Sherwood Estates,1.0,1.0,0.6,0.4,0.75,0.875,0.8,0.75,0.875,0.75,0.75,1.0
+"(21, 25)",male,european/caucasian-american,10,law,5,5,3,2,6,7,4,6,7,Sometime,No,6,6,Non-Vegetarian,Dewdney Place,1.0,1.0,0.6,0.4,0.75,0.875,0.8,0.75,0.875,0.75,0.75,1.0
+"(21, 25)",male,european/caucasian-american,10,law,5,5,3,2,6,7,4,6,7,Yes,Occasionally,6,6,Vegetarian,Harbour Landing,1.0,1.0,0.6,0.4,0.75,0.875,0.8,0.75,0.875,0.75,0.75,1.0
+"(21, 25)",male,european/caucasian-american,10,law,5,5,3,2,6,7,4,6,7,No,No,6,6,Vegetarian,Grand Trunk Annex,1.0,1.0,0.6,0.4,0.75,0.875,0.8,0.75,0.875,0.75,0.75,1.0
+"(21, 25)",male,european/caucasian-american,10,law,5,5,3,2,6,7,4,6,7,Yes,No,6,6,Vegetarian,CPR Annex,1.0,1.0,0.6,0.4,0.75,0.875,0.8,0.75,0.875,0.75,0.75,1.0
+"(21, 25)",male,european/caucasian-american,10,law,5,5,3,2,6,7,4,6,7,Sometime,No,6,6,Vegetarian,Highland Park,1.0,1.0,0.6,0.4,0.75,0.875,0.8,0.75,0.875,0.75,0.75,1.0
+"(21, 25)",male,european/caucasian-american,10,law,5,5,3,2,6,7,4,6,7,Yes,Yes,6,6,Non-Vegetarian,Wascana Crescents,1.0,1.0,0.6,0.4,0.75,0.875,0.8,0.75,0.875,0.75,0.75,1.0
+"(21, 25)",male,european/caucasian-american,10,law,5,5,3,2,6,7,4,6,7,Sometime,Yes,6,6,Vegetarian,Riverside,1.0,1.0,0.6,0.4,0.75,0.875,0.8,0.75,0.875,0.75,0.75,1.0
+"(21, 25)",male,european/caucasian-american,10,law,5,5,3,2,6,7,4,6,7,Yes,Yes,6,6,Vegetarian,Creekside,1.0,1.0,0.6,0.4,0.75,0.875,0.8,0.75,0.875,0.75,0.75,1.0
+"(21, 25)",male,european/caucasian-american,10,law,5,5,3,2,6,7,4,6,7,Yes,Occasionally,6,6,Vegetarian,Lakewood,1.0,1.0,0.6,0.4,0.75,0.875,0.8,0.75,0.875,0.75,0.75,1.0
+"(21, 25)",male,european/caucasian-american,10,law,5,5,3,2,6,7,4,6,7,Sometime,Occasionally,6,6,Non-Vegetarian,Regent Park,1.0,1.0,0.6,0.4,0.75,0.875,0.8,0.75,0.875,0.75,0.75,1.0
+"(21, 25)",male,european/caucasian-american,9,law,3,3,6,5,6,7,3,3,3,Yes,Yes,8,5,Non-Vegetarian,Westhill,0.6,0.6,0.75,1.0,0.75,0.875,0.6,0.6,0.6,1.0,1.0,0.9
+"(21, 25)",male,european/caucasian-american,9,law,3,3,6,5,6,7,3,3,3,Sometime,No,8,5,Vegetarian,Wascana Crescents,0.6,0.6,0.75,1.0,0.75,0.875,0.6,0.6,0.6,1.0,1.0,0.9
+"(21, 25)",male,european/caucasian-american,9,law,3,3,6,5,6,7,3,3,3,No,Yes,8,5,Vegetarian,Regent Park,0.6,0.6,0.75,1.0,0.75,0.875,0.6,0.6,0.6,1.0,1.0,0.9
+"(21, 25)",male,european/caucasian-american,9,law,3,3,6,5,6,7,3,3,3,Yes,Occasionally,8,5,Vegetarian,Grand Trunk Annex,0.6,0.6,0.75,1.0,0.75,0.875,0.6,0.6,0.6,1.0,1.0,0.9
+"(21, 25)",male,european/caucasian-american,9,law,3,3,6,5,6,7,3,3,3,Yes,Occasionally,8,5,Non-Vegetarian,Sherwood Estates,0.6,0.6,0.75,1.0,0.75,0.875,0.6,0.6,0.6,1.0,1.0,0.9
+"(21, 25)",male,european/caucasian-american,9,law,3,3,6,5,6,7,3,3,3,Yes,No,8,5,Vegetarian,Uplands,0.6,0.6,0.75,1.0,0.75,0.875,0.6,0.6,0.6,1.0,1.0,0.9
+"(21, 25)",male,european/caucasian-american,9,law,3,3,6,5,6,7,3,3,3,Yes,Yes,8,5,Non-Vegetarian,Balbrigan Place,0.6,0.6,0.75,1.0,0.75,0.875,0.6,0.6,0.6,1.0,1.0,0.9
+"(21, 25)",male,european/caucasian-american,9,law,3,3,6,5,6,7,3,3,3,Yes,Yes,8,5,Non-Vegetarian,Garden Ridge,0.6,0.6,0.75,1.0,0.75,0.875,0.6,0.6,0.6,1.0,1.0,0.9
+"(21, 25)",male,european/caucasian-american,9,law,3,3,6,5,6,7,3,3,3,Sometime,Occasionally,8,5,Non-Vegetarian,Harbour Landing,0.6,0.6,0.75,1.0,0.75,0.875,0.6,0.6,0.6,1.0,1.0,0.9
+"(21, 25)",male,european/caucasian-american,9,law,3,3,6,5,6,7,3,3,3,No,Occasionally,8,5,Vegetarian,Parkridge,0.6,0.6,0.75,1.0,0.75,0.875,0.6,0.6,0.6,1.0,1.0,0.9
+"(21, 25)",male,european/caucasian-american,9,law,3,3,6,5,6,7,3,3,3,Sometime,Occasionally,8,5,Non-Vegetarian,Garden Ridge,0.6,0.6,0.75,1.0,0.75,0.875,0.6,0.6,0.6,1.0,1.0,0.9
+"(21, 25)",male,european/caucasian-american,9,law,3,3,6,5,6,7,3,3,3,Sometime,Yes,8,5,Non-Vegetarian,Garden Ridge,0.6,0.6,0.75,1.0,0.75,0.875,0.6,0.6,0.6,1.0,1.0,0.9
+"(21, 25)",male,european/caucasian-american,9,law,3,3,6,5,6,7,3,3,3,Sometime,Yes,8,5,Non-Vegetarian,Sherwood Estates,0.6,0.6,0.75,1.0,0.75,0.875,0.6,0.6,0.6,1.0,1.0,0.9
+"(21, 25)",male,european/caucasian-american,9,law,3,3,6,5,6,7,3,3,3,Sometime,Occasionally,8,5,Vegetarian,Westhill,0.6,0.6,0.75,1.0,0.75,0.875,0.6,0.6,0.6,1.0,1.0,0.9
+"(21, 25)",male,european/caucasian-american,9,law,3,3,6,5,6,7,3,3,3,Yes,Occasionally,8,5,Vegetarian,Albert Park,0.6,0.6,0.75,1.0,0.75,0.875,0.6,0.6,0.6,1.0,1.0,0.9
+"(26, 30)",male,european/caucasian-american,2,medicine,9,4,10,9,9,5,4,8,3,Yes,Occasionally,8,4,Vegetarian,Riverside,0.9,0.8,1.0,0.9,0.9,1.0,0.8,1.0,0.6,1.0,0.8,0.4
+"(26, 30)",male,european/caucasian-american,2,medicine,9,4,10,9,9,5,4,8,3,Sometime,Yes,8,4,Non-Vegetarian,Uplands,0.9,0.8,1.0,0.9,0.9,1.0,0.8,1.0,0.6,1.0,0.8,0.4
+"(26, 30)",male,european/caucasian-american,2,medicine,9,4,10,9,9,5,4,8,3,Yes,No,8,4,Vegetarian,Parkridge,0.9,0.8,1.0,0.9,0.9,1.0,0.8,1.0,0.6,1.0,0.8,0.4
+"(26, 30)",male,european/caucasian-american,2,medicine,9,4,10,9,9,5,4,8,3,No,No,8,4,Non-Vegetarian,Harbour Landing,0.9,0.8,1.0,0.9,0.9,1.0,0.8,1.0,0.6,1.0,0.8,0.4
+"(26, 30)",male,european/caucasian-american,2,medicine,9,4,10,9,9,5,4,8,3,No,No,8,4,Non-Vegetarian,Creekside,0.9,0.8,1.0,0.9,0.9,1.0,0.8,1.0,0.6,1.0,0.8,0.4
+"(26, 30)",male,european/caucasian-american,2,medicine,9,4,10,9,9,5,4,8,3,No,Yes,8,4,Vegetarian,Harbour Landing,0.9,0.8,1.0,0.9,0.9,1.0,0.8,1.0,0.6,1.0,0.8,0.4
+"(26, 30)",male,european/caucasian-american,2,medicine,9,4,10,9,9,5,4,8,3,Yes,Yes,8,4,Non-Vegetarian,Sherwood Estates,0.9,0.8,1.0,0.9,0.9,1.0,0.8,1.0,0.6,1.0,0.8,0.4
+"(26, 30)",male,european/caucasian-american,2,medicine,9,4,10,9,9,5,4,8,3,Yes,Occasionally,8,4,Vegetarian,Westhill,0.9,0.8,1.0,0.9,0.9,1.0,0.8,1.0,0.6,1.0,0.8,0.4
+"(26, 30)",male,european/caucasian-american,2,medicine,9,4,10,9,9,5,4,8,3,Sometime,No,8,4,Vegetarian,Harbour Landing,0.9,0.8,1.0,0.9,0.9,1.0,0.8,1.0,0.6,1.0,0.8,0.4
+"(26, 30)",male,european/caucasian-american,2,medicine,9,4,10,9,9,5,4,8,3,Yes,Occasionally,8,4,Vegetarian,Balbrigan Place,0.9,0.8,1.0,0.9,0.9,1.0,0.8,1.0,0.6,1.0,0.8,0.4
+"(26, 30)",male,european/caucasian-american,2,medicine,9,4,10,9,9,5,4,8,3,Yes,No,8,4,Non-Vegetarian,Regent Park,0.9,0.8,1.0,0.9,0.9,1.0,0.8,1.0,0.6,1.0,0.8,0.4
+"(26, 30)",male,european/caucasian-american,2,medicine,9,4,10,9,9,5,4,8,3,No,No,8,4,Non-Vegetarian,Garden Ridge,0.9,0.8,1.0,0.9,0.9,1.0,0.8,1.0,0.6,1.0,0.8,0.4
+"(26, 30)",male,european/caucasian-american,2,medicine,9,4,10,9,9,5,4,8,3,Yes,Yes,8,4,Vegetarian,Sherwood Estates,0.9,0.8,1.0,0.9,0.9,1.0,0.8,1.0,0.6,1.0,0.8,0.4
+"(26, 30)",male,european/caucasian-american,2,medicine,9,4,10,9,9,5,4,8,3,Yes,Occasionally,8,4,Vegetarian,Harbour Landing,0.9,0.8,1.0,0.9,0.9,1.0,0.8,1.0,0.6,1.0,0.8,0.4
+"(26, 30)",male,european/caucasian-american,1,mba,7,1,8,9,6,1,3,8,2,Yes,Occasionally,5,2,Non-Vegetarian,Regent Park,0.875,0.2,1.0,0.9,0.75,0.2,0.6,1.0,0.4,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,7,1,8,9,6,1,3,8,2,Sometime,No,5,2,Vegetarian,Highland Park,0.875,0.2,1.0,0.9,0.75,0.2,0.6,1.0,0.4,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,7,1,8,9,6,1,3,8,2,Yes,Occasionally,5,2,Vegetarian,Arcola Sub,0.875,0.2,1.0,0.9,0.75,0.2,0.6,1.0,0.4,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,7,1,8,9,6,1,3,8,2,Sometime,No,5,2,Vegetarian,Grand Trunk Annex,0.875,0.2,1.0,0.9,0.75,0.2,0.6,1.0,0.4,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,7,1,8,9,6,1,3,8,2,No,Yes,5,2,Vegetarian,Grand Trunk Annex,0.875,0.2,1.0,0.9,0.75,0.2,0.6,1.0,0.4,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,7,1,8,9,6,1,3,8,2,Sometime,Occasionally,5,2,Vegetarian,Grand Trunk Annex,0.875,0.2,1.0,0.9,0.75,0.2,0.6,1.0,0.4,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,7,1,8,9,6,1,3,8,2,Yes,Occasionally,5,2,Vegetarian,Wascana Crescents,0.875,0.2,1.0,0.9,0.75,0.2,0.6,1.0,0.4,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,7,1,8,9,6,1,3,8,2,Sometime,Yes,5,2,Vegetarian,Creekside,0.875,0.2,1.0,0.9,0.75,0.2,0.6,1.0,0.4,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,7,1,8,9,6,1,3,8,2,Sometime,Yes,5,2,Vegetarian,Westhill,0.875,0.2,1.0,0.9,0.75,0.2,0.6,1.0,0.4,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,7,1,8,9,6,1,3,8,2,Yes,Yes,5,2,Non-Vegetarian,Harbour Landing,0.875,0.2,1.0,0.9,0.75,0.2,0.6,1.0,0.4,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,7,1,8,9,6,1,3,8,2,No,Yes,5,2,Non-Vegetarian,Sherwood Estates,0.875,0.2,1.0,0.9,0.75,0.2,0.6,1.0,0.4,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,7,1,8,9,6,1,3,8,2,Yes,Yes,5,2,Non-Vegetarian,Westhill,0.875,0.2,1.0,0.9,0.75,0.2,0.6,1.0,0.4,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,7,1,8,9,6,1,3,8,2,Yes,No,5,2,Non-Vegetarian,Highland Park,0.875,0.2,1.0,0.9,0.75,0.2,0.6,1.0,0.4,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,7,1,8,9,6,1,3,8,2,Yes,No,5,2,Non-Vegetarian,Parkridge,0.875,0.2,1.0,0.9,0.75,0.2,0.6,1.0,0.4,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,7,1,8,9,6,1,3,8,2,Yes,Yes,5,2,Vegetarian,Harbour Landing,0.875,0.2,1.0,0.9,0.75,0.2,0.6,1.0,0.4,1.0,0.4,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,7,1,8,9,6,1,3,8,2,Yes,Occasionally,5,2,Vegetarian,Belvedere,0.875,0.2,1.0,0.9,0.75,0.2,0.6,1.0,0.4,1.0,0.4,1.0
+"(21, 25)",male,black/african american,1,law,9,6,5,10,10,7,10,1,4,Sometime,Yes,10,8,Vegetarian,Riverside,0.9,0.75,1.0,1.0,1.0,0.875,1.0,0.2,0.8,1.0,1.0,1.0
+"(21, 25)",male,black/african american,1,law,9,6,5,10,10,7,10,1,4,Sometime,Occasionally,10,8,Non-Vegetarian,Albert Park,0.9,0.75,1.0,1.0,1.0,0.875,1.0,0.2,0.8,1.0,1.0,1.0
+"(21, 25)",male,black/african american,1,law,9,6,5,10,10,7,10,1,4,Sometime,Occasionally,10,8,Vegetarian,City View,0.9,0.75,1.0,1.0,1.0,0.875,1.0,0.2,0.8,1.0,1.0,1.0
+"(21, 25)",male,black/african american,1,law,9,6,5,10,10,7,10,1,4,Yes,Yes,10,8,Non-Vegetarian,Albert Park,0.9,0.75,1.0,1.0,1.0,0.875,1.0,0.2,0.8,1.0,1.0,1.0
+"(21, 25)",male,black/african american,1,law,9,6,5,10,10,7,10,1,4,No,No,10,8,Non-Vegetarian,Sherwood Estates,0.9,0.75,1.0,1.0,1.0,0.875,1.0,0.2,0.8,1.0,1.0,1.0
+"(21, 25)",male,black/african american,1,law,9,6,5,10,10,7,10,1,4,No,Occasionally,10,8,Non-Vegetarian,CPR Annex,0.9,0.75,1.0,1.0,1.0,0.875,1.0,0.2,0.8,1.0,1.0,1.0
+"(21, 25)",male,black/african american,1,law,9,6,5,10,10,7,10,1,4,Sometime,Occasionally,10,8,Non-Vegetarian,Sherwood Estates,0.9,0.75,1.0,1.0,1.0,0.875,1.0,0.2,0.8,1.0,1.0,1.0
+"(21, 25)",male,black/african american,1,law,9,6,5,10,10,7,10,1,4,No,No,10,8,Vegetarian,Regent Park,0.9,0.75,1.0,1.0,1.0,0.875,1.0,0.2,0.8,1.0,1.0,1.0
+"(21, 25)",male,black/african american,1,law,9,6,5,10,10,7,10,1,4,Yes,No,10,8,Non-Vegetarian,Sherwood Estates,0.9,0.75,1.0,1.0,1.0,0.875,1.0,0.2,0.8,1.0,1.0,1.0
+"(21, 25)",male,black/african american,1,law,9,6,5,10,10,7,10,1,4,Sometime,Occasionally,10,8,Non-Vegetarian,Arcola Sub,0.9,0.75,1.0,1.0,1.0,0.875,1.0,0.2,0.8,1.0,1.0,1.0
+"(21, 25)",male,black/african american,1,law,9,6,5,10,10,7,10,1,4,No,Yes,10,8,Non-Vegetarian,Regent Park,0.9,0.75,1.0,1.0,1.0,0.875,1.0,0.2,0.8,1.0,1.0,1.0
+"(21, 25)",male,black/african american,1,law,9,6,5,10,10,7,10,1,4,No,Occasionally,10,8,Vegetarian,Dewdney Place,0.9,0.75,1.0,1.0,1.0,0.875,1.0,0.2,0.8,1.0,1.0,1.0
+"(21, 25)",male,black/african american,1,law,9,6,5,10,10,7,10,1,4,Sometime,Occasionally,10,8,Vegetarian,Balbrigan Place,0.9,0.75,1.0,1.0,1.0,0.875,1.0,0.2,0.8,1.0,1.0,1.0
+"(21, 25)",male,black/african american,1,law,9,6,5,10,10,7,10,1,4,No,Occasionally,10,8,Vegetarian,Parkridge,0.9,0.75,1.0,1.0,1.0,0.875,1.0,0.2,0.8,1.0,1.0,1.0
+"(21, 25)",male,black/african american,1,law,9,6,5,10,10,7,10,1,4,Yes,Yes,10,8,Vegetarian,Garden Ridge,0.9,0.75,1.0,1.0,1.0,0.875,1.0,0.2,0.8,1.0,1.0,1.0
+"(21, 25)",female,european/caucasian-american,9,social work,6,1,10,9,7,8,7,2,10,Yes,Yes,2,1,Vegetarian,Westhill,0.75,0.2,1.0,0.9,0.875,1.0,0.875,0.4,1.0,0.4,0.2,0.9
+"(21, 25)",female,european/caucasian-american,9,social work,6,1,10,9,7,8,7,2,10,No,Yes,2,1,Vegetarian,Harbour Landing,0.75,0.2,1.0,0.9,0.875,1.0,0.875,0.4,1.0,0.4,0.2,0.9
+"(21, 25)",female,european/caucasian-american,9,social work,6,1,10,9,7,8,7,2,10,No,Yes,2,1,Non-Vegetarian,Westhill,0.75,0.2,1.0,0.9,0.875,1.0,0.875,0.4,1.0,0.4,0.2,0.9
+"(21, 25)",female,european/caucasian-american,9,social work,6,1,10,9,7,8,7,2,10,Yes,Occasionally,2,1,Non-Vegetarian,Balbrigan Place,0.75,0.2,1.0,0.9,0.875,1.0,0.875,0.4,1.0,0.4,0.2,0.9
+"(21, 25)",female,european/caucasian-american,9,social work,6,1,10,9,7,8,7,2,10,Sometime,Yes,2,1,Non-Vegetarian,Balbrigan Place,0.75,0.2,1.0,0.9,0.875,1.0,0.875,0.4,1.0,0.4,0.2,0.9
+"(21, 25)",female,european/caucasian-american,9,social work,6,1,10,9,7,8,7,2,10,No,No,2,1,Non-Vegetarian,Uplands,0.75,0.2,1.0,0.9,0.875,1.0,0.875,0.4,1.0,0.4,0.2,0.9
+"(21, 25)",female,european/caucasian-american,9,social work,6,1,10,9,7,8,7,2,10,Sometime,Yes,2,1,Non-Vegetarian,Albert Park,0.75,0.2,1.0,0.9,0.875,1.0,0.875,0.4,1.0,0.4,0.2,0.9
+"(21, 25)",female,european/caucasian-american,9,social work,6,1,10,9,7,8,7,2,10,Yes,No,2,1,Non-Vegetarian,Highland Park,0.75,0.2,1.0,0.9,0.875,1.0,0.875,0.4,1.0,0.4,0.2,0.9
+"(21, 25)",female,european/caucasian-american,10,social work,9,1,9,9,9,9,5,9,5,Yes,No,4,4,Vegetarian,Wascana Crescents,0.9,0.2,0.9,0.9,0.9,0.9,1.0,0.9,1.0,0.8,0.8,1.0
+"(21, 25)",female,european/caucasian-american,10,social work,9,1,9,9,9,9,5,9,5,Yes,Yes,4,4,Non-Vegetarian,Parkridge,0.9,0.2,0.9,0.9,0.9,0.9,1.0,0.9,1.0,0.8,0.8,1.0
+"(21, 25)",female,european/caucasian-american,10,social work,9,1,9,9,9,9,5,9,5,Sometime,No,4,4,Vegetarian,Balbrigan Place,0.9,0.2,0.9,0.9,0.9,0.9,1.0,0.9,1.0,0.8,0.8,1.0
+"(21, 25)",female,european/caucasian-american,10,social work,9,1,9,9,9,9,5,9,5,Sometime,Occasionally,4,4,Non-Vegetarian,Balbrigan Place,0.9,0.2,0.9,0.9,0.9,0.9,1.0,0.9,1.0,0.8,0.8,1.0
+"(21, 25)",female,european/caucasian-american,10,social work,9,1,9,9,9,9,5,9,5,Yes,Yes,4,4,Vegetarian,Garden Ridge,0.9,0.2,0.9,0.9,0.9,0.9,1.0,0.9,1.0,0.8,0.8,1.0
+"(21, 25)",female,european/caucasian-american,10,social work,9,1,9,9,9,9,5,9,5,Yes,Yes,4,4,Non-Vegetarian,Sherwood Estates,0.9,0.2,0.9,0.9,0.9,0.9,1.0,0.9,1.0,0.8,0.8,1.0
+"(21, 25)",female,european/caucasian-american,10,social work,9,1,9,9,9,9,5,9,5,Sometime,No,4,4,Non-Vegetarian,Wascana Crescents,0.9,0.2,0.9,0.9,0.9,0.9,1.0,0.9,1.0,0.8,0.8,1.0
+"(21, 25)",female,european/caucasian-american,10,social work,9,1,9,9,9,9,5,9,5,Yes,No,4,4,Non-Vegetarian,Arcola Sub,0.9,0.2,0.9,0.9,0.9,0.9,1.0,0.9,1.0,0.8,0.8,1.0
+"(21, 25)",female,european/caucasian-american,10,social work,9,1,9,9,9,9,5,9,5,Sometime,Occasionally,4,4,Non-Vegetarian,Albert Park,0.9,0.2,0.9,0.9,0.9,0.9,1.0,0.9,1.0,0.8,0.8,1.0
+"(26, 30)",female,other,10,psychology,5,1,9,9,7,2,5,3,9,No,Yes,3,1,Vegetarian,City View,1.0,0.2,0.9,0.9,0.875,0.4,1.0,0.6,0.9,0.6,0.2,1.0
+"(26, 30)",female,other,10,psychology,5,1,9,9,7,2,5,3,9,Sometime,No,3,1,Vegetarian,Garden Ridge,1.0,0.2,0.9,0.9,0.875,0.4,1.0,0.6,0.9,0.6,0.2,1.0
+"(26, 30)",female,other,10,psychology,5,1,9,9,7,2,5,3,9,Yes,No,3,1,Vegetarian,Westhill,1.0,0.2,0.9,0.9,0.875,0.4,1.0,0.6,0.9,0.6,0.2,1.0
+"(26, 30)",female,other,10,psychology,5,1,9,9,7,2,5,3,9,Yes,No,3,1,Non-Vegetarian,Regent Park,1.0,0.2,0.9,0.9,0.875,0.4,1.0,0.6,0.9,0.6,0.2,1.0
+"(26, 30)",female,european/caucasian-american,5,german literature,10,1,10,10,10,6,5,5,5,Yes,Yes,1,1,Non-Vegetarian,Balbrigan Place,1.0,0.2,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.2,0.2,1.0
+"(26, 30)",female,european/caucasian-american,5,german literature,10,1,10,10,10,6,5,5,5,Yes,No,1,1,Vegetarian,Westhill,1.0,0.2,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.2,0.2,1.0
+"(26, 30)",female,european/caucasian-american,5,german literature,10,1,10,10,10,6,5,5,5,Yes,Yes,1,1,Non-Vegetarian,Uplands,1.0,0.2,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.2,0.2,1.0
+"(26, 30)",female,european/caucasian-american,5,german literature,10,1,10,10,10,6,5,5,5,Sometime,Yes,1,1,Non-Vegetarian,Parkridge,1.0,0.2,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.2,0.2,1.0
+"(26, 30)",female,european/caucasian-american,5,german literature,10,1,10,10,10,6,5,5,5,No,Yes,1,1,Non-Vegetarian,Belvedere,1.0,0.2,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.2,0.2,1.0
+"(26, 30)",female,european/caucasian-american,5,german literature,10,1,10,10,10,6,5,5,5,Sometime,No,1,1,Non-Vegetarian,Albert Park,1.0,0.2,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.2,0.2,1.0
+"(26, 30)",female,european/caucasian-american,5,german literature,10,1,10,10,10,6,5,5,5,Sometime,Occasionally,1,1,Vegetarian,Wascana Crescents,1.0,0.2,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.2,0.2,1.0
+"(26, 30)",female,european/caucasian-american,5,german literature,10,1,10,10,10,6,5,5,5,No,No,1,1,Vegetarian,Riverside,1.0,0.2,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.2,0.2,1.0
+"(26, 30)",female,latino/hispanic american,1,law,7,7,8,9,9,3,7,7,7,No,No,8,5,Vegetarian,Arcola Sub,0.875,0.875,1.0,0.9,0.9,0.6,0.875,0.875,0.875,1.0,1.0,1.0
+"(26, 30)",female,latino/hispanic american,1,law,7,7,8,9,9,3,7,7,7,No,Occasionally,8,5,Non-Vegetarian,Regent Park,0.875,0.875,1.0,0.9,0.9,0.6,0.875,0.875,0.875,1.0,1.0,1.0
+"(26, 30)",female,latino/hispanic american,1,law,7,7,8,9,9,3,7,7,7,Sometime,Occasionally,8,5,Vegetarian,Harbour Landing,0.875,0.875,1.0,0.9,0.9,0.6,0.875,0.875,0.875,1.0,1.0,1.0
+"(26, 30)",female,latino/hispanic american,1,law,7,7,8,9,9,3,7,7,7,Yes,No,8,5,Vegetarian,Creekside,0.875,0.875,1.0,0.9,0.9,0.6,0.875,0.875,0.875,1.0,1.0,1.0
+"(26, 30)",female,latino/hispanic american,1,law,7,7,8,9,9,3,7,7,7,Yes,Yes,8,5,Vegetarian,Highland Park,0.875,0.875,1.0,0.9,0.9,0.6,0.875,0.875,0.875,1.0,1.0,1.0
+"(26, 30)",female,latino/hispanic american,1,law,7,7,8,9,9,3,7,7,7,Yes,Yes,8,5,Non-Vegetarian,Creekside,0.875,0.875,1.0,0.9,0.9,0.6,0.875,0.875,0.875,1.0,1.0,1.0
+"(26, 30)",female,latino/hispanic american,1,law,7,7,8,9,9,3,7,7,7,Yes,Occasionally,8,5,Non-Vegetarian,Creekside,0.875,0.875,1.0,0.9,0.9,0.6,0.875,0.875,0.875,1.0,1.0,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,3,social work,8,5,8,9,8,7,3,9,8,No,No,8,8,Non-Vegetarian,City View,1.0,1.0,1.0,0.9,1.0,0.875,0.6,0.9,1.0,1.0,1.0,0.6
+"(26, 30)",female,asian/pacific islander/asian-american,3,social work,8,5,8,9,8,7,3,9,8,Yes,Occasionally,8,8,Non-Vegetarian,Sherwood Estates,1.0,1.0,1.0,0.9,1.0,0.875,0.6,0.9,1.0,1.0,1.0,0.6
+"(26, 30)",female,asian/pacific islander/asian-american,3,social work,8,5,8,9,8,7,3,9,8,No,Occasionally,8,8,Vegetarian,Albert Park,1.0,1.0,1.0,0.9,1.0,0.875,0.6,0.9,1.0,1.0,1.0,0.6
+"(26, 30)",female,asian/pacific islander/asian-american,3,social work,8,5,8,9,8,7,3,9,8,Yes,No,8,8,Non-Vegetarian,Balbrigan Place,1.0,1.0,1.0,0.9,1.0,0.875,0.6,0.9,1.0,1.0,1.0,0.6
+"(26, 30)",female,asian/pacific islander/asian-american,3,social work,8,5,8,9,8,7,3,9,8,No,Yes,8,8,Non-Vegetarian,Grand Trunk Annex,1.0,1.0,1.0,0.9,1.0,0.875,0.6,0.9,1.0,1.0,1.0,0.6
+"(26, 30)",female,asian/pacific islander/asian-american,3,social work,8,5,8,9,8,7,3,9,8,Sometime,Occasionally,8,8,Vegetarian,CPR Annex,1.0,1.0,1.0,0.9,1.0,0.875,0.6,0.9,1.0,1.0,1.0,0.6
+"(26, 30)",female,asian/pacific islander/asian-american,3,social work,8,5,8,9,8,7,3,9,8,Yes,No,8,8,Vegetarian,Albert Park,1.0,1.0,1.0,0.9,1.0,0.875,0.6,0.9,1.0,1.0,1.0,0.6
+"(26, 30)",female,asian/pacific islander/asian-american,3,social work,8,5,8,9,8,7,3,9,8,No,No,8,8,Non-Vegetarian,Westhill,1.0,1.0,1.0,0.9,1.0,0.875,0.6,0.9,1.0,1.0,1.0,0.6
+"(26, 30)",female,asian/pacific islander/asian-american,3,social work,8,5,8,9,8,7,3,9,8,Yes,Occasionally,8,8,Vegetarian,Dewdney Place,1.0,1.0,1.0,0.9,1.0,0.875,0.6,0.9,1.0,1.0,1.0,0.6
+"(21, 25)",female,other,3,social work,8,8,8,8,9,8,9,8,7,Yes,Yes,7,5,Vegetarian,Regent Park,1.0,1.0,1.0,1.0,0.9,1.0,0.9,1.0,0.875,0.875,1.0,0.6
+"(21, 25)",female,other,3,social work,8,8,8,8,9,8,9,8,7,No,Yes,7,5,Vegetarian,Harbour Landing,1.0,1.0,1.0,1.0,0.9,1.0,0.9,1.0,0.875,0.875,1.0,0.6
+"(21, 25)",female,other,3,social work,8,8,8,8,9,8,9,8,7,No,Occasionally,7,5,Vegetarian,Arcola Sub,1.0,1.0,1.0,1.0,0.9,1.0,0.9,1.0,0.875,0.875,1.0,0.6
+"(21, 25)",female,other,3,social work,8,8,8,8,9,8,9,8,7,Sometime,Occasionally,7,5,Non-Vegetarian,Wascana Crescents,1.0,1.0,1.0,1.0,0.9,1.0,0.9,1.0,0.875,0.875,1.0,0.6
+"(21, 25)",female,other,3,social work,8,8,8,8,9,8,9,8,7,No,Occasionally,7,5,Vegetarian,Grand Trunk Annex,1.0,1.0,1.0,1.0,0.9,1.0,0.9,1.0,0.875,0.875,1.0,0.6
+"(21, 25)",female,other,3,social work,8,8,8,8,9,8,9,8,7,No,Occasionally,7,5,Non-Vegetarian,Balbrigan Place,1.0,1.0,1.0,1.0,0.9,1.0,0.9,1.0,0.875,0.875,1.0,0.6
+"(21, 25)",female,other,3,social work,8,8,8,8,9,8,9,8,7,Yes,No,7,5,Non-Vegetarian,CPR Annex,1.0,1.0,1.0,1.0,0.9,1.0,0.9,1.0,0.875,0.875,1.0,0.6
+"(21, 25)",female,other,3,social work,8,8,8,8,9,8,9,8,7,Sometime,No,7,5,Non-Vegetarian,Highland Park,1.0,1.0,1.0,1.0,0.9,1.0,0.9,1.0,0.875,0.875,1.0,0.6
+"(21, 25)",female,other,3,social work,8,8,8,8,9,8,9,8,7,No,Yes,7,5,Non-Vegetarian,Belvedere,1.0,1.0,1.0,1.0,0.9,1.0,0.9,1.0,0.875,0.875,1.0,0.6
+"(21, 25)",female,other,3,social work,8,8,8,8,9,8,9,8,7,Sometime,Occasionally,7,5,Non-Vegetarian,City View,1.0,1.0,1.0,1.0,0.9,1.0,0.9,1.0,0.875,0.875,1.0,0.6
+"(26, 30)",male,latino/hispanic american,1,business & international affairs,8,6,6,6,8,6,4,3,3,No,Occasionally,4,2,Non-Vegetarian,Dewdney Place,1.0,0.75,0.75,0.75,1.0,0.75,0.8,0.6,0.6,0.8,0.4,1.0
+"(26, 30)",male,latino/hispanic american,1,business & international affairs,8,6,6,6,8,6,4,3,3,No,Yes,4,2,Vegetarian,Balbrigan Place,1.0,0.75,0.75,0.75,1.0,0.75,0.8,0.6,0.6,0.8,0.4,1.0
+"(26, 30)",male,latino/hispanic american,1,business & international affairs,8,6,6,6,8,6,4,3,3,Sometime,Occasionally,4,2,Non-Vegetarian,CPR Annex,1.0,0.75,0.75,0.75,1.0,0.75,0.8,0.6,0.6,0.8,0.4,1.0
+"(26, 30)",male,latino/hispanic american,1,business & international affairs,8,6,6,6,8,6,4,3,3,Sometime,Yes,4,2,Non-Vegetarian,Belvedere,1.0,0.75,0.75,0.75,1.0,0.75,0.8,0.6,0.6,0.8,0.4,1.0
+"(26, 30)",male,latino/hispanic american,1,business & international affairs,8,6,6,6,8,6,4,3,3,No,Yes,4,2,Vegetarian,Belvedere,1.0,0.75,0.75,0.75,1.0,0.75,0.8,0.6,0.6,0.8,0.4,1.0
+"(26, 30)",male,latino/hispanic american,1,business & international affairs,8,6,6,6,8,6,4,3,3,No,Yes,4,2,Vegetarian,Garden Ridge,1.0,0.75,0.75,0.75,1.0,0.75,0.8,0.6,0.6,0.8,0.4,1.0
+"(21, 25)",male,other,1,law,6,4,7,9,9,6,4,4,6,Yes,Occasionally,9,9,Non-Vegetarian,Belvedere,0.75,0.8,0.875,0.9,0.9,0.75,0.8,0.8,0.75,0.9,0.9,1.0
+"(21, 25)",male,other,1,law,6,4,7,9,9,6,4,4,6,Yes,Yes,9,9,Vegetarian,Harbour Landing,0.75,0.8,0.875,0.9,0.9,0.75,0.8,0.8,0.75,0.9,0.9,1.0
+"(21, 25)",male,other,1,law,6,4,7,9,9,6,4,4,6,No,No,9,9,Vegetarian,Albert Park,0.75,0.8,0.875,0.9,0.9,0.75,0.8,0.8,0.75,0.9,0.9,1.0
+"(21, 25)",male,other,1,law,6,4,7,9,9,6,4,4,6,Yes,Yes,9,9,Vegetarian,Parkridge,0.75,0.8,0.875,0.9,0.9,0.75,0.8,0.8,0.75,0.9,0.9,1.0
+"(21, 25)",male,other,1,law,6,4,7,9,9,6,4,4,6,Yes,Occasionally,9,9,Non-Vegetarian,Wascana Crescents,0.75,0.8,0.875,0.9,0.9,0.75,0.8,0.8,0.75,0.9,0.9,1.0
+"(21, 25)",male,other,1,law,6,4,7,9,9,6,4,4,6,No,No,9,9,Vegetarian,Belvedere,0.75,0.8,0.875,0.9,0.9,0.75,0.8,0.8,0.75,0.9,0.9,1.0
+"(21, 25)",male,other,1,law,6,4,7,9,9,6,4,4,6,No,Occasionally,9,9,Vegetarian,Albert Park,0.75,0.8,0.875,0.9,0.9,0.75,0.8,0.8,0.75,0.9,0.9,1.0
+"(26, 30)",male,european/caucasian-american,2,mba,8,3,5,7,7,2,9,1,5,Sometime,No,10,7,Vegetarian,Westhill,1.0,0.6,1.0,0.875,0.875,0.4,0.9,0.2,1.0,1.0,0.875,0.4
+"(26, 30)",male,european/caucasian-american,2,mba,8,3,5,7,7,2,9,1,5,No,No,10,7,Non-Vegetarian,Parkridge,1.0,0.6,1.0,0.875,0.875,0.4,0.9,0.2,1.0,1.0,0.875,0.4
+"(26, 30)",male,european/caucasian-american,2,mba,8,3,5,7,7,2,9,1,5,No,No,10,7,Vegetarian,Lakewood,1.0,0.6,1.0,0.875,0.875,0.4,0.9,0.2,1.0,1.0,0.875,0.4
+"(26, 30)",male,european/caucasian-american,1,mba,8,5,5,8,8,3,5,7,9,Sometime,No,9,4,Vegetarian,Wascana Crescents,1.0,1.0,1.0,1.0,1.0,0.6,1.0,0.875,0.9,0.9,0.8,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,8,5,5,8,8,3,5,7,9,Sometime,No,9,4,Vegetarian,Riverside,1.0,1.0,1.0,1.0,1.0,0.6,1.0,0.875,0.9,0.9,0.8,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,8,5,5,8,8,3,5,7,9,Yes,Occasionally,9,4,Non-Vegetarian,Albert Park,1.0,1.0,1.0,1.0,1.0,0.6,1.0,0.875,0.9,0.9,0.8,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,8,5,5,8,8,3,5,7,9,No,Occasionally,9,4,Non-Vegetarian,Riverside,1.0,1.0,1.0,1.0,1.0,0.6,1.0,0.875,0.9,0.9,0.8,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,8,5,5,8,8,3,5,7,9,No,Occasionally,9,4,Vegetarian,Arcola Sub,1.0,1.0,1.0,1.0,1.0,0.6,1.0,0.875,0.9,0.9,0.8,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,8,5,5,8,8,3,5,7,9,Sometime,Occasionally,9,4,Non-Vegetarian,Arcola Sub,1.0,1.0,1.0,1.0,1.0,0.6,1.0,0.875,0.9,0.9,0.8,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,8,5,5,8,8,3,5,7,9,Sometime,Occasionally,9,4,Vegetarian,Parkridge,1.0,1.0,1.0,1.0,1.0,0.6,1.0,0.875,0.9,0.9,0.8,1.0
+"(26, 30)",male,european/caucasian-american,1,mba,8,5,5,8,8,3,5,7,9,Sometime,No,9,4,Vegetarian,Balbrigan Place,1.0,1.0,1.0,1.0,1.0,0.6,1.0,0.875,0.9,0.9,0.8,1.0
+"(21, 25)",male,european/caucasian-american,7,law,7,6,4,8,10,8,7,7,6,No,Occasionally,9,10,Vegetarian,Riverside,0.875,0.75,0.8,1.0,1.0,1.0,0.875,0.875,0.75,0.9,1.0,0.7
+"(21, 25)",male,european/caucasian-american,7,law,7,6,4,8,10,8,7,7,6,Yes,Yes,9,10,Non-Vegetarian,Garden Ridge,0.875,0.75,0.8,1.0,1.0,1.0,0.875,0.875,0.75,0.9,1.0,0.7
+"(21, 25)",male,european/caucasian-american,7,law,7,6,4,8,10,8,7,7,6,Sometime,No,9,10,Non-Vegetarian,Parkridge,0.875,0.75,0.8,1.0,1.0,1.0,0.875,0.875,0.75,0.9,1.0,0.7
+"(21, 25)",male,european/caucasian-american,7,law,7,6,4,8,10,8,7,7,6,Yes,Occasionally,9,10,Vegetarian,Belvedere,0.875,0.75,0.8,1.0,1.0,1.0,0.875,0.875,0.75,0.9,1.0,0.7
+"(21, 25)",male,european/caucasian-american,7,law,7,6,4,8,10,8,7,7,6,No,No,9,10,Non-Vegetarian,Harbour Landing,0.875,0.75,0.8,1.0,1.0,1.0,0.875,0.875,0.75,0.9,1.0,0.7
+"(21, 25)",male,european/caucasian-american,7,law,7,6,4,8,10,8,7,7,6,Yes,Occasionally,9,10,Non-Vegetarian,Riverside,0.875,0.75,0.8,1.0,1.0,1.0,0.875,0.875,0.75,0.9,1.0,0.7
+"(21, 25)",male,european/caucasian-american,1,engineering,5,2,10,8,7,6,9,7,7,No,Yes,8,3,Vegetarian,Westhill,1.0,0.4,1.0,1.0,0.875,0.75,0.9,0.875,0.875,1.0,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,engineering,5,2,10,8,7,6,9,7,7,No,No,8,3,Vegetarian,Balbrigan Place,1.0,0.4,1.0,1.0,0.875,0.75,0.9,0.875,0.875,1.0,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,engineering,5,2,10,8,7,6,9,7,7,Sometime,Yes,8,3,Non-Vegetarian,Harbour Landing,1.0,0.4,1.0,1.0,0.875,0.75,0.9,0.875,0.875,1.0,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,engineering,5,2,10,8,7,6,9,7,7,Yes,Occasionally,8,3,Vegetarian,Highland Park,1.0,0.4,1.0,1.0,0.875,0.75,0.9,0.875,0.875,1.0,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,engineering,5,2,10,8,7,6,9,7,7,Sometime,Yes,8,3,Vegetarian,Albert Park,1.0,0.4,1.0,1.0,0.875,0.75,0.9,0.875,0.875,1.0,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,engineering,5,2,10,8,7,6,9,7,7,No,Occasionally,8,3,Non-Vegetarian,Wascana Crescents,1.0,0.4,1.0,1.0,0.875,0.75,0.9,0.875,0.875,1.0,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,engineering,5,2,10,8,7,6,9,7,7,No,No,8,3,Vegetarian,Uplands,1.0,0.4,1.0,1.0,0.875,0.75,0.9,0.875,0.875,1.0,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,engineering,5,2,10,8,7,6,9,7,7,Sometime,No,8,3,Vegetarian,CPR Annex,1.0,0.4,1.0,1.0,0.875,0.75,0.9,0.875,0.875,1.0,0.6,1.0
+"(21, 25)",male,european/caucasian-american,3,mba,5,6,6,6,7,5,6,4,7,No,No,9,9,Vegetarian,City View,1.0,0.75,0.75,0.75,0.875,1.0,0.75,0.8,0.875,0.9,0.9,0.6
+"(21, 25)",male,european/caucasian-american,3,mba,5,6,6,6,7,5,6,4,7,No,Occasionally,9,9,Vegetarian,Harbour Landing,1.0,0.75,0.75,0.75,0.875,1.0,0.75,0.8,0.875,0.9,0.9,0.6
+"(21, 25)",male,european/caucasian-american,3,mba,5,6,6,6,7,5,6,4,7,Sometime,Occasionally,9,9,Non-Vegetarian,Uplands,1.0,0.75,0.75,0.75,0.875,1.0,0.75,0.8,0.875,0.9,0.9,0.6
+"(21, 25)",male,european/caucasian-american,3,mba,5,6,6,6,7,5,6,4,7,No,Yes,9,9,Non-Vegetarian,Lakewood,1.0,0.75,0.75,0.75,0.875,1.0,0.75,0.8,0.875,0.9,0.9,0.6
+"(21, 25)",male,european/caucasian-american,3,mba,5,6,6,6,7,5,6,4,7,Sometime,Yes,9,9,Vegetarian,Harbour Landing,1.0,0.75,0.75,0.75,0.875,1.0,0.75,0.8,0.875,0.9,0.9,0.6
+"(21, 25)",male,european/caucasian-american,3,mba,5,6,6,6,7,5,6,4,7,Sometime,Yes,9,9,Non-Vegetarian,Lakewood,1.0,0.75,0.75,0.75,0.875,1.0,0.75,0.8,0.875,0.9,0.9,0.6
+"(21, 25)",male,other,3,law,8,5,7,8,7,8,9,7,8,Yes,Occasionally,8,2,Vegetarian,Dewdney Place,1.0,1.0,0.875,1.0,0.875,1.0,0.9,0.875,1.0,1.0,0.4,0.6
+"(21, 25)",male,other,3,law,8,5,7,8,7,8,9,7,8,Sometime,Yes,8,2,Vegetarian,Highland Park,1.0,1.0,0.875,1.0,0.875,1.0,0.9,0.875,1.0,1.0,0.4,0.6
+"(21, 25)",male,other,3,law,8,5,7,8,7,8,9,7,8,Yes,No,8,2,Non-Vegetarian,Albert Park,1.0,1.0,0.875,1.0,0.875,1.0,0.9,0.875,1.0,1.0,0.4,0.6
+"(21, 25)",male,other,3,law,8,5,7,8,7,8,9,7,8,Sometime,No,8,2,Non-Vegetarian,Uplands,1.0,1.0,0.875,1.0,0.875,1.0,0.9,0.875,1.0,1.0,0.4,0.6
+"(21, 25)",male,other,3,law,8,5,7,8,7,8,9,7,8,Sometime,Yes,8,2,Non-Vegetarian,Lakewood,1.0,1.0,0.875,1.0,0.875,1.0,0.9,0.875,1.0,1.0,0.4,0.6
+"(21, 25)",male,other,3,law,8,5,7,8,7,8,9,7,8,Sometime,No,8,2,Vegetarian,City View,1.0,1.0,0.875,1.0,0.875,1.0,0.9,0.875,1.0,1.0,0.4,0.6
+"(21, 25)",male,other,3,law,8,5,7,8,7,8,9,7,8,Yes,Yes,8,2,Vegetarian,Lakewood,1.0,1.0,0.875,1.0,0.875,1.0,0.9,0.875,1.0,1.0,0.4,0.6
+"(31, 35)",female,european/caucasian-american,7,classics,7,1,8,7,8,4,7,5,6,Sometime,Occasionally,1,7,Vegetarian,Harbour Landing,0.875,0.2,1.0,0.875,1.0,0.8,0.875,1.0,0.75,0.2,0.875,0.7
+"(21, 25)",female,latino/hispanic american,4,social work,9,1,7,7,9,3,3,9,7,Yes,Occasionally,5,1,Non-Vegetarian,Sherwood Estates,0.9,0.2,0.875,0.875,0.9,0.6,0.6,0.9,0.875,1.0,0.2,0.8
+"(21, 25)",female,latino/hispanic american,4,social work,9,1,7,7,9,3,3,9,7,No,No,5,1,Non-Vegetarian,Riverside,0.9,0.2,0.875,0.875,0.9,0.6,0.6,0.9,0.875,1.0,0.2,0.8
+"(21, 25)",female,latino/hispanic american,4,social work,9,1,7,7,9,3,3,9,7,Sometime,Occasionally,5,1,Non-Vegetarian,Albert Park,0.9,0.2,0.875,0.875,0.9,0.6,0.6,0.9,0.875,1.0,0.2,0.8
+"(21, 25)",female,latino/hispanic american,4,social work,9,1,7,7,9,3,3,9,7,Yes,Yes,5,1,Vegetarian,Sherwood Estates,0.9,0.2,0.875,0.875,0.9,0.6,0.6,0.9,0.875,1.0,0.2,0.8
+"(21, 25)",female,latino/hispanic american,4,social work,9,1,7,7,9,3,3,9,7,No,Occasionally,5,1,Vegetarian,Wascana Crescents,0.9,0.2,0.875,0.875,0.9,0.6,0.6,0.9,0.875,1.0,0.2,0.8
+"(21, 25)",female,latino/hispanic american,4,social work,9,1,7,7,9,3,3,9,7,No,Occasionally,5,1,Vegetarian,Highland Park,0.9,0.2,0.875,0.875,0.9,0.6,0.6,0.9,0.875,1.0,0.2,0.8
+"(21, 25)",female,latino/hispanic american,4,social work,9,1,7,7,9,3,3,9,7,No,No,5,1,Non-Vegetarian,Highland Park,0.9,0.2,0.875,0.875,0.9,0.6,0.6,0.9,0.875,1.0,0.2,0.8
+"(26, 30)",female,asian/pacific islander/asian-american,8,operations research [seas],4,1,10,8,9,4,7,2,2,Yes,Yes,2,3,Non-Vegetarian,Grand Trunk Annex,0.8,0.2,1.0,1.0,0.9,0.8,0.875,0.4,0.4,0.4,0.6,0.8
+"(26, 30)",female,asian/pacific islander/asian-american,8,operations research [seas],4,1,10,8,9,4,7,2,2,Sometime,Yes,2,3,Non-Vegetarian,Grand Trunk Annex,0.8,0.2,1.0,1.0,0.9,0.8,0.875,0.4,0.4,0.4,0.6,0.8
+"(26, 30)",female,asian/pacific islander/asian-american,8,operations research [seas],4,1,10,8,9,4,7,2,2,Sometime,Yes,2,3,Non-Vegetarian,Regent Park,0.8,0.2,1.0,1.0,0.9,0.8,0.875,0.4,0.4,0.4,0.6,0.8
+"(26, 30)",female,asian/pacific islander/asian-american,8,operations research [seas],4,1,10,8,9,4,7,2,2,No,Yes,2,3,Vegetarian,Uplands,0.8,0.2,1.0,1.0,0.9,0.8,0.875,0.4,0.4,0.4,0.6,0.8
+"(26, 30)",female,asian/pacific islander/asian-american,8,operations research [seas],4,1,10,8,9,4,7,2,2,No,Occasionally,2,3,Vegetarian,Grand Trunk Annex,0.8,0.2,1.0,1.0,0.9,0.8,0.875,0.4,0.4,0.4,0.6,0.8
+"(26, 30)",female,asian/pacific islander/asian-american,8,operations research [seas],4,1,10,8,9,4,7,2,2,No,No,2,3,Non-Vegetarian,Sherwood Estates,0.8,0.2,1.0,1.0,0.9,0.8,0.875,0.4,0.4,0.4,0.6,0.8
+"(26, 30)",female,asian/pacific islander/asian-american,8,operations research [seas],4,1,10,8,9,4,7,2,2,Sometime,Occasionally,2,3,Vegetarian,Sherwood Estates,0.8,0.2,1.0,1.0,0.9,0.8,0.875,0.4,0.4,0.4,0.6,0.8
+"(26, 30)",female,asian/pacific islander/asian-american,8,operations research [seas],4,1,10,8,9,4,7,2,2,Sometime,Yes,2,3,Non-Vegetarian,CPR Annex,0.8,0.2,1.0,1.0,0.9,0.8,0.875,0.4,0.4,0.4,0.6,0.8
+"(26, 30)",female,asian/pacific islander/asian-american,8,operations research [seas],4,1,10,8,9,4,7,2,2,No,Yes,2,3,Non-Vegetarian,Harbour Landing,0.8,0.2,1.0,1.0,0.9,0.8,0.875,0.4,0.4,0.4,0.6,0.8
+"(26, 30)",female,asian/pacific islander/asian-american,8,operations research [seas],4,1,10,8,9,4,7,2,2,Sometime,Yes,2,3,Vegetarian,Arcola Sub,0.8,0.2,1.0,1.0,0.9,0.8,0.875,0.4,0.4,0.4,0.6,0.8
+"(26, 30)",female,asian/pacific islander/asian-american,8,operations research [seas],4,1,10,8,9,4,7,2,2,Yes,Yes,2,3,Vegetarian,Uplands,0.8,0.2,1.0,1.0,0.9,0.8,0.875,0.4,0.4,0.4,0.6,0.8
+"(26, 30)",female,asian/pacific islander/asian-american,8,operations research [seas],4,1,10,8,9,4,7,2,2,Yes,No,2,3,Vegetarian,Albert Park,0.8,0.2,1.0,1.0,0.9,0.8,0.875,0.4,0.4,0.4,0.6,0.8
+"(26, 30)",female,asian/pacific islander/asian-american,8,operations research [seas],4,1,10,8,9,4,7,2,2,No,Yes,2,3,Vegetarian,Creekside,0.8,0.2,1.0,1.0,0.9,0.8,0.875,0.4,0.4,0.4,0.6,0.8
+"(26, 30)",female,asian/pacific islander/asian-american,8,operations research [seas],4,1,10,8,9,4,7,2,2,Sometime,Yes,2,3,Vegetarian,Uplands,0.8,0.2,1.0,1.0,0.9,0.8,0.875,0.4,0.4,0.4,0.6,0.8
+"(26, 30)",female,asian/pacific islander/asian-american,1,chemistry,10,1,5,7,7,9,5,3,7,Yes,Occasionally,8,3,Vegetarian,City View,1.0,0.2,1.0,0.875,0.875,0.9,1.0,0.6,0.875,1.0,0.6,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,chemistry,10,1,5,7,7,9,5,3,7,Yes,Yes,8,3,Vegetarian,Grand Trunk Annex,1.0,0.2,1.0,0.875,0.875,0.9,1.0,0.6,0.875,1.0,0.6,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,chemistry,10,1,5,7,7,9,5,3,7,No,Yes,8,3,Non-Vegetarian,Belvedere,1.0,0.2,1.0,0.875,0.875,0.9,1.0,0.6,0.875,1.0,0.6,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,chemistry,10,1,5,7,7,9,5,3,7,Yes,Occasionally,8,3,Non-Vegetarian,Balbrigan Place,1.0,0.2,1.0,0.875,0.875,0.9,1.0,0.6,0.875,1.0,0.6,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,chemistry,10,1,5,7,7,9,5,3,7,Sometime,No,8,3,Non-Vegetarian,Lakewood,1.0,0.2,1.0,0.875,0.875,0.9,1.0,0.6,0.875,1.0,0.6,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,chemistry,10,1,5,7,7,9,5,3,7,No,Yes,8,3,Vegetarian,Westhill,1.0,0.2,1.0,0.875,0.875,0.9,1.0,0.6,0.875,1.0,0.6,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,chemistry,10,1,5,7,7,9,5,3,7,Yes,Yes,8,3,Non-Vegetarian,Highland Park,1.0,0.2,1.0,0.875,0.875,0.9,1.0,0.6,0.875,1.0,0.6,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,chemistry,10,1,5,7,7,9,5,3,7,Sometime,Yes,8,3,Non-Vegetarian,Highland Park,1.0,0.2,1.0,0.875,0.875,0.9,1.0,0.6,0.875,1.0,0.6,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,chemistry,10,1,5,7,7,9,5,3,7,Sometime,No,8,3,Vegetarian,Dewdney Place,1.0,0.2,1.0,0.875,0.875,0.9,1.0,0.6,0.875,1.0,0.6,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,chemistry,10,1,5,7,7,9,5,3,7,Sometime,Occasionally,8,3,Vegetarian,CPR Annex,1.0,0.2,1.0,0.875,0.875,0.9,1.0,0.6,0.875,1.0,0.6,1.0
+"(26, 30)",female,asian/pacific islander/asian-american,1,chemistry,10,1,5,7,7,9,5,3,7,Yes,Occasionally,8,3,Non-Vegetarian,Harbour Landing,1.0,0.2,1.0,0.875,0.875,0.9,1.0,0.6,0.875,1.0,0.6,1.0
+"(26, 30)",female,european/caucasian-american,9,journalism,7,1,9,7,9,7,7,7,7,No,Occasionally,6,2,Vegetarian,City View,0.875,0.2,0.9,0.875,0.9,0.875,0.875,0.875,0.875,0.75,0.4,0.9
+"(26, 30)",female,european/caucasian-american,9,journalism,7,1,9,7,9,7,7,7,7,No,Occasionally,6,2,Vegetarian,Albert Park,0.875,0.2,0.9,0.875,0.9,0.875,0.875,0.875,0.875,0.75,0.4,0.9
+"(26, 30)",female,european/caucasian-american,9,journalism,7,1,9,7,9,7,7,7,7,No,Yes,6,2,Vegetarian,Sherwood Estates,0.875,0.2,0.9,0.875,0.9,0.875,0.875,0.875,0.875,0.75,0.4,0.9
+"(26, 30)",female,european/caucasian-american,9,journalism,7,1,9,7,9,7,7,7,7,No,Yes,6,2,Non-Vegetarian,Balbrigan Place,0.875,0.2,0.9,0.875,0.9,0.875,0.875,0.875,0.875,0.75,0.4,0.9
+"(26, 30)",female,european/caucasian-american,9,journalism,7,1,9,7,9,7,7,7,7,Yes,No,6,2,Non-Vegetarian,Sherwood Estates,0.875,0.2,0.9,0.875,0.9,0.875,0.875,0.875,0.875,0.75,0.4,0.9
+"(26, 30)",female,european/caucasian-american,9,journalism,7,1,9,7,9,7,7,7,7,Sometime,Yes,6,2,Non-Vegetarian,Westhill,0.875,0.2,0.9,0.875,0.9,0.875,0.875,0.875,0.875,0.75,0.4,0.9
+"(26, 30)",female,european/caucasian-american,9,journalism,7,1,9,7,9,7,7,7,7,No,Occasionally,6,2,Non-Vegetarian,Wascana Crescents,0.875,0.2,0.9,0.875,0.9,0.875,0.875,0.875,0.875,0.75,0.4,0.9
+"(26, 30)",female,european/caucasian-american,9,journalism,7,1,9,7,9,7,7,7,7,No,Yes,6,2,Vegetarian,Parkridge,0.875,0.2,0.9,0.875,0.9,0.875,0.875,0.875,0.875,0.75,0.4,0.9
+"(26, 30)",female,european/caucasian-american,9,journalism,7,1,9,7,9,7,7,7,7,Sometime,Occasionally,6,2,Vegetarian,Parkridge,0.875,0.2,0.9,0.875,0.9,0.875,0.875,0.875,0.875,0.75,0.4,0.9
+"(26, 30)",female,european/caucasian-american,9,journalism,7,1,9,7,9,7,7,7,7,No,No,6,2,Vegetarian,Creekside,0.875,0.2,0.9,0.875,0.9,0.875,0.875,0.875,0.875,0.75,0.4,0.9
+"(26, 30)",female,european/caucasian-american,9,journalism,7,1,9,7,9,7,7,7,7,Sometime,Occasionally,6,2,Vegetarian,Dewdney Place,0.875,0.2,0.9,0.875,0.9,0.875,0.875,0.875,0.875,0.75,0.4,0.9
+"(26, 30)",female,european/caucasian-american,9,journalism,7,1,9,7,9,7,7,7,7,Yes,No,6,2,Non-Vegetarian,Harbour Landing,0.875,0.2,0.9,0.875,0.9,0.875,0.875,0.875,0.875,0.75,0.4,0.9
+"(26, 30)",female,european/caucasian-american,9,journalism,7,1,9,7,9,7,7,7,7,No,Yes,6,2,Non-Vegetarian,Lakewood,0.875,0.2,0.9,0.875,0.9,0.875,0.875,0.875,0.875,0.75,0.4,0.9
+"(26, 30)",female,european/caucasian-american,9,journalism,7,1,9,7,9,7,7,7,7,Sometime,Occasionally,6,2,Non-Vegetarian,Belvedere,0.875,0.2,0.9,0.875,0.9,0.875,0.875,0.875,0.875,0.75,0.4,0.9
+"(26, 30)",female,european/caucasian-american,9,journalism,7,1,9,7,9,7,7,7,7,No,Occasionally,6,2,Vegetarian,Sherwood Estates,0.875,0.2,0.9,0.875,0.9,0.875,0.875,0.875,0.875,0.75,0.4,0.9
+"(21, 25)",female,other,7,elementary/childhood education [ma],8,1,8,9,8,6,7,9,5,Yes,Occasionally,5,5,Non-Vegetarian,Parkridge,1.0,0.2,1.0,0.9,1.0,0.75,0.875,0.9,1.0,1.0,1.0,0.7
+"(21, 25)",female,other,7,elementary/childhood education [ma],8,1,8,9,8,6,7,9,5,Sometime,No,5,5,Vegetarian,Creekside,1.0,0.2,1.0,0.9,1.0,0.75,0.875,0.9,1.0,1.0,1.0,0.7
+"(21, 25)",female,other,7,elementary/childhood education [ma],8,1,8,9,8,6,7,9,5,Sometime,No,5,5,Vegetarian,Dewdney Place,1.0,0.2,1.0,0.9,1.0,0.75,0.875,0.9,1.0,1.0,1.0,0.7
+"(21, 25)",female,other,7,elementary/childhood education [ma],8,1,8,9,8,6,7,9,5,No,No,5,5,Non-Vegetarian,Riverside,1.0,0.2,1.0,0.9,1.0,0.75,0.875,0.9,1.0,1.0,1.0,0.7
+"(21, 25)",female,other,7,elementary/childhood education [ma],8,1,8,9,8,6,7,9,5,Yes,Occasionally,5,5,Non-Vegetarian,Sherwood Estates,1.0,0.2,1.0,0.9,1.0,0.75,0.875,0.9,1.0,1.0,1.0,0.7
+"(21, 25)",female,other,7,elementary/childhood education [ma],8,1,8,9,8,6,7,9,5,No,Yes,5,5,Non-Vegetarian,Balbrigan Place,1.0,0.2,1.0,0.9,1.0,0.75,0.875,0.9,1.0,1.0,1.0,0.7
+"(21, 25)",female,other,7,elementary/childhood education [ma],8,1,8,9,8,6,7,9,5,Sometime,Occasionally,5,5,Non-Vegetarian,City View,1.0,0.2,1.0,0.9,1.0,0.75,0.875,0.9,1.0,1.0,1.0,0.7
+"(21, 25)",female,other,7,elementary/childhood education [ma],8,1,8,9,8,6,7,9,5,Sometime,Yes,5,5,Vegetarian,CPR Annex,1.0,0.2,1.0,0.9,1.0,0.75,0.875,0.9,1.0,1.0,1.0,0.7
+"(21, 25)",female,other,7,elementary/childhood education [ma],8,1,8,9,8,6,7,9,5,Yes,Yes,5,5,Vegetarian,Westhill,1.0,0.2,1.0,0.9,1.0,0.75,0.875,0.9,1.0,1.0,1.0,0.7
+"(21, 25)",female,other,7,elementary/childhood education [ma],8,1,8,9,8,6,7,9,5,No,Occasionally,5,5,Vegetarian,Dewdney Place,1.0,0.2,1.0,0.9,1.0,0.75,0.875,0.9,1.0,1.0,1.0,0.7
+"(21, 25)",female,other,7,elementary/childhood education [ma],8,1,8,9,8,6,7,9,5,Yes,No,5,5,Non-Vegetarian,Parkridge,1.0,0.2,1.0,0.9,1.0,0.75,0.875,0.9,1.0,1.0,1.0,0.7
+"(21, 25)",female,other,7,elementary/childhood education [ma],8,1,8,9,8,6,7,9,5,Yes,Yes,5,5,Vegetarian,City View,1.0,0.2,1.0,0.9,1.0,0.75,0.875,0.9,1.0,1.0,1.0,0.7
+"(21, 25)",female,other,7,elementary/childhood education [ma],8,1,8,9,8,6,7,9,5,Sometime,No,5,5,Non-Vegetarian,Grand Trunk Annex,1.0,0.2,1.0,0.9,1.0,0.75,0.875,0.9,1.0,1.0,1.0,0.7
+"(21, 25)",female,other,7,elementary/childhood education [ma],8,1,8,9,8,6,7,9,5,No,No,5,5,Non-Vegetarian,Parkridge,1.0,0.2,1.0,0.9,1.0,0.75,0.875,0.9,1.0,1.0,1.0,0.7
+"(21, 25)",female,other,7,elementary/childhood education [ma],8,1,8,9,8,6,7,9,5,Sometime,Occasionally,5,5,Non-Vegetarian,Lakewood,1.0,0.2,1.0,0.9,1.0,0.75,0.875,0.9,1.0,1.0,1.0,0.7
+"(31, 35)",female,latino/hispanic american,5,economics,8,1,5,8,8,3,6,3,3,Yes,Occasionally,5,1,Non-Vegetarian,Highland Park,1.0,0.2,1.0,1.0,1.0,0.6,0.75,0.6,0.6,1.0,0.2,1.0
+"(31, 35)",female,latino/hispanic american,5,economics,8,1,5,8,8,3,6,3,3,Yes,Occasionally,5,1,Non-Vegetarian,Lakewood,1.0,0.2,1.0,1.0,1.0,0.6,0.75,0.6,0.6,1.0,0.2,1.0
+"(31, 35)",female,latino/hispanic american,5,economics,8,1,5,8,8,3,6,3,3,Sometime,Occasionally,5,1,Vegetarian,Albert Park,1.0,0.2,1.0,1.0,1.0,0.6,0.75,0.6,0.6,1.0,0.2,1.0
+"(31, 35)",female,latino/hispanic american,5,economics,8,1,5,8,8,3,6,3,3,Sometime,No,5,1,Vegetarian,Uplands,1.0,0.2,1.0,1.0,1.0,0.6,0.75,0.6,0.6,1.0,0.2,1.0
+"(31, 35)",female,latino/hispanic american,5,economics,8,1,5,8,8,3,6,3,3,Yes,Occasionally,5,1,Vegetarian,Wascana Crescents,1.0,0.2,1.0,1.0,1.0,0.6,0.75,0.6,0.6,1.0,0.2,1.0
+"(31, 35)",female,latino/hispanic american,5,economics,8,1,5,8,8,3,6,3,3,No,Occasionally,5,1,Vegetarian,Balbrigan Place,1.0,0.2,1.0,1.0,1.0,0.6,0.75,0.6,0.6,1.0,0.2,1.0
+"(31, 35)",female,latino/hispanic american,5,economics,8,1,5,8,8,3,6,3,3,No,Occasionally,5,1,Vegetarian,CPR Annex,1.0,0.2,1.0,1.0,1.0,0.6,0.75,0.6,0.6,1.0,0.2,1.0
+"(31, 35)",female,latino/hispanic american,5,economics,8,1,5,8,8,3,6,3,3,Yes,Yes,5,1,Vegetarian,Harbour Landing,1.0,0.2,1.0,1.0,1.0,0.6,0.75,0.6,0.6,1.0,0.2,1.0
+"(31, 35)",female,latino/hispanic american,5,economics,8,1,5,8,8,3,6,3,3,Yes,No,5,1,Non-Vegetarian,Balbrigan Place,1.0,0.2,1.0,1.0,1.0,0.6,0.75,0.6,0.6,1.0,0.2,1.0
+"(31, 35)",female,latino/hispanic american,5,economics,8,1,5,8,8,3,6,3,3,Yes,Yes,5,1,Vegetarian,Sherwood Estates,1.0,0.2,1.0,1.0,1.0,0.6,0.75,0.6,0.6,1.0,0.2,1.0
+"(31, 35)",female,latino/hispanic american,5,economics,8,1,5,8,8,3,6,3,3,Yes,No,5,1,Non-Vegetarian,Uplands,1.0,0.2,1.0,1.0,1.0,0.6,0.75,0.6,0.6,1.0,0.2,1.0
+"(31, 35)",female,latino/hispanic american,5,economics,8,1,5,8,8,3,6,3,3,Yes,Yes,5,1,Vegetarian,Parkridge,1.0,0.2,1.0,1.0,1.0,0.6,0.75,0.6,0.6,1.0,0.2,1.0
+"(31, 35)",female,latino/hispanic american,5,economics,8,1,5,8,8,3,6,3,3,No,No,5,1,Vegetarian,Grand Trunk Annex,1.0,0.2,1.0,1.0,1.0,0.6,0.75,0.6,0.6,1.0,0.2,1.0
+"(31, 35)",female,latino/hispanic american,5,economics,8,1,5,8,8,3,6,3,3,Yes,Yes,5,1,Non-Vegetarian,Parkridge,1.0,0.2,1.0,1.0,1.0,0.6,0.75,0.6,0.6,1.0,0.2,1.0
+"(31, 35)",female,latino/hispanic american,1,microbiology,9,1,9,9,10,1,9,3,9,Sometime,Occasionally,7,1,Vegetarian,Dewdney Place,0.9,0.2,0.9,0.9,1.0,0.2,0.9,0.6,0.9,0.875,0.2,1.0
+"(31, 35)",female,latino/hispanic american,1,microbiology,9,1,9,9,10,1,9,3,9,No,Occasionally,7,1,Non-Vegetarian,Highland Park,0.9,0.2,0.9,0.9,1.0,0.2,0.9,0.6,0.9,0.875,0.2,1.0
+"(31, 35)",female,latino/hispanic american,1,microbiology,9,1,9,9,10,1,9,3,9,No,No,7,1,Vegetarian,Wascana Crescents,0.9,0.2,0.9,0.9,1.0,0.2,0.9,0.6,0.9,0.875,0.2,1.0
+"(31, 35)",female,latino/hispanic american,1,microbiology,9,1,9,9,10,1,9,3,9,Yes,No,7,1,Vegetarian,CPR Annex,0.9,0.2,0.9,0.9,1.0,0.2,0.9,0.6,0.9,0.875,0.2,1.0
+"(31, 35)",female,latino/hispanic american,1,microbiology,9,1,9,9,10,1,9,3,9,Sometime,No,7,1,Non-Vegetarian,Belvedere,0.9,0.2,0.9,0.9,1.0,0.2,0.9,0.6,0.9,0.875,0.2,1.0
+"(31, 35)",female,latino/hispanic american,1,microbiology,9,1,9,9,10,1,9,3,9,No,Yes,7,1,Non-Vegetarian,Wascana Crescents,0.9,0.2,0.9,0.9,1.0,0.2,0.9,0.6,0.9,0.875,0.2,1.0
+"(31, 35)",female,latino/hispanic american,1,microbiology,9,1,9,9,10,1,9,3,9,Sometime,Occasionally,7,1,Non-Vegetarian,Highland Park,0.9,0.2,0.9,0.9,1.0,0.2,0.9,0.6,0.9,0.875,0.2,1.0
+"(31, 35)",female,latino/hispanic american,1,microbiology,9,1,9,9,10,1,9,3,9,Yes,Occasionally,7,1,Vegetarian,Harbour Landing,0.9,0.2,0.9,0.9,1.0,0.2,0.9,0.6,0.9,0.875,0.2,1.0
+"(31, 35)",female,latino/hispanic american,1,microbiology,9,1,9,9,10,1,9,3,9,Sometime,Yes,7,1,Vegetarian,Creekside,0.9,0.2,0.9,0.9,1.0,0.2,0.9,0.6,0.9,0.875,0.2,1.0
+"(31, 35)",female,latino/hispanic american,1,microbiology,9,1,9,9,10,1,9,3,9,Yes,Yes,7,1,Non-Vegetarian,Belvedere,0.9,0.2,0.9,0.9,1.0,0.2,0.9,0.6,0.9,0.875,0.2,1.0
+"(31, 35)",female,latino/hispanic american,1,microbiology,9,1,9,9,10,1,9,3,9,No,No,7,1,Vegetarian,Albert Park,0.9,0.2,0.9,0.9,1.0,0.2,0.9,0.6,0.9,0.875,0.2,1.0
+"(31, 35)",female,latino/hispanic american,1,microbiology,9,1,9,9,10,1,9,3,9,Sometime,No,7,1,Non-Vegetarian,Dewdney Place,0.9,0.2,0.9,0.9,1.0,0.2,0.9,0.6,0.9,0.875,0.2,1.0
+"(31, 35)",female,latino/hispanic american,1,microbiology,9,1,9,9,10,1,9,3,9,Sometime,No,7,1,Vegetarian,Parkridge,0.9,0.2,0.9,0.9,1.0,0.2,0.9,0.6,0.9,0.875,0.2,1.0
+"(31, 35)",female,latino/hispanic american,1,microbiology,9,1,9,9,10,1,9,3,9,Yes,Occasionally,7,1,Vegetarian,Albert Park,0.9,0.2,0.9,0.9,1.0,0.2,0.9,0.6,0.9,0.875,0.2,1.0
+"(31, 35)",female,latino/hispanic american,1,microbiology,9,1,9,9,10,1,9,3,9,Yes,Occasionally,7,1,Vegetarian,Sherwood Estates,0.9,0.2,0.9,0.9,1.0,0.2,0.9,0.6,0.9,0.875,0.2,1.0
+"(26, 30)",female,european/caucasian-american,5,masters of social work,8,4,9,8,7,4,7,8,4,Sometime,Yes,2,3,Non-Vegetarian,Arcola Sub,1.0,0.8,0.9,1.0,0.875,0.8,0.875,1.0,0.8,0.4,0.6,1.0
+"(26, 30)",female,european/caucasian-american,5,masters of social work,8,4,9,8,7,4,7,8,4,Yes,No,2,3,Non-Vegetarian,Belvedere,1.0,0.8,0.9,1.0,0.875,0.8,0.875,1.0,0.8,0.4,0.6,1.0
+"(26, 30)",female,european/caucasian-american,5,masters of social work,8,4,9,8,7,4,7,8,4,Yes,Yes,2,3,Non-Vegetarian,Balbrigan Place,1.0,0.8,0.9,1.0,0.875,0.8,0.875,1.0,0.8,0.4,0.6,1.0
+"(26, 30)",female,european/caucasian-american,5,masters of social work,8,4,9,8,7,4,7,8,4,Sometime,No,2,3,Vegetarian,Westhill,1.0,0.8,0.9,1.0,0.875,0.8,0.875,1.0,0.8,0.4,0.6,1.0
+"(26, 30)",female,european/caucasian-american,5,masters of social work,8,4,9,8,7,4,7,8,4,Yes,Occasionally,2,3,Non-Vegetarian,CPR Annex,1.0,0.8,0.9,1.0,0.875,0.8,0.875,1.0,0.8,0.4,0.6,1.0
+"(26, 30)",female,european/caucasian-american,5,masters of social work,8,4,9,8,7,4,7,8,4,Yes,Yes,2,3,Non-Vegetarian,Lakewood,1.0,0.8,0.9,1.0,0.875,0.8,0.875,1.0,0.8,0.4,0.6,1.0
+"(26, 30)",female,european/caucasian-american,5,masters of social work,8,4,9,8,7,4,7,8,4,No,No,2,3,Non-Vegetarian,Lakewood,1.0,0.8,0.9,1.0,0.875,0.8,0.875,1.0,0.8,0.4,0.6,1.0
+"(26, 30)",female,european/caucasian-american,5,masters of social work,8,4,9,8,7,4,7,8,4,No,Yes,2,3,Non-Vegetarian,Lakewood,1.0,0.8,0.9,1.0,0.875,0.8,0.875,1.0,0.8,0.4,0.6,1.0
+"(26, 30)",female,european/caucasian-american,5,masters of social work,8,4,9,8,7,4,7,8,4,Sometime,No,2,3,Vegetarian,Creekside,1.0,0.8,0.9,1.0,0.875,0.8,0.875,1.0,0.8,0.4,0.6,1.0
+"(26, 30)",female,european/caucasian-american,5,masters of social work,8,4,9,8,7,4,7,8,4,Sometime,Occasionally,2,3,Vegetarian,Arcola Sub,1.0,0.8,0.9,1.0,0.875,0.8,0.875,1.0,0.8,0.4,0.6,1.0
+"(26, 30)",female,european/caucasian-american,5,masters of social work,8,4,9,8,7,4,7,8,4,No,Yes,2,3,Non-Vegetarian,Riverside,1.0,0.8,0.9,1.0,0.875,0.8,0.875,1.0,0.8,0.4,0.6,1.0
+"(26, 30)",female,european/caucasian-american,5,masters of social work,8,4,9,8,7,4,7,8,4,No,No,2,3,Vegetarian,Arcola Sub,1.0,0.8,0.9,1.0,0.875,0.8,0.875,1.0,0.8,0.4,0.6,1.0
+"(26, 30)",female,european/caucasian-american,5,masters of social work,8,4,9,8,7,4,7,8,4,No,Yes,2,3,Non-Vegetarian,Arcola Sub,1.0,0.8,0.9,1.0,0.875,0.8,0.875,1.0,0.8,0.4,0.6,1.0
+"(21, 25)",female,european/caucasian-american,1,communications,4,1,4,10,10,7,6,2,1,Sometime,Occasionally,2,2,Vegetarian,Wascana Crescents,0.8,0.2,0.8,1.0,1.0,0.875,0.75,0.4,0.2,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,communications,4,1,4,10,10,7,6,2,1,Yes,Occasionally,2,2,Vegetarian,Westhill,0.8,0.2,0.8,1.0,1.0,0.875,0.75,0.4,0.2,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,communications,4,1,4,10,10,7,6,2,1,Yes,Yes,2,2,Non-Vegetarian,Balbrigan Place,0.8,0.2,0.8,1.0,1.0,0.875,0.75,0.4,0.2,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,communications,4,1,4,10,10,7,6,2,1,No,Yes,2,2,Non-Vegetarian,Arcola Sub,0.8,0.2,0.8,1.0,1.0,0.875,0.75,0.4,0.2,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,communications,4,1,4,10,10,7,6,2,1,Yes,Occasionally,2,2,Vegetarian,Harbour Landing,0.8,0.2,0.8,1.0,1.0,0.875,0.75,0.4,0.2,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,communications,4,1,4,10,10,7,6,2,1,Sometime,Yes,2,2,Vegetarian,Westhill,0.8,0.2,0.8,1.0,1.0,0.875,0.75,0.4,0.2,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,communications,4,1,4,10,10,7,6,2,1,No,No,2,2,Non-Vegetarian,Regent Park,0.8,0.2,0.8,1.0,1.0,0.875,0.75,0.4,0.2,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,communications,4,1,4,10,10,7,6,2,1,No,Yes,2,2,Vegetarian,Riverside,0.8,0.2,0.8,1.0,1.0,0.875,0.75,0.4,0.2,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,communications,4,1,4,10,10,7,6,2,1,No,Yes,2,2,Non-Vegetarian,Sherwood Estates,0.8,0.2,0.8,1.0,1.0,0.875,0.75,0.4,0.2,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,communications,4,1,4,10,10,7,6,2,1,Yes,No,2,2,Vegetarian,Sherwood Estates,0.8,0.2,0.8,1.0,1.0,0.875,0.75,0.4,0.2,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,communications,4,1,4,10,10,7,6,2,1,No,Occasionally,2,2,Vegetarian,City View,0.8,0.2,0.8,1.0,1.0,0.875,0.75,0.4,0.2,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,communications,4,1,4,10,10,7,6,2,1,Yes,No,2,2,Vegetarian,Highland Park,0.8,0.2,0.8,1.0,1.0,0.875,0.75,0.4,0.2,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,communications,4,1,4,10,10,7,6,2,1,Sometime,No,2,2,Vegetarian,Sherwood Estates,0.8,0.2,0.8,1.0,1.0,0.875,0.75,0.4,0.2,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,7,social work,10,6,7,10,10,8,6,8,10,No,No,8,7,Vegetarian,Lakewood,1.0,0.75,0.875,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,social work,10,6,7,10,10,8,6,8,10,No,Occasionally,8,7,Non-Vegetarian,Regent Park,1.0,0.75,0.875,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,social work,10,6,7,10,10,8,6,8,10,Yes,Yes,8,7,Vegetarian,Westhill,1.0,0.75,0.875,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,social work,10,6,7,10,10,8,6,8,10,Yes,No,8,7,Non-Vegetarian,Westhill,1.0,0.75,0.875,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,social work,10,6,7,10,10,8,6,8,10,Sometime,Occasionally,8,7,Non-Vegetarian,Grand Trunk Annex,1.0,0.75,0.875,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,social work,10,6,7,10,10,8,6,8,10,Sometime,Occasionally,8,7,Vegetarian,Belvedere,1.0,0.75,0.875,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,social work,10,6,7,10,10,8,6,8,10,No,Yes,8,7,Vegetarian,Parkridge,1.0,0.75,0.875,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,social work,10,6,7,10,10,8,6,8,10,No,No,8,7,Vegetarian,Grand Trunk Annex,1.0,0.75,0.875,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,social work,10,6,7,10,10,8,6,8,10,Sometime,Yes,8,7,Vegetarian,Arcola Sub,1.0,0.75,0.875,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,social work,10,6,7,10,10,8,6,8,10,No,Occasionally,8,7,Non-Vegetarian,Westhill,1.0,0.75,0.875,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,social work,10,6,7,10,10,8,6,8,10,Yes,Yes,8,7,Vegetarian,Grand Trunk Annex,1.0,0.75,0.875,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,social work,10,6,7,10,10,8,6,8,10,No,No,8,7,Non-Vegetarian,Harbour Landing,1.0,0.75,0.875,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,social work,10,6,7,10,10,8,6,8,10,No,Yes,8,7,Non-Vegetarian,Uplands,1.0,0.75,0.875,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,social work,10,6,7,10,10,8,6,8,10,Yes,No,8,7,Vegetarian,Creekside,1.0,0.75,0.875,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.875,0.7
+"(21, 25)",female,european/caucasian-american,7,social work,10,6,7,10,10,8,6,8,10,Yes,Yes,8,7,Vegetarian,City View,1.0,0.75,0.875,1.0,1.0,1.0,0.75,1.0,1.0,1.0,0.875,0.7
+"(26, 30)",female,european/caucasian-american,2,marketing,8,8,10,9,8,1,9,7,2,Sometime,Yes,2,2,Vegetarian,CPR Annex,1.0,1.0,1.0,0.9,1.0,0.2,0.9,0.875,0.4,0.4,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,marketing,8,8,10,9,8,1,9,7,2,Sometime,No,2,2,Vegetarian,Garden Ridge,1.0,1.0,1.0,0.9,1.0,0.2,0.9,0.875,0.4,0.4,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,marketing,8,8,10,9,8,1,9,7,2,No,Yes,2,2,Vegetarian,Regent Park,1.0,1.0,1.0,0.9,1.0,0.2,0.9,0.875,0.4,0.4,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,marketing,8,8,10,9,8,1,9,7,2,Sometime,Occasionally,2,2,Non-Vegetarian,Sherwood Estates,1.0,1.0,1.0,0.9,1.0,0.2,0.9,0.875,0.4,0.4,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,marketing,8,8,10,9,8,1,9,7,2,No,No,2,2,Vegetarian,Harbour Landing,1.0,1.0,1.0,0.9,1.0,0.2,0.9,0.875,0.4,0.4,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,marketing,8,8,10,9,8,1,9,7,2,No,Occasionally,2,2,Non-Vegetarian,Albert Park,1.0,1.0,1.0,0.9,1.0,0.2,0.9,0.875,0.4,0.4,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,marketing,8,8,10,9,8,1,9,7,2,Sometime,No,2,2,Non-Vegetarian,Regent Park,1.0,1.0,1.0,0.9,1.0,0.2,0.9,0.875,0.4,0.4,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,marketing,8,8,10,9,8,1,9,7,2,Yes,Occasionally,2,2,Non-Vegetarian,Wascana Crescents,1.0,1.0,1.0,0.9,1.0,0.2,0.9,0.875,0.4,0.4,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,marketing,8,8,10,9,8,1,9,7,2,Yes,No,2,2,Vegetarian,City View,1.0,1.0,1.0,0.9,1.0,0.2,0.9,0.875,0.4,0.4,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,marketing,8,8,10,9,8,1,9,7,2,Sometime,Yes,2,2,Non-Vegetarian,Albert Park,1.0,1.0,1.0,0.9,1.0,0.2,0.9,0.875,0.4,0.4,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,marketing,8,8,10,9,8,1,9,7,2,No,No,2,2,Vegetarian,Grand Trunk Annex,1.0,1.0,1.0,0.9,1.0,0.2,0.9,0.875,0.4,0.4,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,marketing,8,8,10,9,8,1,9,7,2,Yes,No,2,2,Vegetarian,Arcola Sub,1.0,1.0,1.0,0.9,1.0,0.2,0.9,0.875,0.4,0.4,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,marketing,8,8,10,9,8,1,9,7,2,No,Yes,2,2,Non-Vegetarian,City View,1.0,1.0,1.0,0.9,1.0,0.2,0.9,0.875,0.4,0.4,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,marketing,8,8,10,9,8,1,9,7,2,Yes,Occasionally,2,2,Vegetarian,Westhill,1.0,1.0,1.0,0.9,1.0,0.2,0.9,0.875,0.4,0.4,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,marketing,8,8,10,9,8,1,9,7,2,No,Yes,2,2,Vegetarian,Wascana Crescents,1.0,1.0,1.0,0.9,1.0,0.2,0.9,0.875,0.4,0.4,0.4,0.4
+"(21, 25)",female,asian/pacific islander/asian-american,1,chemistry,10,3,5,6,8,6,1,6,6,Yes,Yes,8,9,Non-Vegetarian,Belvedere,1.0,0.6,1.0,0.75,1.0,0.75,0.2,0.75,0.75,1.0,0.9,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,chemistry,10,3,5,6,8,6,1,6,6,Sometime,Yes,8,9,Vegetarian,Dewdney Place,1.0,0.6,1.0,0.75,1.0,0.75,0.2,0.75,0.75,1.0,0.9,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,chemistry,10,3,5,6,8,6,1,6,6,Yes,Occasionally,8,9,Vegetarian,Parkridge,1.0,0.6,1.0,0.75,1.0,0.75,0.2,0.75,0.75,1.0,0.9,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,chemistry,10,3,5,6,8,6,1,6,6,Sometime,Yes,8,9,Non-Vegetarian,Wascana Crescents,1.0,0.6,1.0,0.75,1.0,0.75,0.2,0.75,0.75,1.0,0.9,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,chemistry,10,3,5,6,8,6,1,6,6,Yes,Occasionally,8,9,Non-Vegetarian,Arcola Sub,1.0,0.6,1.0,0.75,1.0,0.75,0.2,0.75,0.75,1.0,0.9,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,chemistry,10,3,5,6,8,6,1,6,6,No,No,8,9,Vegetarian,Arcola Sub,1.0,0.6,1.0,0.75,1.0,0.75,0.2,0.75,0.75,1.0,0.9,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,chemistry,10,3,5,6,8,6,1,6,6,Sometime,Yes,8,9,Vegetarian,Harbour Landing,1.0,0.6,1.0,0.75,1.0,0.75,0.2,0.75,0.75,1.0,0.9,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,chemistry,10,3,5,6,8,6,1,6,6,Sometime,No,8,9,Non-Vegetarian,Sherwood Estates,1.0,0.6,1.0,0.75,1.0,0.75,0.2,0.75,0.75,1.0,0.9,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,chemistry,10,3,5,6,8,6,1,6,6,Sometime,No,8,9,Non-Vegetarian,Arcola Sub,1.0,0.6,1.0,0.75,1.0,0.75,0.2,0.75,0.75,1.0,0.9,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,chemistry,10,3,5,6,8,6,1,6,6,Sometime,No,8,9,Non-Vegetarian,Parkridge,1.0,0.6,1.0,0.75,1.0,0.75,0.2,0.75,0.75,1.0,0.9,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,chemistry,10,3,5,6,8,6,1,6,6,No,Occasionally,8,9,Non-Vegetarian,Garden Ridge,1.0,0.6,1.0,0.75,1.0,0.75,0.2,0.75,0.75,1.0,0.9,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,chemistry,10,3,5,6,8,6,1,6,6,No,No,8,9,Non-Vegetarian,Uplands,1.0,0.6,1.0,0.75,1.0,0.75,0.2,0.75,0.75,1.0,0.9,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,chemistry,10,3,5,6,8,6,1,6,6,Yes,Occasionally,8,9,Vegetarian,Wascana Crescents,1.0,0.6,1.0,0.75,1.0,0.75,0.2,0.75,0.75,1.0,0.9,1.0
+"(21, 25)",female,asian/pacific islander/asian-american,1,chemistry,10,3,5,6,8,6,1,6,6,No,Occasionally,8,9,Vegetarian,Dewdney Place,1.0,0.6,1.0,0.75,1.0,0.75,0.2,0.75,0.75,1.0,0.9,1.0
+"(26, 30)",female,european/caucasian-american,2,international educational development,10,2,10,10,10,4,9,9,8,Yes,Occasionally,7,2,Vegetarian,Wascana Crescents,1.0,0.4,1.0,1.0,1.0,0.8,0.9,0.9,1.0,0.875,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,international educational development,10,2,10,10,10,4,9,9,8,Yes,No,7,2,Non-Vegetarian,Uplands,1.0,0.4,1.0,1.0,1.0,0.8,0.9,0.9,1.0,0.875,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,international educational development,10,2,10,10,10,4,9,9,8,Sometime,Occasionally,7,2,Non-Vegetarian,Dewdney Place,1.0,0.4,1.0,1.0,1.0,0.8,0.9,0.9,1.0,0.875,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,international educational development,10,2,10,10,10,4,9,9,8,Yes,Occasionally,7,2,Non-Vegetarian,Parkridge,1.0,0.4,1.0,1.0,1.0,0.8,0.9,0.9,1.0,0.875,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,international educational development,10,2,10,10,10,4,9,9,8,Sometime,No,7,2,Non-Vegetarian,Regent Park,1.0,0.4,1.0,1.0,1.0,0.8,0.9,0.9,1.0,0.875,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,international educational development,10,2,10,10,10,4,9,9,8,Yes,No,7,2,Vegetarian,Grand Trunk Annex,1.0,0.4,1.0,1.0,1.0,0.8,0.9,0.9,1.0,0.875,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,international educational development,10,2,10,10,10,4,9,9,8,Sometime,No,7,2,Non-Vegetarian,CPR Annex,1.0,0.4,1.0,1.0,1.0,0.8,0.9,0.9,1.0,0.875,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,international educational development,10,2,10,10,10,4,9,9,8,Yes,Yes,7,2,Non-Vegetarian,Riverside,1.0,0.4,1.0,1.0,1.0,0.8,0.9,0.9,1.0,0.875,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,international educational development,10,2,10,10,10,4,9,9,8,Yes,No,7,2,Vegetarian,Highland Park,1.0,0.4,1.0,1.0,1.0,0.8,0.9,0.9,1.0,0.875,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,international educational development,10,2,10,10,10,4,9,9,8,No,Occasionally,7,2,Non-Vegetarian,Highland Park,1.0,0.4,1.0,1.0,1.0,0.8,0.9,0.9,1.0,0.875,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,international educational development,10,2,10,10,10,4,9,9,8,Sometime,Occasionally,7,2,Non-Vegetarian,Albert Park,1.0,0.4,1.0,1.0,1.0,0.8,0.9,0.9,1.0,0.875,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,international educational development,10,2,10,10,10,4,9,9,8,Yes,Yes,7,2,Non-Vegetarian,Lakewood,1.0,0.4,1.0,1.0,1.0,0.8,0.9,0.9,1.0,0.875,0.4,0.4
+"(26, 30)",female,european/caucasian-american,2,international educational development,10,2,10,10,10,4,9,9,8,Sometime,Yes,7,2,Vegetarian,Dewdney Place,1.0,0.4,1.0,1.0,1.0,0.8,0.9,0.9,1.0,0.875,0.4,0.4
+"(26, 30)",male,asian/pacific islander/asian-american,8,business [mba],9,3,8,7,9,5,3,4,8,Sometime,No,7,2,Non-Vegetarian,Parkridge,0.9,0.6,1.0,0.875,0.9,1.0,0.6,0.8,1.0,0.875,0.4,0.8
+"(26, 30)",male,asian/pacific islander/asian-american,8,business [mba],9,3,8,7,9,5,3,4,8,Sometime,Occasionally,7,2,Non-Vegetarian,Garden Ridge,0.9,0.6,1.0,0.875,0.9,1.0,0.6,0.8,1.0,0.875,0.4,0.8
+"(26, 30)",male,asian/pacific islander/asian-american,8,business [mba],9,3,8,7,9,5,3,4,8,No,Yes,7,2,Non-Vegetarian,CPR Annex,0.9,0.6,1.0,0.875,0.9,1.0,0.6,0.8,1.0,0.875,0.4,0.8
+"(26, 30)",male,asian/pacific islander/asian-american,8,business [mba],9,3,8,7,9,5,3,4,8,Yes,Occasionally,7,2,Vegetarian,Creekside,0.9,0.6,1.0,0.875,0.9,1.0,0.6,0.8,1.0,0.875,0.4,0.8
+"(26, 30)",male,asian/pacific islander/asian-american,8,business [mba],9,3,8,7,9,5,3,4,8,Sometime,Occasionally,7,2,Non-Vegetarian,Sherwood Estates,0.9,0.6,1.0,0.875,0.9,1.0,0.6,0.8,1.0,0.875,0.4,0.8
+"(26, 30)",male,asian/pacific islander/asian-american,8,business [mba],9,3,8,7,9,5,3,4,8,Sometime,Yes,7,2,Vegetarian,Highland Park,0.9,0.6,1.0,0.875,0.9,1.0,0.6,0.8,1.0,0.875,0.4,0.8
+"(26, 30)",male,asian/pacific islander/asian-american,8,business [mba],9,3,8,7,9,5,3,4,8,Yes,Occasionally,7,2,Vegetarian,Garden Ridge,0.9,0.6,1.0,0.875,0.9,1.0,0.6,0.8,1.0,0.875,0.4,0.8
+"(26, 30)",male,asian/pacific islander/asian-american,8,business [mba],9,3,8,7,9,5,3,4,8,Yes,Occasionally,7,2,Vegetarian,CPR Annex,0.9,0.6,1.0,0.875,0.9,1.0,0.6,0.8,1.0,0.875,0.4,0.8
+"(26, 30)",male,asian/pacific islander/asian-american,8,business [mba],9,3,8,7,9,5,3,4,8,Yes,No,7,2,Non-Vegetarian,Dewdney Place,0.9,0.6,1.0,0.875,0.9,1.0,0.6,0.8,1.0,0.875,0.4,0.8
+"(26, 30)",male,asian/pacific islander/asian-american,8,business [mba],9,3,8,7,9,5,3,4,8,No,No,7,2,Non-Vegetarian,Balbrigan Place,0.9,0.6,1.0,0.875,0.9,1.0,0.6,0.8,1.0,0.875,0.4,0.8
+"(26, 30)",male,asian/pacific islander/asian-american,8,business [mba],9,3,8,7,9,5,3,4,8,Sometime,No,7,2,Vegetarian,Garden Ridge,0.9,0.6,1.0,0.875,0.9,1.0,0.6,0.8,1.0,0.875,0.4,0.8
+"(26, 30)",male,asian/pacific islander/asian-american,8,business [mba],9,3,8,7,9,5,3,4,8,Sometime,Yes,7,2,Vegetarian,Belvedere,0.9,0.6,1.0,0.875,0.9,1.0,0.6,0.8,1.0,0.875,0.4,0.8
+"(26, 30)",male,asian/pacific islander/asian-american,8,business [mba],9,3,8,7,9,5,3,4,8,Sometime,Occasionally,7,2,Non-Vegetarian,CPR Annex,0.9,0.6,1.0,0.875,0.9,1.0,0.6,0.8,1.0,0.875,0.4,0.8
+"(26, 30)",male,asian/pacific islander/asian-american,8,business [mba],9,3,8,7,9,5,3,4,8,Yes,No,7,2,Vegetarian,Creekside,0.9,0.6,1.0,0.875,0.9,1.0,0.6,0.8,1.0,0.875,0.4,0.8
+"(26, 30)",male,european/caucasian-american,5,business,7,6,6,10,10,9,4,1,6,No,No,10,10,Non-Vegetarian,Dewdney Place,0.875,0.75,0.75,1.0,1.0,0.9,0.8,0.2,0.75,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,5,business,7,6,6,10,10,9,4,1,6,Sometime,No,10,10,Non-Vegetarian,CPR Annex,0.875,0.75,0.75,1.0,1.0,0.9,0.8,0.2,0.75,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,5,business,7,6,6,10,10,9,4,1,6,No,Yes,10,10,Non-Vegetarian,Balbrigan Place,0.875,0.75,0.75,1.0,1.0,0.9,0.8,0.2,0.75,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,5,business,7,6,6,10,10,9,4,1,6,Sometime,No,10,10,Vegetarian,Sherwood Estates,0.875,0.75,0.75,1.0,1.0,0.9,0.8,0.2,0.75,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,5,business,7,6,6,10,10,9,4,1,6,Yes,Occasionally,10,10,Vegetarian,Belvedere,0.875,0.75,0.75,1.0,1.0,0.9,0.8,0.2,0.75,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,5,business,7,6,6,10,10,9,4,1,6,Sometime,Occasionally,10,10,Vegetarian,Creekside,0.875,0.75,0.75,1.0,1.0,0.9,0.8,0.2,0.75,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,5,business,7,6,6,10,10,9,4,1,6,Yes,No,10,10,Non-Vegetarian,Uplands,0.875,0.75,0.75,1.0,1.0,0.9,0.8,0.2,0.75,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,5,business,7,6,6,10,10,9,4,1,6,No,Occasionally,10,10,Non-Vegetarian,Belvedere,0.875,0.75,0.75,1.0,1.0,0.9,0.8,0.2,0.75,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,5,business,7,6,6,10,10,9,4,1,6,No,No,10,10,Vegetarian,Parkridge,0.875,0.75,0.75,1.0,1.0,0.9,0.8,0.2,0.75,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,5,business,7,6,6,10,10,9,4,1,6,No,Yes,10,10,Vegetarian,Uplands,0.875,0.75,0.75,1.0,1.0,0.9,0.8,0.2,0.75,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,5,business,7,6,6,10,10,9,4,1,6,No,Yes,10,10,Non-Vegetarian,Sherwood Estates,0.875,0.75,0.75,1.0,1.0,0.9,0.8,0.2,0.75,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,5,business,7,6,6,10,10,9,4,1,6,No,Occasionally,10,10,Vegetarian,Garden Ridge,0.875,0.75,0.75,1.0,1.0,0.9,0.8,0.2,0.75,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,5,business,7,6,6,10,10,9,4,1,6,Sometime,Yes,10,10,Vegetarian,CPR Annex,0.875,0.75,0.75,1.0,1.0,0.9,0.8,0.2,0.75,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,5,business,7,6,6,10,10,9,4,1,6,No,No,10,10,Non-Vegetarian,Parkridge,0.875,0.75,0.75,1.0,1.0,0.9,0.8,0.2,0.75,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,5,business,7,6,6,10,10,9,4,1,6,Yes,Occasionally,10,10,Non-Vegetarian,Highland Park,0.875,0.75,0.75,1.0,1.0,0.9,0.8,0.2,0.75,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,5,business,7,6,6,10,10,9,4,1,6,No,Yes,10,10,Vegetarian,Sherwood Estates,0.875,0.75,0.75,1.0,1.0,0.9,0.8,0.2,0.75,1.0,1.0,1.0
+"(26, 30)",male,latino/hispanic american,6,computer science,8,6,10,7,9,3,8,10,7,Yes,Yes,5,8,Non-Vegetarian,Creekside,1.0,0.75,1.0,0.875,0.9,0.6,1.0,1.0,0.875,1.0,1.0,0.6
+"(26, 30)",male,latino/hispanic american,6,computer science,8,6,10,7,9,3,8,10,7,Sometime,Occasionally,5,8,Non-Vegetarian,Uplands,1.0,0.75,1.0,0.875,0.9,0.6,1.0,1.0,0.875,1.0,1.0,0.6
+"(26, 30)",male,latino/hispanic american,6,computer science,8,6,10,7,9,3,8,10,7,Sometime,No,5,8,Non-Vegetarian,Grand Trunk Annex,1.0,0.75,1.0,0.875,0.9,0.6,1.0,1.0,0.875,1.0,1.0,0.6
+"(26, 30)",male,european/caucasian-american,1,law,6,5,8,10,10,6,9,5,5,No,No,5,5,Vegetarian,Lakewood,0.75,1.0,1.0,1.0,1.0,0.75,0.9,1.0,1.0,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,1,law,6,5,8,10,10,6,9,5,5,Sometime,Yes,5,5,Non-Vegetarian,Garden Ridge,0.75,1.0,1.0,1.0,1.0,0.75,0.9,1.0,1.0,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,1,law,6,5,8,10,10,6,9,5,5,Yes,No,5,5,Vegetarian,Lakewood,0.75,1.0,1.0,1.0,1.0,0.75,0.9,1.0,1.0,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,1,law,6,5,8,10,10,6,9,5,5,Yes,Occasionally,5,5,Non-Vegetarian,Balbrigan Place,0.75,1.0,1.0,1.0,1.0,0.75,0.9,1.0,1.0,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,1,law,6,5,8,10,10,6,9,5,5,Yes,No,5,5,Vegetarian,Westhill,0.75,1.0,1.0,1.0,1.0,0.75,0.9,1.0,1.0,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,1,law,6,5,8,10,10,6,9,5,5,Yes,Yes,5,5,Non-Vegetarian,Creekside,0.75,1.0,1.0,1.0,1.0,0.75,0.9,1.0,1.0,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,1,law,6,5,8,10,10,6,9,5,5,No,No,5,5,Non-Vegetarian,Parkridge,0.75,1.0,1.0,1.0,1.0,0.75,0.9,1.0,1.0,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,1,law,6,5,8,10,10,6,9,5,5,Sometime,Occasionally,5,5,Non-Vegetarian,Sherwood Estates,0.75,1.0,1.0,1.0,1.0,0.75,0.9,1.0,1.0,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,1,law,6,5,8,10,10,6,9,5,5,Yes,Occasionally,5,5,Vegetarian,Westhill,0.75,1.0,1.0,1.0,1.0,0.75,0.9,1.0,1.0,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,1,law,6,5,8,10,10,6,9,5,5,No,Occasionally,5,5,Vegetarian,Creekside,0.75,1.0,1.0,1.0,1.0,0.75,0.9,1.0,1.0,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,1,law,6,5,8,10,10,6,9,5,5,No,Yes,5,5,Non-Vegetarian,Parkridge,0.75,1.0,1.0,1.0,1.0,0.75,0.9,1.0,1.0,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,1,law,6,5,8,10,10,6,9,5,5,Sometime,Yes,5,5,Non-Vegetarian,Harbour Landing,0.75,1.0,1.0,1.0,1.0,0.75,0.9,1.0,1.0,1.0,1.0,1.0
+"(26, 30)",male,european/caucasian-american,1,law,6,5,8,10,10,6,9,5,5,Sometime,Occasionally,5,5,Vegetarian,Uplands,0.75,1.0,1.0,1.0,1.0,0.75,0.9,1.0,1.0,1.0,1.0,1.0
+"(26, 30)",male,other,9,business,6,2,7,7,7,5,4,2,6,No,No,5,4,Non-Vegetarian,Regent Park,0.75,0.4,0.875,0.875,0.875,1.0,0.8,0.4,0.75,1.0,0.8,0.9
+"(26, 30)",male,other,9,business,6,2,7,7,7,5,4,2,6,Yes,Yes,5,4,Non-Vegetarian,Parkridge,0.75,0.4,0.875,0.875,0.875,1.0,0.8,0.4,0.75,1.0,0.8,0.9
+"(26, 30)",male,other,9,business,6,2,7,7,7,5,4,2,6,Yes,Yes,5,4,Vegetarian,Regent Park,0.75,0.4,0.875,0.875,0.875,1.0,0.8,0.4,0.75,1.0,0.8,0.9
+"(26, 30)",male,other,9,business,6,2,7,7,7,5,4,2,6,Yes,Yes,5,4,Non-Vegetarian,Arcola Sub,0.75,0.4,0.875,0.875,0.875,1.0,0.8,0.4,0.75,1.0,0.8,0.9
+"(26, 30)",male,other,9,business,6,2,7,7,7,5,4,2,6,Sometime,Occasionally,5,4,Vegetarian,Harbour Landing,0.75,0.4,0.875,0.875,0.875,1.0,0.8,0.4,0.75,1.0,0.8,0.9
+"(26, 30)",male,other,9,business,6,2,7,7,7,5,4,2,6,No,No,5,4,Vegetarian,Albert Park,0.75,0.4,0.875,0.875,0.875,1.0,0.8,0.4,0.75,1.0,0.8,0.9
+"(26, 30)",male,other,9,business,6,2,7,7,7,5,4,2,6,Yes,Yes,5,4,Vegetarian,Belvedere,0.75,0.4,0.875,0.875,0.875,1.0,0.8,0.4,0.75,1.0,0.8,0.9
+"(26, 30)",male,other,9,business,6,2,7,7,7,5,4,2,6,Sometime,Occasionally,5,4,Vegetarian,Riverside,0.75,0.4,0.875,0.875,0.875,1.0,0.8,0.4,0.75,1.0,0.8,0.9
+"(26, 30)",male,other,9,business,6,2,7,7,7,5,4,2,6,Yes,Occasionally,5,4,Non-Vegetarian,Albert Park,0.75,0.4,0.875,0.875,0.875,1.0,0.8,0.4,0.75,1.0,0.8,0.9
+"(26, 30)",male,other,9,business,6,2,7,7,7,5,4,2,6,Sometime,No,5,4,Non-Vegetarian,Albert Park,0.75,0.4,0.875,0.875,0.875,1.0,0.8,0.4,0.75,1.0,0.8,0.9
+"(26, 30)",male,other,9,business,6,2,7,7,7,5,4,2,6,Sometime,No,5,4,Non-Vegetarian,CPR Annex,0.75,0.4,0.875,0.875,0.875,1.0,0.8,0.4,0.75,1.0,0.8,0.9
+"(26, 30)",male,other,9,business,6,2,7,7,7,5,4,2,6,Yes,Occasionally,5,4,Vegetarian,Garden Ridge,0.75,0.4,0.875,0.875,0.875,1.0,0.8,0.4,0.75,1.0,0.8,0.9
+"(26, 30)",male,other,9,business,6,2,7,7,7,5,4,2,6,Sometime,Yes,5,4,Vegetarian,Sherwood Estates,0.75,0.4,0.875,0.875,0.875,1.0,0.8,0.4,0.75,1.0,0.8,0.9
+"(26, 30)",male,other,9,business,6,2,7,7,7,5,4,2,6,Sometime,Occasionally,5,4,Vegetarian,Regent Park,0.75,0.4,0.875,0.875,0.875,1.0,0.8,0.4,0.75,1.0,0.8,0.9
+"(21, 25)",male,asian/pacific islander/asian-american,2,financial math,8,8,9,8,8,7,9,8,7,No,No,9,9,Non-Vegetarian,Dewdney Place,1.0,1.0,0.9,1.0,1.0,0.875,0.9,1.0,0.875,0.9,0.9,0.4
+"(21, 25)",male,asian/pacific islander/asian-american,2,financial math,8,8,9,8,8,7,9,8,7,Yes,Yes,9,9,Vegetarian,Creekside,1.0,1.0,0.9,1.0,1.0,0.875,0.9,1.0,0.875,0.9,0.9,0.4
+"(21, 25)",male,asian/pacific islander/asian-american,2,financial math,8,8,9,8,8,7,9,8,7,No,Occasionally,9,9,Vegetarian,Harbour Landing,1.0,1.0,0.9,1.0,1.0,0.875,0.9,1.0,0.875,0.9,0.9,0.4
+"(31, 35)",male,european/caucasian-american,6,chemistry,5,2,9,5,9,4,5,7,9,No,Occasionally,9,9,Vegetarian,Highland Park,1.0,0.4,0.9,1.0,0.9,0.8,1.0,0.875,0.9,0.9,0.9,0.6
+"(31, 35)",male,european/caucasian-american,6,chemistry,5,2,9,5,9,4,5,7,9,No,Occasionally,9,9,Vegetarian,Harbour Landing,1.0,0.4,0.9,1.0,0.9,0.8,1.0,0.875,0.9,0.9,0.9,0.6
+"(31, 35)",male,european/caucasian-american,6,chemistry,5,2,9,5,9,4,5,7,9,No,Yes,9,9,Non-Vegetarian,City View,1.0,0.4,0.9,1.0,0.9,0.8,1.0,0.875,0.9,0.9,0.9,0.6
+"(31, 35)",male,european/caucasian-american,6,chemistry,5,2,9,5,9,4,5,7,9,Yes,Occasionally,9,9,Non-Vegetarian,Parkridge,1.0,0.4,0.9,1.0,0.9,0.8,1.0,0.875,0.9,0.9,0.9,0.6
+"(31, 35)",male,european/caucasian-american,6,chemistry,5,2,9,5,9,4,5,7,9,No,Occasionally,9,9,Vegetarian,Lakewood,1.0,0.4,0.9,1.0,0.9,0.8,1.0,0.875,0.9,0.9,0.9,0.6
+"(31, 35)",male,european/caucasian-american,6,chemistry,5,2,9,5,9,4,5,7,9,No,No,9,9,Non-Vegetarian,Belvedere,1.0,0.4,0.9,1.0,0.9,0.8,1.0,0.875,0.9,0.9,0.9,0.6
+"(31, 35)",male,european/caucasian-american,6,chemistry,5,2,9,5,9,4,5,7,9,Yes,Yes,9,9,Vegetarian,Garden Ridge,1.0,0.4,0.9,1.0,0.9,0.8,1.0,0.875,0.9,0.9,0.9,0.6
+"(31, 35)",male,european/caucasian-american,6,chemistry,5,2,9,5,9,4,5,7,9,Yes,Yes,9,9,Vegetarian,Creekside,1.0,0.4,0.9,1.0,0.9,0.8,1.0,0.875,0.9,0.9,0.9,0.6
+"(31, 35)",male,european/caucasian-american,6,chemistry,5,2,9,5,9,4,5,7,9,Yes,Yes,9,9,Vegetarian,City View,1.0,0.4,0.9,1.0,0.9,0.8,1.0,0.875,0.9,0.9,0.9,0.6
+"(31, 35)",male,european/caucasian-american,6,chemistry,5,2,9,5,9,4,5,7,9,Sometime,Occasionally,9,9,Vegetarian,City View,1.0,0.4,0.9,1.0,0.9,0.8,1.0,0.875,0.9,0.9,0.9,0.6
+"(31, 35)",male,european/caucasian-american,6,chemistry,5,2,9,5,9,4,5,7,9,No,No,9,9,Vegetarian,Dewdney Place,1.0,0.4,0.9,1.0,0.9,0.8,1.0,0.875,0.9,0.9,0.9,0.6
+"(31, 35)",male,european/caucasian-american,6,chemistry,5,2,9,5,9,4,5,7,9,No,Yes,9,9,Vegetarian,Westhill,1.0,0.4,0.9,1.0,0.9,0.8,1.0,0.875,0.9,0.9,0.9,0.6
+"(31, 35)",male,european/caucasian-american,6,chemistry,5,2,9,5,9,4,5,7,9,Yes,No,9,9,Non-Vegetarian,Wascana Crescents,1.0,0.4,0.9,1.0,0.9,0.8,1.0,0.875,0.9,0.9,0.9,0.6
+"(31, 35)",male,european/caucasian-american,6,chemistry,5,2,9,5,9,4,5,7,9,Yes,No,9,9,Non-Vegetarian,Parkridge,1.0,0.4,0.9,1.0,0.9,0.8,1.0,0.875,0.9,0.9,0.9,0.6
+"(31, 35)",male,european/caucasian-american,6,chemistry,5,2,9,5,9,4,5,7,9,Yes,Occasionally,9,9,Non-Vegetarian,Riverside,1.0,0.4,0.9,1.0,0.9,0.8,1.0,0.875,0.9,0.9,0.9,0.6
+"(31, 35)",male,european/caucasian-american,6,chemistry,5,2,9,5,9,4,5,7,9,Sometime,Yes,9,9,Non-Vegetarian,Arcola Sub,1.0,0.4,0.9,1.0,0.9,0.8,1.0,0.875,0.9,0.9,0.9,0.6
+"(26, 30)",male,european/caucasian-american,9,business- mba,8,5,8,8,8,8,8,8,8,No,Occasionally,8,7,Vegetarian,Wascana Crescents,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.875,0.9
+"(26, 30)",male,european/caucasian-american,9,business- mba,8,5,8,8,8,8,8,8,8,Sometime,No,8,7,Vegetarian,Arcola Sub,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.875,0.9
+"(26, 30)",male,european/caucasian-american,9,business- mba,8,5,8,8,8,8,8,8,8,Yes,Yes,8,7,Vegetarian,CPR Annex,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.875,0.9
+"(26, 30)",male,european/caucasian-american,9,business- mba,8,5,8,8,8,8,8,8,8,Yes,No,8,7,Non-Vegetarian,Creekside,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.875,0.9
+"(26, 30)",male,european/caucasian-american,9,business- mba,8,5,8,8,8,8,8,8,8,No,Occasionally,8,7,Vegetarian,Uplands,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.875,0.9
+"(26, 30)",male,european/caucasian-american,9,business- mba,8,5,8,8,8,8,8,8,8,No,Occasionally,8,7,Vegetarian,Parkridge,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.875,0.9
+"(26, 30)",male,european/caucasian-american,9,business- mba,8,5,8,8,8,8,8,8,8,No,Occasionally,8,7,Non-Vegetarian,Grand Trunk Annex,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.875,0.9
+"(26, 30)",male,european/caucasian-american,9,business- mba,8,5,8,8,8,8,8,8,8,No,Yes,8,7,Non-Vegetarian,City View,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.875,0.9
+"(26, 30)",male,european/caucasian-american,9,business- mba,8,5,8,8,8,8,8,8,8,Sometime,Yes,8,7,Non-Vegetarian,Wascana Crescents,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.875,0.9
+"(26, 30)",male,european/caucasian-american,9,business- mba,8,5,8,8,8,8,8,8,8,Sometime,No,8,7,Vegetarian,Lakewood,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.875,0.9
+"(26, 30)",male,european/caucasian-american,9,business- mba,8,5,8,8,8,8,8,8,8,Yes,No,8,7,Non-Vegetarian,Westhill,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.875,0.9
+"(26, 30)",male,european/caucasian-american,9,business- mba,8,5,8,8,8,8,8,8,8,Sometime,Yes,8,7,Non-Vegetarian,Grand Trunk Annex,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.875,0.9
+"(26, 30)",male,european/caucasian-american,9,business- mba,8,5,8,8,8,8,8,8,8,No,Yes,8,7,Vegetarian,Lakewood,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.875,0.9
+"(26, 30)",male,european/caucasian-american,9,business- mba,8,5,8,8,8,8,8,8,8,Sometime,Occasionally,8,7,Non-Vegetarian,Arcola Sub,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.875,0.9
+"(26, 30)",male,european/caucasian-american,9,business- mba,8,5,8,8,8,8,8,8,8,Sometime,Occasionally,8,7,Non-Vegetarian,Albert Park,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.875,0.9
+"(26, 30)",male,european/caucasian-american,8,chemistry,7,5,9,8,7,3,8,9,8,Sometime,Yes,8,3,Non-Vegetarian,Lakewood,0.875,1.0,0.9,1.0,0.875,0.6,1.0,0.9,1.0,1.0,0.6,0.8
+"(26, 30)",male,european/caucasian-american,8,chemistry,7,5,9,8,7,3,8,9,8,Sometime,Yes,8,3,Vegetarian,Regent Park,0.875,1.0,0.9,1.0,0.875,0.6,1.0,0.9,1.0,1.0,0.6,0.8
+"(26, 30)",male,european/caucasian-american,8,chemistry,7,5,9,8,7,3,8,9,8,No,No,8,3,Vegetarian,CPR Annex,0.875,1.0,0.9,1.0,0.875,0.6,1.0,0.9,1.0,1.0,0.6,0.8
+"(26, 30)",male,european/caucasian-american,8,chemistry,7,5,9,8,7,3,8,9,8,No,Occasionally,8,3,Non-Vegetarian,Creekside,0.875,1.0,0.9,1.0,0.875,0.6,1.0,0.9,1.0,1.0,0.6,0.8
+"(26, 30)",male,european/caucasian-american,8,chemistry,7,5,9,8,7,3,8,9,8,Yes,Yes,8,3,Vegetarian,Regent Park,0.875,1.0,0.9,1.0,0.875,0.6,1.0,0.9,1.0,1.0,0.6,0.8
+"(26, 30)",male,european/caucasian-american,8,chemistry,7,5,9,8,7,3,8,9,8,No,No,8,3,Non-Vegetarian,Sherwood Estates,0.875,1.0,0.9,1.0,0.875,0.6,1.0,0.9,1.0,1.0,0.6,0.8
+"(26, 30)",male,european/caucasian-american,8,chemistry,7,5,9,8,7,3,8,9,8,Sometime,Occasionally,8,3,Non-Vegetarian,CPR Annex,0.875,1.0,0.9,1.0,0.875,0.6,1.0,0.9,1.0,1.0,0.6,0.8
+"(26, 30)",male,european/caucasian-american,8,chemistry,7,5,9,8,7,3,8,9,8,No,Occasionally,8,3,Non-Vegetarian,Harbour Landing,0.875,1.0,0.9,1.0,0.875,0.6,1.0,0.9,1.0,1.0,0.6,0.8
+"(26, 30)",male,european/caucasian-american,8,chemistry,7,5,9,8,7,3,8,9,8,No,No,8,3,Non-Vegetarian,Riverside,0.875,1.0,0.9,1.0,0.875,0.6,1.0,0.9,1.0,1.0,0.6,0.8
+"(26, 30)",male,european/caucasian-american,8,chemistry,7,5,9,8,7,3,8,9,8,Sometime,No,8,3,Vegetarian,Riverside,0.875,1.0,0.9,1.0,0.875,0.6,1.0,0.9,1.0,1.0,0.6,0.8
+"(26, 30)",male,european/caucasian-american,8,chemistry,7,5,9,8,7,3,8,9,8,No,Yes,8,3,Non-Vegetarian,Highland Park,0.875,1.0,0.9,1.0,0.875,0.6,1.0,0.9,1.0,1.0,0.6,0.8
+"(26, 30)",male,european/caucasian-american,8,chemistry,7,5,9,8,7,3,8,9,8,No,Occasionally,8,3,Non-Vegetarian,Sherwood Estates,0.875,1.0,0.9,1.0,0.875,0.6,1.0,0.9,1.0,1.0,0.6,0.8
+"(26, 30)",male,european/caucasian-american,8,chemistry,7,5,9,8,7,3,8,9,8,No,Yes,8,3,Non-Vegetarian,Riverside,0.875,1.0,0.9,1.0,0.875,0.6,1.0,0.9,1.0,1.0,0.6,0.8
+"(26, 30)",male,european/caucasian-american,8,chemistry,7,5,9,8,7,3,8,9,8,Yes,Occasionally,8,3,Non-Vegetarian,Creekside,0.875,1.0,0.9,1.0,0.875,0.6,1.0,0.9,1.0,1.0,0.6,0.8
+"(26, 30)",male,european/caucasian-american,8,chemistry,7,5,9,8,7,3,8,9,8,No,Yes,8,3,Non-Vegetarian,Sherwood Estates,0.875,1.0,0.9,1.0,0.875,0.6,1.0,0.9,1.0,1.0,0.6,0.8
+"(21, 25)",male,latino/hispanic american,3,law,9,9,9,8,9,8,2,4,2,Yes,Occasionally,2,4,Vegetarian,Balbrigan Place,0.9,0.9,0.9,1.0,0.9,1.0,0.4,0.8,0.4,0.4,0.8,0.6
+"(21, 25)",male,latino/hispanic american,3,law,9,9,9,8,9,8,2,4,2,No,Occasionally,2,4,Vegetarian,Belvedere,0.9,0.9,0.9,1.0,0.9,1.0,0.4,0.8,0.4,0.4,0.8,0.6
+"(21, 25)",male,latino/hispanic american,3,law,9,9,9,8,9,8,2,4,2,Yes,Occasionally,2,4,Non-Vegetarian,Garden Ridge,0.9,0.9,0.9,1.0,0.9,1.0,0.4,0.8,0.4,0.4,0.8,0.6
+"(21, 25)",male,latino/hispanic american,3,law,9,9,9,8,9,8,2,4,2,No,Occasionally,2,4,Non-Vegetarian,CPR Annex,0.9,0.9,0.9,1.0,0.9,1.0,0.4,0.8,0.4,0.4,0.8,0.6
+"(21, 25)",male,latino/hispanic american,3,law,9,9,9,8,9,8,2,4,2,No,No,2,4,Non-Vegetarian,Parkridge,0.9,0.9,0.9,1.0,0.9,1.0,0.4,0.8,0.4,0.4,0.8,0.6
+"(21, 25)",male,latino/hispanic american,3,law,9,9,9,8,9,8,2,4,2,Yes,Yes,2,4,Vegetarian,Parkridge,0.9,0.9,0.9,1.0,0.9,1.0,0.4,0.8,0.4,0.4,0.8,0.6
+"(21, 25)",male,latino/hispanic american,3,law,9,9,9,8,9,8,2,4,2,Yes,Yes,2,4,Vegetarian,Grand Trunk Annex,0.9,0.9,0.9,1.0,0.9,1.0,0.4,0.8,0.4,0.4,0.8,0.6
+"(21, 25)",male,european/caucasian-american,1,electrical engineering,7,2,5,6,7,3,5,3,4,No,Yes,7,3,Non-Vegetarian,Garden Ridge,0.875,0.4,1.0,0.75,0.875,0.6,1.0,0.6,0.8,0.875,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,electrical engineering,7,2,5,6,7,3,5,3,4,No,No,7,3,Non-Vegetarian,Sherwood Estates,0.875,0.4,1.0,0.75,0.875,0.6,1.0,0.6,0.8,0.875,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,electrical engineering,7,2,5,6,7,3,5,3,4,Sometime,Yes,7,3,Vegetarian,Riverside,0.875,0.4,1.0,0.75,0.875,0.6,1.0,0.6,0.8,0.875,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,electrical engineering,7,2,5,6,7,3,5,3,4,Sometime,Occasionally,7,3,Non-Vegetarian,Sherwood Estates,0.875,0.4,1.0,0.75,0.875,0.6,1.0,0.6,0.8,0.875,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,electrical engineering,7,2,5,6,7,3,5,3,4,No,Occasionally,7,3,Vegetarian,Balbrigan Place,0.875,0.4,1.0,0.75,0.875,0.6,1.0,0.6,0.8,0.875,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,electrical engineering,7,2,5,6,7,3,5,3,4,Yes,Occasionally,7,3,Vegetarian,City View,0.875,0.4,1.0,0.75,0.875,0.6,1.0,0.6,0.8,0.875,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,electrical engineering,7,2,5,6,7,3,5,3,4,Sometime,Occasionally,7,3,Non-Vegetarian,Dewdney Place,0.875,0.4,1.0,0.75,0.875,0.6,1.0,0.6,0.8,0.875,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,electrical engineering,7,2,5,6,7,3,5,3,4,No,No,7,3,Non-Vegetarian,Albert Park,0.875,0.4,1.0,0.75,0.875,0.6,1.0,0.6,0.8,0.875,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,electrical engineering,7,2,5,6,7,3,5,3,4,Yes,Yes,7,3,Vegetarian,Harbour Landing,0.875,0.4,1.0,0.75,0.875,0.6,1.0,0.6,0.8,0.875,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,electrical engineering,7,2,5,6,7,3,5,3,4,Sometime,Yes,7,3,Non-Vegetarian,Regent Park,0.875,0.4,1.0,0.75,0.875,0.6,1.0,0.6,0.8,0.875,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,electrical engineering,7,2,5,6,7,3,5,3,4,No,Yes,7,3,Non-Vegetarian,Westhill,0.875,0.4,1.0,0.75,0.875,0.6,1.0,0.6,0.8,0.875,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,electrical engineering,7,2,5,6,7,3,5,3,4,Sometime,Yes,7,3,Vegetarian,Arcola Sub,0.875,0.4,1.0,0.75,0.875,0.6,1.0,0.6,0.8,0.875,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,electrical engineering,7,2,5,6,7,3,5,3,4,Sometime,Yes,7,3,Vegetarian,Parkridge,0.875,0.4,1.0,0.75,0.875,0.6,1.0,0.6,0.8,0.875,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,electrical engineering,7,2,5,6,7,3,5,3,4,Yes,No,7,3,Non-Vegetarian,Albert Park,0.875,0.4,1.0,0.75,0.875,0.6,1.0,0.6,0.8,0.875,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,electrical engineering,7,2,5,6,7,3,5,3,4,Sometime,Yes,7,3,Non-Vegetarian,Harbour Landing,0.875,0.4,1.0,0.75,0.875,0.6,1.0,0.6,0.8,0.875,0.6,1.0
+"(21, 25)",male,european/caucasian-american,1,electrical engineering,7,2,5,6,7,3,5,3,4,Yes,Occasionally,7,3,Vegetarian,Regent Park,0.875,0.4,1.0,0.75,0.875,0.6,1.0,0.6,0.8,0.875,0.6,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,film,10,2,10,10,10,5,2,1,2,Yes,Yes,2,1,Non-Vegetarian,CPR Annex,1.0,0.4,1.0,1.0,1.0,1.0,0.4,0.2,0.4,0.4,0.2,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,film,10,2,10,10,10,5,2,1,2,No,Occasionally,2,1,Vegetarian,Harbour Landing,1.0,0.4,1.0,1.0,1.0,1.0,0.4,0.2,0.4,0.4,0.2,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,film,10,2,10,10,10,5,2,1,2,Sometime,Yes,2,1,Non-Vegetarian,Regent Park,1.0,0.4,1.0,1.0,1.0,1.0,0.4,0.2,0.4,0.4,0.2,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,film,10,2,10,10,10,5,2,1,2,Yes,Yes,2,1,Non-Vegetarian,Westhill,1.0,0.4,1.0,1.0,1.0,1.0,0.4,0.2,0.4,0.4,0.2,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,film,10,2,10,10,10,5,2,1,2,No,Occasionally,2,1,Non-Vegetarian,City View,1.0,0.4,1.0,1.0,1.0,1.0,0.4,0.2,0.4,0.4,0.2,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,film,10,2,10,10,10,5,2,1,2,No,No,2,1,Vegetarian,City View,1.0,0.4,1.0,1.0,1.0,1.0,0.4,0.2,0.4,0.4,0.2,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,film,10,2,10,10,10,5,2,1,2,Sometime,Yes,2,1,Vegetarian,Westhill,1.0,0.4,1.0,1.0,1.0,1.0,0.4,0.2,0.4,0.4,0.2,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,film,10,2,10,10,10,5,2,1,2,Yes,Yes,2,1,Vegetarian,City View,1.0,0.4,1.0,1.0,1.0,1.0,0.4,0.2,0.4,0.4,0.2,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,film,10,2,10,10,10,5,2,1,2,Yes,No,2,1,Vegetarian,Uplands,1.0,0.4,1.0,1.0,1.0,1.0,0.4,0.2,0.4,0.4,0.2,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,film,10,2,10,10,10,5,2,1,2,Sometime,Occasionally,2,1,Vegetarian,Garden Ridge,1.0,0.4,1.0,1.0,1.0,1.0,0.4,0.2,0.4,0.4,0.2,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,film,10,2,10,10,10,5,2,1,2,Yes,Yes,2,1,Non-Vegetarian,Uplands,1.0,0.4,1.0,1.0,1.0,1.0,0.4,0.2,0.4,0.4,0.2,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,film,10,2,10,10,10,5,2,1,2,No,No,2,1,Non-Vegetarian,Regent Park,1.0,0.4,1.0,1.0,1.0,1.0,0.4,0.2,0.4,0.4,0.2,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,film,10,2,10,10,10,5,2,1,2,Yes,Occasionally,2,1,Non-Vegetarian,Creekside,1.0,0.4,1.0,1.0,1.0,1.0,0.4,0.2,0.4,0.4,0.2,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,film,10,2,10,10,10,5,2,1,2,Sometime,No,2,1,Non-Vegetarian,Uplands,1.0,0.4,1.0,1.0,1.0,1.0,0.4,0.2,0.4,0.4,0.2,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,film,10,2,10,10,10,5,2,1,2,Sometime,No,2,1,Vegetarian,Creekside,1.0,0.4,1.0,1.0,1.0,1.0,0.4,0.2,0.4,0.4,0.2,1.0
+"(26, 30)",male,european/caucasian-american,6,film,7,2,7,8,9,5,3,8,8,Sometime,No,4,3,Non-Vegetarian,Creekside,0.875,0.4,0.875,1.0,0.9,1.0,0.6,1.0,1.0,0.8,0.6,0.6
+"(26, 30)",male,european/caucasian-american,6,film,7,2,7,8,9,5,3,8,8,Sometime,Occasionally,4,3,Non-Vegetarian,Riverside,0.875,0.4,0.875,1.0,0.9,1.0,0.6,1.0,1.0,0.8,0.6,0.6
+"(26, 30)",male,european/caucasian-american,6,film,7,2,7,8,9,5,3,8,8,No,Yes,4,3,Non-Vegetarian,Grand Trunk Annex,0.875,0.4,0.875,1.0,0.9,1.0,0.6,1.0,1.0,0.8,0.6,0.6
+"(26, 30)",male,european/caucasian-american,6,film,7,2,7,8,9,5,3,8,8,Yes,No,4,3,Non-Vegetarian,Wascana Crescents,0.875,0.4,0.875,1.0,0.9,1.0,0.6,1.0,1.0,0.8,0.6,0.6
+"(26, 30)",male,european/caucasian-american,6,film,7,2,7,8,9,5,3,8,8,No,Occasionally,4,3,Non-Vegetarian,Creekside,0.875,0.4,0.875,1.0,0.9,1.0,0.6,1.0,1.0,0.8,0.6,0.6
+"(26, 30)",male,european/caucasian-american,6,film,7,2,7,8,9,5,3,8,8,No,Yes,4,3,Vegetarian,Arcola Sub,0.875,0.4,0.875,1.0,0.9,1.0,0.6,1.0,1.0,0.8,0.6,0.6
+"(26, 30)",male,european/caucasian-american,6,film,7,2,7,8,9,5,3,8,8,Yes,Occasionally,4,3,Vegetarian,Dewdney Place,0.875,0.4,0.875,1.0,0.9,1.0,0.6,1.0,1.0,0.8,0.6,0.6
+"(15, 20)",female,other,1,sociology,9,8,5,10,8,3,9,8,8,Sometime,Yes,8,3,Vegetarian,Harbour Landing,0.9,1.0,1.0,1.0,1.0,0.6,0.9,1.0,1.0,1.0,0.6,1.0
+"(15, 20)",female,other,1,sociology,9,8,5,10,8,3,9,8,8,No,Yes,8,3,Non-Vegetarian,Grand Trunk Annex,0.9,1.0,1.0,1.0,1.0,0.6,0.9,1.0,1.0,1.0,0.6,1.0
+"(15, 20)",female,other,1,sociology,9,8,5,10,8,3,9,8,8,Sometime,Occasionally,8,3,Non-Vegetarian,Arcola Sub,0.9,1.0,1.0,1.0,1.0,0.6,0.9,1.0,1.0,1.0,0.6,1.0
+"(15, 20)",female,other,1,sociology,9,8,5,10,8,3,9,8,8,No,No,8,3,Non-Vegetarian,Uplands,0.9,1.0,1.0,1.0,1.0,0.6,0.9,1.0,1.0,1.0,0.6,1.0
+"(15, 20)",female,other,1,sociology,9,8,5,10,8,3,9,8,8,Yes,Yes,8,3,Non-Vegetarian,Parkridge,0.9,1.0,1.0,1.0,1.0,0.6,0.9,1.0,1.0,1.0,0.6,1.0
+"(15, 20)",female,other,1,sociology,9,8,5,10,8,3,9,8,8,No,Yes,8,3,Vegetarian,Riverside,0.9,1.0,1.0,1.0,1.0,0.6,0.9,1.0,1.0,1.0,0.6,1.0
+"(15, 20)",female,other,1,sociology,9,8,5,10,8,3,9,8,8,No,Occasionally,8,3,Non-Vegetarian,Garden Ridge,0.9,1.0,1.0,1.0,1.0,0.6,0.9,1.0,1.0,1.0,0.6,1.0
+"(15, 20)",female,other,1,sociology,9,8,5,10,8,3,9,8,8,Sometime,No,8,3,Vegetarian,Creekside,0.9,1.0,1.0,1.0,1.0,0.6,0.9,1.0,1.0,1.0,0.6,1.0
+"(21, 25)",female,european/caucasian-american,8,economics,8,2,10,10,10,7,6,7,7,No,Occasionally,5,3,Vegetarian,Albert Park,1.0,0.4,1.0,1.0,1.0,0.875,0.75,0.875,0.875,1.0,0.6,0.8
+"(21, 25)",female,european/caucasian-american,8,economics,8,2,10,10,10,7,6,7,7,Sometime,Yes,5,3,Non-Vegetarian,Garden Ridge,1.0,0.4,1.0,1.0,1.0,0.875,0.75,0.875,0.875,1.0,0.6,0.8
+"(21, 25)",female,european/caucasian-american,8,economics,8,2,10,10,10,7,6,7,7,No,Occasionally,5,3,Non-Vegetarian,Riverside,1.0,0.4,1.0,1.0,1.0,0.875,0.75,0.875,0.875,1.0,0.6,0.8
+"(21, 25)",female,european/caucasian-american,8,economics,8,2,10,10,10,7,6,7,7,Yes,Occasionally,5,3,Vegetarian,Parkridge,1.0,0.4,1.0,1.0,1.0,0.875,0.75,0.875,0.875,1.0,0.6,0.8
+"(21, 25)",female,european/caucasian-american,8,economics,8,2,10,10,10,7,6,7,7,Sometime,Occasionally,5,3,Vegetarian,Grand Trunk Annex,1.0,0.4,1.0,1.0,1.0,0.875,0.75,0.875,0.875,1.0,0.6,0.8
+"(21, 25)",female,european/caucasian-american,8,economics,8,2,10,10,10,7,6,7,7,No,Occasionally,5,3,Non-Vegetarian,Garden Ridge,1.0,0.4,1.0,1.0,1.0,0.875,0.75,0.875,0.875,1.0,0.6,0.8
+"(21, 25)",female,european/caucasian-american,8,economics,8,2,10,10,10,7,6,7,7,No,Yes,5,3,Non-Vegetarian,Parkridge,1.0,0.4,1.0,1.0,1.0,0.875,0.75,0.875,0.875,1.0,0.6,0.8
+"(21, 25)",female,european/caucasian-american,8,economics,8,2,10,10,10,7,6,7,7,Yes,No,5,3,Non-Vegetarian,Sherwood Estates,1.0,0.4,1.0,1.0,1.0,0.875,0.75,0.875,0.875,1.0,0.6,0.8
+"(21, 25)",female,european/caucasian-american,7,psychology,10,1,7,7,6,2,8,1,8,Yes,Yes,2,2,Non-Vegetarian,CPR Annex,1.0,0.2,0.875,0.875,0.75,0.4,1.0,0.2,1.0,0.4,0.4,0.7
+"(21, 25)",female,european/caucasian-american,7,psychology,10,1,7,7,6,2,8,1,8,No,Occasionally,2,2,Non-Vegetarian,CPR Annex,1.0,0.2,0.875,0.875,0.75,0.4,1.0,0.2,1.0,0.4,0.4,0.7
+"(21, 25)",female,european/caucasian-american,7,psychology,10,1,7,7,6,2,8,1,8,Sometime,Yes,2,2,Non-Vegetarian,Sherwood Estates,1.0,0.2,0.875,0.875,0.75,0.4,1.0,0.2,1.0,0.4,0.4,0.7
+"(21, 25)",female,european/caucasian-american,7,psychology,10,1,7,7,6,2,8,1,8,Sometime,Yes,2,2,Non-Vegetarian,Regent Park,1.0,0.2,0.875,0.875,0.75,0.4,1.0,0.2,1.0,0.4,0.4,0.7
+"(21, 25)",female,european/caucasian-american,7,psychology,10,1,7,7,6,2,8,1,8,Yes,No,2,2,Vegetarian,Arcola Sub,1.0,0.2,0.875,0.875,0.75,0.4,1.0,0.2,1.0,0.4,0.4,0.7
+"(21, 25)",female,european/caucasian-american,7,psychology,10,1,7,7,6,2,8,1,8,Yes,Occasionally,2,2,Non-Vegetarian,Grand Trunk Annex,1.0,0.2,0.875,0.875,0.75,0.4,1.0,0.2,1.0,0.4,0.4,0.7
+"(21, 25)",female,european/caucasian-american,7,psychology,10,1,7,7,6,2,8,1,8,No,Occasionally,2,2,Non-Vegetarian,Westhill,1.0,0.2,0.875,0.875,0.75,0.4,1.0,0.2,1.0,0.4,0.4,0.7
+"(21, 25)",female,european/caucasian-american,1,political science,10,4,10,10,10,10,8,6,3,Sometime,Yes,5,4,Vegetarian,Lakewood,1.0,0.8,1.0,1.0,1.0,1.0,1.0,0.75,0.6,1.0,0.8,1.0
+"(21, 25)",female,european/caucasian-american,1,political science,10,4,10,10,10,10,8,6,3,Sometime,No,5,4,Vegetarian,Grand Trunk Annex,1.0,0.8,1.0,1.0,1.0,1.0,1.0,0.75,0.6,1.0,0.8,1.0
+"(21, 25)",female,european/caucasian-american,1,political science,10,4,10,10,10,10,8,6,3,Sometime,No,5,4,Non-Vegetarian,Belvedere,1.0,0.8,1.0,1.0,1.0,1.0,1.0,0.75,0.6,1.0,0.8,1.0
+"(21, 25)",female,european/caucasian-american,1,political science,10,4,10,10,10,10,8,6,3,Sometime,No,5,4,Non-Vegetarian,Sherwood Estates,1.0,0.8,1.0,1.0,1.0,1.0,1.0,0.75,0.6,1.0,0.8,1.0
+"(21, 25)",female,european/caucasian-american,1,political science,10,4,10,10,10,10,8,6,3,Yes,Occasionally,5,4,Non-Vegetarian,Riverside,1.0,0.8,1.0,1.0,1.0,1.0,1.0,0.75,0.6,1.0,0.8,1.0
+"(21, 25)",female,european/caucasian-american,1,political science,10,4,10,10,10,10,8,6,3,Yes,Occasionally,5,4,Non-Vegetarian,Uplands,1.0,0.8,1.0,1.0,1.0,1.0,1.0,0.75,0.6,1.0,0.8,1.0
+"(21, 25)",female,european/caucasian-american,1,political science,10,4,10,10,10,10,8,6,3,No,Yes,5,4,Non-Vegetarian,Sherwood Estates,1.0,0.8,1.0,1.0,1.0,1.0,1.0,0.75,0.6,1.0,0.8,1.0
+"(21, 25)",female,european/caucasian-american,1,political science,10,4,10,10,10,10,8,6,3,Sometime,Yes,5,4,Vegetarian,Riverside,1.0,0.8,1.0,1.0,1.0,1.0,1.0,0.75,0.6,1.0,0.8,1.0
+"(21, 25)",female,european/caucasian-american,10,economics,8,3,6,6,6,8,5,6,8,Yes,Occasionally,[9-10],6,Vegetarian,Highland Park,1.0,0.6,0.75,0.75,0.75,1.0,1.0,0.75,1.0,0.75,0.75,1.0
+"(21, 25)",female,european/caucasian-american,10,economics,8,3,6,6,6,8,5,6,8,Yes,Yes,[9-10],6,Vegetarian,Balbrigan Place,1.0,0.6,0.75,0.75,0.75,1.0,1.0,0.75,1.0,0.75,0.75,1.0
+"(21, 25)",female,european/caucasian-american,10,economics,8,3,6,6,6,8,5,6,8,Yes,Occasionally,[6-8],6,Non-Vegetarian,Highland Park,1.0,0.6,0.75,0.75,0.75,1.0,1.0,0.75,1.0,0.75,0.75,1.0
+"(21, 25)",female,european/caucasian-american,10,economics,8,3,6,6,6,8,5,6,8,Sometime,Occasionally,[0-5],6,Non-Vegetarian,CPR Annex,1.0,0.6,0.75,0.75,0.75,1.0,1.0,0.75,1.0,0.75,0.75,1.0
+"(21, 25)",female,european/caucasian-american,10,economics,8,3,6,6,6,8,5,6,8,Sometime,No,[6-8],6,Non-Vegetarian,Lakewood,1.0,0.6,0.75,0.75,0.75,1.0,1.0,0.75,1.0,0.75,0.75,1.0
+"(15, 20)",female,latino/hispanic american,2,polish,9,8,9,10,9,5,10,5,8,No,Occasionally,8,5,Non-Vegetarian,Riverside,0.9,1.0,0.9,1.0,0.9,1.0,1.0,1.0,1.0,1.0,1.0,0.4
+"(15, 20)",female,latino/hispanic american,4,english,10,1,8,8,9,6,5,3,4,Yes,Occasionally,5,4,Non-Vegetarian,Uplands,1.0,0.2,1.0,1.0,0.9,0.75,1.0,0.6,0.8,1.0,0.8,0.8
+"(15, 20)",female,latino/hispanic american,4,english,10,1,8,8,9,6,5,3,4,No,Yes,5,4,Vegetarian,Parkridge,1.0,0.2,1.0,1.0,0.9,0.75,1.0,0.6,0.8,1.0,0.8,0.8
+"(15, 20)",female,latino/hispanic american,4,english,10,1,8,8,9,6,5,3,4,Yes,Occasionally,5,4,Vegetarian,Parkridge,1.0,0.2,1.0,1.0,0.9,0.75,1.0,0.6,0.8,1.0,0.8,0.8
+"(15, 20)",female,latino/hispanic american,4,english,10,1,8,8,9,6,5,3,4,Yes,No,5,4,Non-Vegetarian,Belvedere,1.0,0.2,1.0,1.0,0.9,0.75,1.0,0.6,0.8,1.0,0.8,0.8
+"(15, 20)",female,latino/hispanic american,4,english,10,1,8,8,9,6,5,3,4,Sometime,Yes,5,4,Vegetarian,Riverside,1.0,0.2,1.0,1.0,0.9,0.75,1.0,0.6,0.8,1.0,0.8,0.8
+"(15, 20)",female,latino/hispanic american,4,english,10,1,8,8,9,6,5,3,4,Sometime,Occasionally,5,4,Non-Vegetarian,Lakewood,1.0,0.2,1.0,1.0,0.9,0.75,1.0,0.6,0.8,1.0,0.8,0.8
+"(15, 20)",female,latino/hispanic american,4,english,10,1,8,8,9,6,5,3,4,Yes,Occasionally,5,4,Vegetarian,Albert Park,1.0,0.2,1.0,1.0,0.9,0.75,1.0,0.6,0.8,1.0,0.8,0.8
+"(21, 25)",female,european/caucasian-american,1,psychology and english,7,4,10,10,10,8,7,6,6,No,Yes,2,2,Vegetarian,Arcola Sub,0.875,0.8,1.0,1.0,1.0,1.0,0.875,0.75,0.75,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,psychology and english,7,4,10,10,10,8,7,6,6,Sometime,Yes,2,2,Vegetarian,Lakewood,0.875,0.8,1.0,1.0,1.0,1.0,0.875,0.75,0.75,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,psychology and english,7,4,10,10,10,8,7,6,6,Yes,No,2,2,Vegetarian,Grand Trunk Annex,0.875,0.8,1.0,1.0,1.0,1.0,0.875,0.75,0.75,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,psychology and english,7,4,10,10,10,8,7,6,6,No,No,2,2,Non-Vegetarian,Riverside,0.875,0.8,1.0,1.0,1.0,1.0,0.875,0.75,0.75,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,psychology and english,7,4,10,10,10,8,7,6,6,No,No,2,2,Non-Vegetarian,City View,0.875,0.8,1.0,1.0,1.0,1.0,0.875,0.75,0.75,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,psychology and english,7,4,10,10,10,8,7,6,6,Yes,Yes,2,2,Non-Vegetarian,CPR Annex,0.875,0.8,1.0,1.0,1.0,1.0,0.875,0.75,0.75,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,psychology and english,7,4,10,10,10,8,7,6,6,No,Yes,2,2,Non-Vegetarian,Wascana Crescents,0.875,0.8,1.0,1.0,1.0,1.0,0.875,0.75,0.75,0.4,0.4,1.0
+"(21, 25)",female,european/caucasian-american,1,psychology and english,7,4,10,10,10,8,7,6,6,No,Yes,2,2,Non-Vegetarian,Highland Park,0.875,0.8,1.0,1.0,1.0,1.0,0.875,0.75,0.75,0.4,0.4,1.0
+"(21, 25)",male,other,1,law,6,6,9,8,8,8,6,5,7,No,No,7,9,Vegetarian,Dewdney Place,0.75,0.75,0.9,1.0,1.0,1.0,0.75,1.0,0.875,0.875,0.9,1.0
+"(21, 25)",male,other,1,law,6,6,9,8,8,8,6,5,7,No,Yes,7,9,Non-Vegetarian,Garden Ridge,0.75,0.75,0.9,1.0,1.0,1.0,0.75,1.0,0.875,0.875,0.9,1.0
+"(21, 25)",male,other,1,law,6,6,9,8,8,8,6,5,7,Yes,Occasionally,7,9,Non-Vegetarian,Garden Ridge,0.75,0.75,0.9,1.0,1.0,1.0,0.75,1.0,0.875,0.875,0.9,1.0
+"(21, 25)",male,other,1,law,6,6,9,8,8,8,6,5,7,Sometime,Occasionally,7,9,Non-Vegetarian,Arcola Sub,0.75,0.75,0.9,1.0,1.0,1.0,0.75,1.0,0.875,0.875,0.9,1.0
+"(21, 25)",male,other,1,law,6,6,9,8,8,8,6,5,7,Yes,Occasionally,7,9,Vegetarian,Balbrigan Place,0.75,0.75,0.9,1.0,1.0,1.0,0.75,1.0,0.875,0.875,0.9,1.0
+"(21, 25)",male,other,1,law,6,6,9,8,8,8,6,5,7,Yes,Occasionally,7,9,Vegetarian,Grand Trunk Annex,0.75,0.75,0.9,1.0,1.0,1.0,0.75,1.0,0.875,0.875,0.9,1.0
+"(21, 25)",male,other,1,law,6,6,9,8,8,8,6,5,7,Sometime,No,7,9,Vegetarian,Balbrigan Place,0.75,0.75,0.9,1.0,1.0,1.0,0.75,1.0,0.875,0.875,0.9,1.0
+"(21, 25)",male,other,1,law,6,6,9,8,8,8,6,5,7,Yes,No,7,9,Non-Vegetarian,Sherwood Estates,0.75,0.75,0.9,1.0,1.0,1.0,0.75,1.0,0.875,0.875,0.9,1.0
+"(15, 20)",male,asian/pacific islander/asian-american,5,biomedical engineering,2,5,8,7,7,7,6,5,8,No,Yes,9,9,Non-Vegetarian,Albert Park,0.4,1.0,1.0,0.875,0.875,0.875,0.75,1.0,1.0,0.9,0.9,1.0
+"(15, 20)",male,asian/pacific islander/asian-american,5,biomedical engineering,2,5,8,7,7,7,6,5,8,Sometime,No,9,9,Non-Vegetarian,Harbour Landing,0.4,1.0,1.0,0.875,0.875,0.875,0.75,1.0,1.0,0.9,0.9,1.0
+"(15, 20)",male,asian/pacific islander/asian-american,5,biomedical engineering,2,5,8,7,7,7,6,5,8,Sometime,Occasionally,9,9,Vegetarian,Balbrigan Place,0.4,1.0,1.0,0.875,0.875,0.875,0.75,1.0,1.0,0.9,0.9,1.0
+"(15, 20)",male,asian/pacific islander/asian-american,5,biomedical engineering,2,5,8,7,7,7,6,5,8,No,Yes,9,9,Non-Vegetarian,Uplands,0.4,1.0,1.0,0.875,0.875,0.875,0.75,1.0,1.0,0.9,0.9,1.0
+"(15, 20)",male,asian/pacific islander/asian-american,5,biomedical engineering,2,5,8,7,7,7,6,5,8,Sometime,Yes,9,9,Vegetarian,Grand Trunk Annex,0.4,1.0,1.0,0.875,0.875,0.875,0.75,1.0,1.0,0.9,0.9,1.0
+"(15, 20)",male,asian/pacific islander/asian-american,5,biomedical engineering,2,5,8,7,7,7,6,5,8,Sometime,Occasionally,9,9,Non-Vegetarian,Harbour Landing,0.4,1.0,1.0,0.875,0.875,0.875,0.75,1.0,1.0,0.9,0.9,1.0
+"(15, 20)",male,asian/pacific islander/asian-american,5,biomedical engineering,2,5,8,7,7,7,6,5,8,Yes,Yes,9,9,Vegetarian,Riverside,0.4,1.0,1.0,0.875,0.875,0.875,0.75,1.0,1.0,0.9,0.9,1.0
+"(15, 20)",male,asian/pacific islander/asian-american,5,biomedical engineering,2,5,8,7,7,7,6,5,8,Sometime,No,9,9,Non-Vegetarian,Parkridge,0.4,1.0,1.0,0.875,0.875,0.875,0.75,1.0,1.0,0.9,0.9,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,economics and political science,8,5,10,8,9,6,8,6,8,No,Occasionally,5,5,Non-Vegetarian,Parkridge,1.0,1.0,1.0,1.0,0.9,0.75,1.0,0.75,1.0,1.0,1.0,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,economics and political science,8,5,10,8,9,6,8,6,8,No,Occasionally,5,5,Vegetarian,Westhill,1.0,1.0,1.0,1.0,0.9,0.75,1.0,0.75,1.0,1.0,1.0,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,economics and political science,8,5,10,8,9,6,8,6,8,No,No,5,5,Non-Vegetarian,Lakewood,1.0,1.0,1.0,1.0,0.9,0.75,1.0,0.75,1.0,1.0,1.0,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,economics and political science,8,5,10,8,9,6,8,6,8,No,Occasionally,5,5,Vegetarian,Creekside,1.0,1.0,1.0,1.0,0.9,0.75,1.0,0.75,1.0,1.0,1.0,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,economics and political science,8,5,10,8,9,6,8,6,8,Sometime,No,5,5,Non-Vegetarian,Harbour Landing,1.0,1.0,1.0,1.0,0.9,0.75,1.0,0.75,1.0,1.0,1.0,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,economics and political science,8,5,10,8,9,6,8,6,8,No,Yes,5,5,Vegetarian,Grand Trunk Annex,1.0,1.0,1.0,1.0,0.9,0.75,1.0,0.75,1.0,1.0,1.0,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,economics and political science,8,5,10,8,9,6,8,6,8,Yes,Occasionally,5,5,Non-Vegetarian,Creekside,1.0,1.0,1.0,1.0,0.9,0.75,1.0,0.75,1.0,1.0,1.0,1.0
+"(21, 25)",male,asian/pacific islander/asian-american,1,economics and political science,8,5,10,8,9,6,8,6,8,Yes,Occasionally,5,5,Non-Vegetarian,Uplands,1.0,1.0,1.0,1.0,0.9,0.75,1.0,0.75,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,art history/medicine,9,1,10,9,9,2,10,1,9,Sometime,Yes,3,1,Vegetarian,Balbrigan Place,0.9,0.2,1.0,0.9,0.9,0.4,1.0,0.2,0.9,0.6,0.2,1.0
+"(21, 25)",male,european/caucasian-american,1,art history/medicine,9,1,10,9,9,2,10,1,9,Sometime,No,3,1,Non-Vegetarian,Albert Park,0.9,0.2,1.0,0.9,0.9,0.4,1.0,0.2,0.9,0.6,0.2,1.0
+"(21, 25)",male,european/caucasian-american,1,art history/medicine,9,1,10,9,9,2,10,1,9,Yes,No,3,1,Vegetarian,City View,0.9,0.2,1.0,0.9,0.9,0.4,1.0,0.2,0.9,0.6,0.2,1.0
+"(21, 25)",male,european/caucasian-american,1,art history/medicine,9,1,10,9,9,2,10,1,9,No,Yes,3,1,Non-Vegetarian,Harbour Landing,0.9,0.2,1.0,0.9,0.9,0.4,1.0,0.2,0.9,0.6,0.2,1.0
+"(21, 25)",male,european/caucasian-american,1,art history/medicine,9,1,10,9,9,2,10,1,9,No,No,3,1,Non-Vegetarian,CPR Annex,0.9,0.2,1.0,0.9,0.9,0.4,1.0,0.2,0.9,0.6,0.2,1.0
+"(21, 25)",male,european/caucasian-american,1,art history/medicine,9,1,10,9,9,2,10,1,9,No,No,3,1,Vegetarian,Highland Park,0.9,0.2,1.0,0.9,0.9,0.4,1.0,0.2,0.9,0.6,0.2,1.0
+"(21, 25)",male,european/caucasian-american,1,art history/medicine,9,1,10,9,9,2,10,1,9,No,No,3,1,Vegetarian,Sherwood Estates,0.9,0.2,1.0,0.9,0.9,0.4,1.0,0.2,0.9,0.6,0.2,1.0
+"(21, 25)",male,european/caucasian-american,1,art history/medicine,9,1,10,9,9,2,10,1,9,Yes,Yes,3,1,Non-Vegetarian,Westhill,0.9,0.2,1.0,0.9,0.9,0.4,1.0,0.2,0.9,0.6,0.2,1.0
+"(21, 25)",male,european/caucasian-american,1,art history/medicine,9,1,10,9,9,2,10,1,9,Yes,Occasionally,3,1,Non-Vegetarian,Regent Park,0.9,0.2,1.0,0.9,0.9,0.4,1.0,0.2,0.9,0.6,0.2,1.0
+"(21, 25)",male,european/caucasian-american,5,philosophy,10,2,8,10,8,5,7,5,7,Yes,Yes,10,8,Vegetarian,Albert Park,1.0,0.4,1.0,1.0,1.0,1.0,0.875,1.0,0.875,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,5,philosophy,10,2,8,10,8,5,7,5,7,Yes,Yes,10,8,Vegetarian,Grand Trunk Annex,1.0,0.4,1.0,1.0,1.0,1.0,0.875,1.0,0.875,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,5,philosophy,10,2,8,10,8,5,7,5,7,No,No,10,8,Vegetarian,Garden Ridge,1.0,0.4,1.0,1.0,1.0,1.0,0.875,1.0,0.875,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,5,philosophy,10,2,8,10,8,5,7,5,7,Sometime,Yes,10,8,Non-Vegetarian,Albert Park,1.0,0.4,1.0,1.0,1.0,1.0,0.875,1.0,0.875,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,5,philosophy,10,2,8,10,8,5,7,5,7,Sometime,Yes,10,8,Non-Vegetarian,Belvedere,1.0,0.4,1.0,1.0,1.0,1.0,0.875,1.0,0.875,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,5,philosophy,10,2,8,10,8,5,7,5,7,Yes,Yes,10,8,Non-Vegetarian,Creekside,1.0,0.4,1.0,1.0,1.0,1.0,0.875,1.0,0.875,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,5,philosophy,10,2,8,10,8,5,7,5,7,Yes,No,10,8,Non-Vegetarian,Lakewood,1.0,0.4,1.0,1.0,1.0,1.0,0.875,1.0,0.875,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,5,philosophy,10,2,8,10,8,5,7,5,7,No,No,10,8,Non-Vegetarian,Sherwood Estates,1.0,0.4,1.0,1.0,1.0,1.0,0.875,1.0,0.875,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,mechanical engineering,1,5,8,7,5,7,6,5,8,Yes,Occasionally,10,8,Non-Vegetarian,Sherwood Estates,0.2,1.0,1.0,0.875,1.0,0.875,0.75,1.0,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,mechanical engineering,1,5,8,7,5,7,6,5,8,Sometime,No,10,8,Vegetarian,Creekside,0.2,1.0,1.0,0.875,1.0,0.875,0.75,1.0,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,mechanical engineering,1,5,8,7,5,7,6,5,8,No,Yes,10,8,Vegetarian,Arcola Sub,0.2,1.0,1.0,0.875,1.0,0.875,0.75,1.0,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,mechanical engineering,1,5,8,7,5,7,6,5,8,Yes,No,10,8,Non-Vegetarian,Uplands,0.2,1.0,1.0,0.875,1.0,0.875,0.75,1.0,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,mechanical engineering,1,5,8,7,5,7,6,5,8,Sometime,Occasionally,10,8,Vegetarian,Riverside,0.2,1.0,1.0,0.875,1.0,0.875,0.75,1.0,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,mechanical engineering,1,5,8,7,5,7,6,5,8,Yes,No,10,8,Vegetarian,Albert Park,0.2,1.0,1.0,0.875,1.0,0.875,0.75,1.0,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,mechanical engineering,1,5,8,7,5,7,6,5,8,No,Occasionally,10,8,Non-Vegetarian,Harbour Landing,0.2,1.0,1.0,0.875,1.0,0.875,0.75,1.0,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,mechanical engineering,1,5,8,7,5,7,6,5,8,Yes,No,10,8,Non-Vegetarian,Balbrigan Place,0.2,1.0,1.0,0.875,1.0,0.875,0.75,1.0,1.0,1.0,1.0,1.0
+"(21, 25)",male,european/caucasian-american,1,engineering,5,7,6,10,8,3,3,8,7,Yes,No,8,7,Vegetarian,Lakewood,1.0,0.875,0.75,1.0,1.0,0.6,0.6,1.0,0.875,1.0,0.875,1.0
+"(21, 25)",male,european/caucasian-american,1,engineering,5,7,6,10,8,3,3,8,7,No,No,8,7,Vegetarian,Sherwood Estates,1.0,0.875,0.75,1.0,1.0,0.6,0.6,1.0,0.875,1.0,0.875,1.0
+"(21, 25)",male,european/caucasian-american,1,engineering,5,7,6,10,8,3,3,8,7,Yes,No,8,7,Non-Vegetarian,Sherwood Estates,1.0,0.875,0.75,1.0,1.0,0.6,0.6,1.0,0.875,1.0,0.875,1.0
+"(21, 25)",male,european/caucasian-american,1,engineering,5,7,6,10,8,3,3,8,7,Sometime,No,8,7,Vegetarian,Riverside,1.0,0.875,0.75,1.0,1.0,0.6,0.6,1.0,0.875,1.0,0.875,1.0
+"(21, 25)",male,european/caucasian-american,1,engineering,5,7,6,10,8,3,3,8,7,Yes,Yes,8,7,Vegetarian,Sherwood Estates,1.0,0.875,0.75,1.0,1.0,0.6,0.6,1.0,0.875,1.0,0.875,1.0
+"(21, 25)",male,european/caucasian-american,1,engineering,5,7,6,10,8,3,3,8,7,No,Yes,8,7,Non-Vegetarian,Parkridge,1.0,0.875,0.75,1.0,1.0,0.6,0.6,1.0,0.875,1.0,0.875,1.0
+"(21, 25)",male,european/caucasian-american,1,engineering,5,7,6,10,8,3,3,8,7,Sometime,Yes,8,7,Vegetarian,Arcola Sub,1.0,0.875,0.75,1.0,1.0,0.6,0.6,1.0,0.875,1.0,0.875,1.0
+"(21, 25)",male,european/caucasian-american,1,engineering,5,7,6,10,8,3,3,8,7,Yes,No,8,7,Non-Vegetarian,Garden Ridge,1.0,0.875,0.75,1.0,1.0,0.6,0.6,1.0,0.875,1.0,0.875,1.0
+"(15, 20)",male,asian/pacific islander/asian-american,1,computer science,8,6,5,6,8,7,4,3,5,No,No,5,1,Vegetarian,Arcola Sub,1.0,0.75,1.0,0.75,1.0,0.875,0.8,0.6,1.0,1.0,0.2,1.0
+"(15, 20)",male,asian/pacific islander/asian-american,1,computer science,8,6,5,6,8,7,4,3,5,Yes,Occasionally,5,1,Non-Vegetarian,CPR Annex,1.0,0.75,1.0,0.75,1.0,0.875,0.8,0.6,1.0,1.0,0.2,1.0
+"(15, 20)",male,asian/pacific islander/asian-american,1,computer science,8,6,5,6,8,7,4,3,5,Sometime,Yes,5,1,Non-Vegetarian,Arcola Sub,1.0,0.75,1.0,0.75,1.0,0.875,0.8,0.6,1.0,1.0,0.2,1.0
+"(15, 20)",male,asian/pacific islander/asian-american,1,computer science,8,6,5,6,8,7,4,3,5,No,Yes,5,1,Vegetarian,Dewdney Place,1.0,0.75,1.0,0.75,1.0,0.875,0.8,0.6,1.0,1.0,0.2,1.0
+"(15, 20)",male,asian/pacific islander/asian-american,1,computer science,8,6,5,6,8,7,4,3,5,Sometime,No,5,1,Non-Vegetarian,Riverside,1.0,0.75,1.0,0.75,1.0,0.875,0.8,0.6,1.0,1.0,0.2,1.0

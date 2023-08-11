@@ -80,6 +80,28 @@ def get_distance(from_city_name,to_city_name):
     
     return np.round(distance,2)
 
+
+def get_numeric_input(prompt):
+    selected_option_text = st.text_input(prompt)
+    selected_option = None
+
+    if selected_option_text:
+        try:
+            selected_option = float(selected_option_text)
+            if 0 <= selected_option <= 1:
+                st.write("You selected:", selected_option)
+            else:
+                st.write("Please enter a value between 0 and 1.")
+        except ValueError:
+            st.write("Please enter a valid numeric value.")
+    
+    return selected_option
+
+
+
+# Rest of your code...
+
+
 def calculate_compatibility(user_preferences):
     # Reset compatibility score
     df['compatbilityScore'] = 0 
@@ -87,37 +109,72 @@ def calculate_compatibility(user_preferences):
 
     # Calculate compatibility score based on user preferences
     for index, row in df.iterrows():
+        # print('Before Row : ',row)
         for key, value in user_preferences.items():
-            if row[key] == value:
-                df.at[index, 'compatbilityScore'] += 1
-    
+            if 'normalized' in key:
+                dataset_value = row[key]
+                external_value = value
+                compact_score  = np.round(1 - np.abs(dataset_value - external_value),2)
+                # row['compatbilityScore']+=compact_score
+                df.at[index,'compatbilityScore'] +=compact_score
+            else:                 
+                if key=='age-range':
+                    # print('key : ',key)
+                    df.at[index,'compatbilityScore']+=2
+                elif key== 'FoodChoice':
+                    # print('key : ',key)
+                    df.at[index,'compatbilityScore']+=2
+                elif key=='Smoking':
+                    # print('key : ',key)
+                    df.at[index,'compatbilityScore']+=2
+                elif key=='Drinking':
+                    # print('key : ',key)
+
+                    df.at[index,'compatbilityScore']+=2
+                elif key=='race':
+                    # print('key : ',key)
+
+                    df.at[index,'compatbilityScore']+=2
+                elif key=='gender':
+                    # print('key : ',key)
+
+                    df.at[index,'compatbilityScore']+=2
+                
+                elif key=='field':
+                    # print('key : ',key)
+
+                    df.at[index,'compatbilityScore']+=2
+
+                else:
+                    # print('key : ',key)
+
+                    df.at[index,'compatbilityScore']+=1
+
+
     # Calculate the maximum compatibility score in the dataset
-    max_compatibility_score = len(list(user_preferences.keys()))
+    max_compatibility_score = len(list(user_preferences.keys()))+7
 
     # Iterate through the DataFrame and calculate the normalized compatibility score as a percentage
     for index, row in df.iterrows():
-        df.at[index, 'compatbilityScorePercentage'] = np.round(int((row['compatbilityScore'] / max_compatibility_score) * 100), 2)
+        df.at[index,'compatbilityScorePercentage'] = np.round(int((row['compatbilityScore'] / max_compatibility_score) * 100), 2)
     
     compatible_df = df[df['compatbilityScorePercentage'] != 0]
-
-    for index, row in compatible_df.iterrows():
-            compatible_df.at[index, 'compatbilityScorePercentage'] = np.round(int((row['compatbilityScore'] / max_compatibility_score) * 100),2)
-
+    compatible_df = df.drop_duplicates()
     compatible_df.sort_values(by='compatbilityScorePercentage', ascending=False,inplace=True)
     return compatible_df
 
-
-df = pd.read_csv('CleadedSpeedDatingData.csv') 
-df.reset_index(inplace=True)
+df = pd.read_csv('Cleaned_Speed_dating_data.csv')
 
 
+df = df.drop_duplicates()
 
-st.set_page_config(layout='wide',page_icon='!',page_title='Roomate Compactibility Tests')
+
+st.set_page_config(layout='wide',page_icon='!',page_title='Roommate Compatibility Tests')
 path =  os.path.dirname(__file__)
 today = date.today()
 # Column 1
 # Title of the app
-st.title("Roomate Compactibility Tests")
+st.title("Roommate Compatibility Tests")
 st.markdown("Use the options below to select your preferences for finding compatible roommates.")
 
 # Create two columns
@@ -131,7 +188,7 @@ with col1:
     st.markdown("<style>div[role='listbox'] { background-color: #f2f2f2; padding: 5px; }</style>", unsafe_allow_html=True)
     
     # Dropdown menu
-    selected_option_age = st.selectbox("Select an option for Age :", df['age-range'].unique().tolist())
+    selected_option_age = st.selectbox("Select an option for Age :", sorted(df['age-range'].unique().tolist()))
     # Display the selected option
     st.write("You selected:", selected_option_age)
 
@@ -147,73 +204,46 @@ with col1:
     # Display the selected option
     st.write("You selected:", selected_option_field)
 
-
-    selected_option_music = st.selectbox("Select an option for Music Listening Habit(Preference order(0-1)) :", df['music_normalized'].unique().tolist())
-    # Display the selected option
-    st.write("You selected:", selected_option_music)
-
-    selected_option_dining = st.selectbox("Select an option for Eating Dining Habit(Preference order(0-1)) :", df['dining_normalized'].unique().tolist())
-    # Display the selected option
-    st.write("You selected:", selected_option_dining)
-    
-
-
-   
-
-    # # Add a line break
-    # st.markdown("<br>", unsafe_allow_html=True)
-with col2:
-    selected_option_reading = st.selectbox("Select an option for Reading Habit(Preference order(0-1)) :", df['reading_normalized'].unique().tolist())
-    # Display the selected option
-    st.write("You selected:", selected_option_reading)
-
-    selected_option_gaming = st.selectbox("Select an option for Gaming Habit(Preference order(0-1)) :", df['gaming_normalized'].unique().tolist())
-    # Display the selected option
-    st.write("You selected:", selected_option_gaming)
-
-    selected_option_movie = st.selectbox("Select an option for Watching Movie(Preference order(0-1)) :", df['movies_normalized'].unique().tolist())
-    # Display the selected option
-    st.write("You selected:", selected_option_movie)
-    
-    selected_option_sports = st.selectbox("Select an option for Sports Habit(Preference order(0-1)) :", df['sports_normalized'].unique().tolist())
-    # Display the selected option
-    st.write("You selected:", selected_option_sports)
     selected_option_food = st.selectbox("Select an option for Food Choice :", df['FoodChoice'].unique().tolist())
     # Display the selected option
     st.write("You selected:", selected_option_food)
-
-
-  
-
-with col3:
     
-    selected_option_tv = st.selectbox("Select an option for Watching TV (Preference order(0-1)) :", df['tv_normalized'].unique().tolist())
+    selected_option_smooking = st.selectbox("Select an option for Smooking Habit :", df['Smoking'].unique().tolist())
     # Display the selected option
-    st.write("You selected:", selected_option_tv)
-
-    selected_option_clubbing = st.selectbox("Select an option for Clubbing(Preference order(0-1)) :", df['clubbing_normalized'].unique().tolist())
-    # Display the selected option
-    st.write("You selected:", selected_option_clubbing)
-
-    selected_option_hiking = st.selectbox("Select an option for Hiking Habit(Preference order(0-1)) :", df['hiking_normalized'].unique().tolist())
-    # Display the selected option
-    st.write("You selected:", selected_option_hiking)
+    st.write("You selected:", selected_option_smooking)
     
-    selected_option_exercise = st.selectbox("Select an option for Exercise Habit(Preference order(0-1)) :", df['exercise_normalized'].unique().tolist())
+    selected_option_drinking = st.selectbox("Select an option for Alcohol Drinking Habit :", df['Drinking'].unique().tolist())
     # Display the selected option
-    st.write("You selected:", selected_option_exercise)
+    st.write("You selected:", selected_option_drinking)
+    
+    selected_option_religion = get_numeric_input("Select an option for Importance of same religion (Preference order(0-1)):")   
 
-    selected_option_religion = st.selectbox("Select an option for Importance of Same Religion(0-1)) :", df['importance_same_religion_normalized'].unique().tolist())
-    # Display the selected option
-    st.write("You selected:", selected_option_religion)
+    
 
+with col2:
+
+    selected_option_reading = get_numeric_input("Select an option for Reading Habit(Preference order(0-1)):")   
+    selected_option_gaming = get_numeric_input("Select an option for Gaming Habit(Preference order(0-1)):")   
+    selected_option_movie = get_numeric_input("Select an option for Watching Movie(Preference order(0-1)):")   
+    selected_option_sports = get_numeric_input("Select an option for Sports Habit(Preference order(0-1)):")   
+    selected_option_music = get_numeric_input("Select an option for Music Listening Habit(Preference order(0-1)):")   
+    selected_option_dining = get_numeric_input("Select an option for Eating Dining Habit(Preference order(0-1)):")
+    
+    selected_option_tv = get_numeric_input("Select an option for Watching TV (Preference order(0-1)):")   
+    selected_option_clubbing = get_numeric_input("Select an option for Clubbing(Preference order(0-1)):")   
+    selected_option_hiking = get_numeric_input("Select an option for Hiking Habit(Preference order(0-1)):")   
+    selected_option_exercise = get_numeric_input("Select an option for Exercise Habit(Preference order(0-1):")   
+   
+ 
   
 selected_option_origon_location = st.text_input("Enter Your University/office/Home location:")
 # Display the entered text
 st.write("You entered:", selected_option_origon_location)
 
 if selected_option_origon_location:
+    
     if st.button('Calculate Compatibility'):
+
         user_preferences = {'age-range': selected_option_age,
                     'gender': selected_option_gender,
                     'race': selected_option_race,
@@ -232,19 +262,19 @@ if selected_option_origon_location:
                     'FoodChoice':selected_option_food
 
                 }
-
-
+        # print(user_preferences)
+        # st.dataframe( pd.DataFrame.from_dict(user_preferences))
         compatibility_df = calculate_compatibility(user_preferences)
-               
+        # st.dataframe(compatibility_df)            
+      
         st.title("Available Roommates - Sorted by Compatibility Score")
         col1,col2 = st.columns(2)
 
         with col1:
-            st.dataframe(compatibility_df)            
 
             compatible_sorted_df = compatibility_df.head()
             # st.dataframe(compatible_sorted_df) 
-            st.dataframe(compatible_sorted_df)            
+            # st.dataframe(compatible_sorted_df)            
 
             for index,row in compatible_sorted_df.iterrows():
                 distance = get_distance(row['locations'], selected_option_origon_location)
@@ -252,8 +282,9 @@ if selected_option_origon_location:
                     st.markdown(
                         f"""
                         <div style="background-color: #f9f9f9; padding: 15px; border-radius: 15px; box-shadow: 2px 2px 5px #888888;">
-                        <h3>Name- XYZ </h3>
+                        <h3>Name- XYZ-{index} </h3>
                         <h5>Distance between {row['locations']} - {selected_option_origon_location} : {distance}-KM</h5>
+                        <h5><strong>Compatibility Score:</strong> {row['compatbilityScorePercentage']}%</h5>
                         <table border="0">
                             <tr>
                                 <td><strong>Age Range:</strong> {row['age-range']}</td>
@@ -262,7 +293,6 @@ if selected_option_origon_location:
                             </tr>
                             <tr>
                                 <td><strong>Field of Work:</strong> {row['field']}</td>
-                                <td><strong>Compatibility Score:</strong> {row['compatbilityScorePercentage']}</td>
                                 <td><strong>Reading Habit:</strong> {row['reading_normalized']}</td>
                             </tr>
                             <tr>
@@ -293,3 +323,23 @@ if selected_option_origon_location:
                         """,
                         unsafe_allow_html=True
                     )
+        with col2:
+            
+            compatible_sorted_df = compatibility_df.head()
+            for index,row in compatible_sorted_df.iterrows():
+                distance = get_distance(row['locations'], selected_option_origon_location)
+
+                if distance:
+                    st.markdown(
+                        f"""
+                        <div style="background-color: #f9f9f9; padding: 15px; border-radius: 15px; box-shadow: 2px 2px 5px #888888;">
+                        <h3>Name- XYZ-{index} </h3>
+                        <h5>Distance between {row['locations']} - {selected_option_origon_location} : {distance}-KM</h5>
+                        <h5><strong>Compatibility Score:</strong> {row['compatbilityScorePercentage']}% </h5>
+                        <h5><strong>Location :</strong> {row['locations']}</h5>
+
+                        </div>
+                        """,
+                        unsafe_allow_html=True
+                    )
+                    
