@@ -294,11 +294,13 @@ if selected_option_origon_location:
                             <tr>
                                 <td><strong>Field of Work:</strong> {row['field']}</td>
                                 <td><strong>Reading Habit:</strong> {row['reading_normalized']}</td>
+                                <td><strong>Gaming Habit :</strong> {row['gaming_normalized']}</td>
+
                             </tr>
                             <tr>
-                                <td><strong>Gaming Habit :</strong> {row['gaming_normalized']}</td>
                                 <td><strong>Music Listening Habit :</strong> {row['music_normalized']}</td>
                                 <td><strong>Dining Habit :</strong> {row['dining_normalized']}</td>
+                                 <td><strong>Location :</strong> {row['locations']}</td>
                             </tr>
                             <tr>
                                 <td><strong>Wactching Moies :</strong> {row['movies_normalized']}</td>
@@ -313,7 +315,7 @@ if selected_option_origon_location:
                             <tr>
                                 <td><strong>Importance of same religion Level :</strong> {row['importance_same_religion_normalized']}</td>
                                 <td><strong>Food choice :</strong> {row['FoodChoice']}</td>
-                                <td><strong>Location :</strong> {row['locations']}</td>
+                               
                             </tr>
                             
                             
