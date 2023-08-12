@@ -1,2 +1,0 @@
-# CRCM
-Room Compatibility Project
