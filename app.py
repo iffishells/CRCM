@@ -24,6 +24,22 @@ def normalize_values(df,current_feature_name ,current_scaled_feature_name , new_
     return temp
 
 
+# def haversine_distance(lat1, lon1, lat2, lon2):
+#     R = 6371  # Radius of the Earth in kilometers
+
+#     lat1_rad = math.radians(lat1)
+#     lon1_rad = math.radians(lon1)
+#     lat2_rad = math.radians(lat2)
+#     lon2_rad = math.radians(lon2)
+
+#     dlat = lat2_rad - lat1_rad
+#     dlon = lon2_rad - lon1_rad
+
+#     a = math.sin(dlat / 2) ** 2 + math.cos(lat1_rad) * math.cos(lat2_rad) * math.sin(dlon / 2) ** 2
+#     c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+
+#     distance = R * c
+#     return distance
 def haversine_distance(lat1, lon1, lat2, lon2):
     R = 6371  # Radius of the Earth in kilometers
 
@@ -39,7 +55,8 @@ def haversine_distance(lat1, lon1, lat2, lon2):
     c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
 
     distance = R * c
-    return distance
+    return distance  # Return the calculated distance in kilometers
+
 def get_coordinates(api_key, city_name):
     base_url = "https://atlas.microsoft.com/search/address/json"
     params = {
