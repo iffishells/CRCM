@@ -267,7 +267,7 @@ if selected_option_origon_location:
         compatibility_df = calculate_compatibility(user_preferences)
         # st.dataframe(compatibility_df)            
       
-        st.title("Available Roommates - Sorted by Compatibility Score")
+        st.title("Available Roommates - Sorted by Compatibility Scoress")
         col1,col2 = st.columns(2)
 
         with col1:
@@ -283,7 +283,7 @@ if selected_option_origon_location:
                         f"""
                         <div style="background-color: #f9f9f9; padding: 15px; border-radius: 15px; box-shadow: 2px 2px 5px #888888;">
                         <h3>Name- XYZ-{index} </h3>
-                        <h5>Distance between {row['locations']} - {selected_option_origon_location} : {distance}-KM</h5>
+                      <h5>Distance between {row['locations']} - {selected_option_origon_location} : {distance/1000}-KM</h5>
                         <h5><strong>Compatibility Score:</strong> {row['compatbilityScorePercentage']}%</h5>
                         <table border="0">
                             <tr>
