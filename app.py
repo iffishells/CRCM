@@ -62,8 +62,15 @@ def get_numeric_input(prompt):
     return selected_option
 
 
-
-# Rest of your code...
+def get_distance(from_city_name,to_city_name):
+    
+    api_key = "szf6w7lIXw-H0uNVASqmK2TqlaNO-LRXXbt91ODbEb8"
+    from_latitude, from_longitude = get_coordinates(api_key, from_city_name)
+    to_latitude, to_longitude = get_coordinates(api_key, to_city_name)
+    distance = haversine_distance(from_latitude, from_longitude, to_latitude, to_longitude)
+    # print(f"Distance between the cities: {distance:.2f} km")
+    
+    return np.round(distance,2)
 
 
 def calculate_compatibility(user_preferences):
