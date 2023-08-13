@@ -1,23 +1,18 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[267]:
-
-
 import pandas as pd
 import numpy as np
 import os
 import glob
 import matplotlib.pyplot as plt
 import logging
+import seaborn as sns
+import os
 
 df = pd.read_csv('speed-dating_csv.csv')
 df=df[['age','gender','race','importance_same_religion','field','reading','gaming', 'dining','music','movies','tv','clubbing','hiking','exercise','sports','tvsports','d_importance_same_religion','d_reading','d_gaming', 'd_dining','d_music','d_movies','d_tv','d_clubbing','d_hiking','d_exercise','d_sports','d_tvsports']]
 df
-
-
-# In[268]:
-
 
 def normalize_values(df,current_feature_name ,current_scaled_feature_name , new_feature_name):
     # current_feature_name = 'yoga'
@@ -56,10 +51,6 @@ interestedColumns = ['age','gender','race','importance_same_religion','field','r
 df = df[interestedColumns]
 df
 
-
-# In[269]:
-
-
 def measure_age_range(value):
     age_bins = [(15,20), (21,25),(26,30),(31,35),(36,40),(41,60)]
     for range in age_bins:
@@ -73,15 +64,10 @@ df['age-range'] = df['age'].apply(measure_age_range)
 df['FoodChoice'] = np.random.choice([0, 1], size=len(df))
 df['Smoking'] = np.random.choice([0, 1,2], size=len(df))
 df['Drinking'] = np.random.choice([0, 1,2], size=len(df))
-
-
-
 df['Smoking'] = df['Smoking'].apply(lambda food: 'No' if food == 0 else ('Yes' if food == 1  else 'Sometimes'))
 df['Drinking'] = df['Drinking'].apply(lambda food: 'No' if food == 0 else ('Yes' if food == 1  else 'Occasionally'))
-
 # Converting binary values to labels
 df['FoodChoice'] = df['FoodChoice'].apply(lambda food: 'Vegetarian' if food == 0 else 'Non-Vegetarian')
-
 listSubdivOfRegina = ['Albert Park',
 'Arcola Sub',
 'Argyle Park',
@@ -182,12 +168,7 @@ listSubdivOfRegina = ['Albert Park',
 'Woodland Grove']
 df['locations'] =0
 df['locations'] = df['locations'].apply(lambda loc : listSubdivOfRegina[np.random.randint(0,len(listSubdivOfRegina))] )
-
 df
-
-
-# In[270]:
-
 
 sel_Col=['age-range','gender','race','FoodChoice','field','reading_normalized','gaming_normalized','dining_normalized','music_normalized','movies_normalized','tv_normalized','clubbing_normalized','hiking_normalized','exercise_normalized','sports_normalized','importance_same_religion_normalized','Smoking','Drinking','locations']
 df=df[sel_Col]
@@ -195,25 +176,11 @@ field_preference_dict = {index: field for index, field in enumerate(df['field'].
 df
 
 
-# In[271]:
-
-
 df.isnull().sum()
-
-
-# In[272]:
-
-
 df.dropna(inplace=True)
-
 print("Rows are deleted\n\n\n\n\n\n\n")
-
 duplicateRows = df[df.duplicated()]
 print("Number of duplicate rows \n", duplicateRows)
-
-
-# In[245]:
-
 
 print("Total null value", df.isnull().sum())
 df = df.drop_duplicates()
@@ -221,27 +188,17 @@ print("\nDuplicate rows", df.duplicated().sum())
 df
 
 
-# In[273]:
-
-
 df.to_csv('RCC_Cleaned.csv',index = False)
-
-
-# In[274]:
-
 
 new_df= pd.read_csv('RCC_Cleaned.csv')
 new_df.describe()
 
 
-# In[275]:
+
 
 
 # Check for duplicates
 print("duplicate rows:", new_df.duplicated().sum())
-
-
-# In[263]:
 
 
 # Check for missing values
@@ -251,23 +208,13 @@ print("\n\n\nNaN values:")
 print(new_df.isna().sum())
 
 
-# In[276]:
 
 
 new_df.shape
-
-
-# In[277]:
-
-
 c=1
 for i in df:
     print(c,".", i, ": " ,df[i].dtype)
     c=c+1
-
-
-# In[279]:
-
 
 for column in new_df:
     if new_df[column].dtype == 'float64':
@@ -278,13 +225,6 @@ for column in new_df:
 print(new_df)
 new_df.shape
 
-            
-              
-
-
-# In[280]:
-
-
 for i in new_df:
         if new_df[i].dtypes == 'float64':
             plt.figure(figsize=(3,6))
@@ -292,14 +232,6 @@ for i in new_df:
             plt.ylabel('Values')
             plt.xlabel(i)
             plt.show()
-
-
-# In[281]:
-
-
-import matplotlib.pyplot as plt
-import seaborn as sns
-import os
 
 def plot_categorical_bar(data, column, xlabel=None, ylabel='Count', title=None):
   
@@ -318,7 +250,6 @@ for colName in list(new_df):
     plot_categorical_bar(new_df, column=colName, xlabel=colName, ylabel='Frequency', title=f'{colName} Distribution')
 
 
-# In[ ]:
 
 
 

@@ -45,15 +45,6 @@ def get_coordinates(api_key, city_name):
     else:
         return None, None
     
-def get_distance(from_city_name,to_city_name):
-    
-    api_key = "szf6w7lIXw-H0uNVASqmK2TqlaNO-LRXXbt91ODbEb8"
-    from_latitude, from_longitude = get_coordinates(api_key, from_city_name)
-    to_latitude, to_longitude = get_coordinates(api_key, to_city_name)
-    distance = haversine_distance(from_latitude, from_longitude, to_latitude, to_longitude)
-)   return np.round(distance,2)
-
-
 def get_numeric_input(prompt):
     selected_option_text = st.text_input(prompt)
     selected_option = None
@@ -135,7 +126,7 @@ def calculate_compatibility(user_preferences):
     compatible_df.sort_values(by='compatbilityScorePercentage', ascending=False,inplace=True)
     return compatible_df
 
-df = pd.read_csv('Cleaned_RCC.csv')
+df = pd.read_csv('RCC_cleaned.csv')
 
 st.set_page_config(layout='wide',page_icon='!',page_title='Roommate Compatibility Connection')
 path =  os.path.dirname(__file__)
