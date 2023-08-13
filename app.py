@@ -10,20 +10,6 @@ import math
 
 warnings.simplefilter(action='ignore',category=FutureWarning)
 
-
-def normalize_values(df,current_feature_name ,current_scaled_feature_name , new_feature_name):
-    temp = df.copy()  # Create a copy of the DataFrame to avoid modifying the original
-    temp[new_feature_name] = 0  # Add a new column to store normalized values
-    
-    for index, row in temp.iterrows():
-        yoda = row[current_feature_name]
-        scale_yoga = int(row[current_scaled_feature_name].split(']')[0].split('-')[-1])
-        yoga_normalized = yoda / scale_yoga
-        temp.loc[index, new_feature_name] = yoga_normalized
-    
-    return temp
-
-
 def haversine_distance(lat1, lon1, lat2, lon2):
     R = 6371  # Radius of the Earth in kilometers
 
@@ -64,21 +50,8 @@ def get_distance(from_city_name,to_city_name):
     api_key = "szf6w7lIXw-H0uNVASqmK2TqlaNO-LRXXbt91ODbEb8"
     from_latitude, from_longitude = get_coordinates(api_key, from_city_name)
     to_latitude, to_longitude = get_coordinates(api_key, to_city_name)
-    
-    # if from_latitude is not None and from_longitude is not None:
-    #     print(f"Coordinates for {from_city_name}: Latitude={from_latitude}, Longitude={from_longitude}")
-    # else:
-    #     print(f"Coordinates not found for {from_city_name}")
-
-    # if to_latitude is not None and to_longitude is not None:
-    #     print(f"Coordinates for {to_city_name}: Latitude={to_latitude}, Longitude={to_longitude}")
-    # else:
-    #     print(f"Coordinates not found for {to_city_name}")
-
     distance = haversine_distance(from_latitude, from_longitude, to_latitude, to_longitude)
-    # print(f"Distance between the cities: {distance:.2f} km")
-    
-    return np.round(distance,2)
+)   return np.round(distance,2)
 
 
 def get_numeric_input(prompt):
