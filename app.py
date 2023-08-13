@@ -129,7 +129,6 @@ def calculate_compatibility(user_preferences):
                     df.at[index,'compatbilityScore']+=2
                 elif key=='Drinking':
                     # print('key : ',key)
-
                     df.at[index,'compatbilityScore']+=2
                 elif key=='race':
                     # print('key : ',key)
@@ -144,17 +143,7 @@ def calculate_compatibility(user_preferences):
                     # print('key : ',key)
 
                     df.at[index,'compatbilityScore']+=2
-                    
-                
-                elif key=='Smoking':
-                    # print('key : ',key)
-                    df.at[index,'compatbilityScore']+=2
-                elif key=='Drinking':
-                    # print('key : ',key)
-
-                    df.at[index,'compatbilityScore']+=2
-
-
+            
                 else:
                     # print('key : ',key)
 
@@ -174,10 +163,6 @@ def calculate_compatibility(user_preferences):
     return compatible_df
 
 df = pd.read_csv('Cleaned_RCC.csv')
-
-
-df = df.drop_duplicates()
-
 
 st.set_page_config(layout='wide',page_icon='!',page_title='Roommate Compatibility Connection')
 path =  os.path.dirname(__file__)
