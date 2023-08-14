@@ -1836,22 +1836,6 @@ age-range,gender,race,FoodChoice,field,reading_normalized,gaming_normalized,dini
 "(26, 30)",male,latino/hispanic american,Vegetarian,mba,0.6,1.0,0.9,0.9,1.0,1.0,0.875,0.875,0.6,1.0,0.8,Yes,Yes,Windsor Park
 "(26, 30)",male,latino/hispanic american,Non-Vegetarian,mba,0.6,1.0,0.9,0.9,1.0,1.0,0.875,0.875,0.6,1.0,0.8,Sometimes,Occasionally,Coventry Place
 "(26, 30)",male,latino/hispanic american,Non-Vegetarian,mba,0.6,1.0,0.9,0.9,1.0,1.0,0.875,0.875,0.6,1.0,0.8,No,No,McCarthy Park
-"(21, 25)",female,european/caucasian-american,Vegetarian,political science,0.75,1.4,0.75,1.0,0.75,0.75,0.875,0.75,0.75,1.0,0.8,Yes,Yes,Wood Meadows
-"(21, 25)",female,european/caucasian-american,Vegetarian,political science,0.75,1.4,0.75,1.0,0.75,0.75,0.875,0.75,0.75,1.0,0.8,Sometimes,Yes,Assiniboia East
-"(21, 25)",female,european/caucasian-american,Vegetarian,political science,0.75,1.4,0.75,1.0,0.75,0.75,0.875,0.75,0.75,1.0,0.8,Yes,No,Glen Elm Park
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,political science,0.75,1.4,0.75,1.0,0.75,0.75,0.875,0.75,0.75,1.0,0.8,No,Yes,Eastgate
-"(21, 25)",female,european/caucasian-american,Vegetarian,political science,0.75,1.4,0.75,1.0,0.75,0.75,0.875,0.75,0.75,1.0,0.8,Sometimes,Yes,Sherwood Estates
-"(21, 25)",female,european/caucasian-american,Vegetarian,political science,0.75,1.4,0.75,1.0,0.75,0.75,0.875,0.75,0.75,1.0,0.8,Yes,No,McCarthy Park
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,political science,0.75,1.4,0.75,1.0,0.75,0.75,0.875,0.75,0.75,1.0,0.8,Yes,No,Fairways West
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,political science,0.75,1.4,0.75,1.0,0.75,0.75,0.875,0.75,0.75,1.0,0.8,No,Yes,Normandy Heights
-"(21, 25)",female,european/caucasian-american,Vegetarian,political science,0.75,1.4,0.75,1.0,0.75,0.75,0.875,0.75,0.75,1.0,0.8,No,Yes,Glencairn
-"(21, 25)",female,european/caucasian-american,Vegetarian,political science,0.75,1.4,0.75,1.0,0.75,0.75,0.875,0.75,0.75,1.0,0.8,Sometimes,No,Parkridge
-"(21, 25)",female,european/caucasian-american,Vegetarian,political science,0.75,1.4,0.75,1.0,0.75,0.75,0.875,0.75,0.75,1.0,0.8,Sometimes,Occasionally,Grand Trunk Annex
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,political science,0.75,1.4,0.75,1.0,0.75,0.75,0.875,0.75,0.75,1.0,0.8,Sometimes,Yes,Fairways West
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,political science,0.75,1.4,0.75,1.0,0.75,0.75,0.875,0.75,0.75,1.0,0.8,Yes,Occasionally,Grand Trunk Annex
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,political science,0.75,1.4,0.75,1.0,0.75,0.75,0.875,0.75,0.75,1.0,0.8,No,No,Lakeview Annex
-"(21, 25)",female,european/caucasian-american,Vegetarian,political science,0.75,1.4,0.75,1.0,0.75,0.75,0.875,0.75,0.75,1.0,0.8,Yes,Occasionally,Normanview West Addition
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,political science,0.75,1.4,0.75,1.0,0.75,0.75,0.875,0.75,0.75,1.0,0.8,Yes,Occasionally,Dieppe Place
 "(31, 35)",female,european/caucasian-american,Vegetarian,law,0.9,0.8,1.0,0.875,0.875,1.0,1.0,0.75,0.75,0.8,0.4,Sometimes,Yes,Lakeview Annex
 "(31, 35)",female,european/caucasian-american,Non-Vegetarian,law,0.9,0.8,1.0,0.875,0.875,1.0,1.0,0.75,0.75,0.8,0.4,Sometimes,Occasionally,Maple Ridge
 "(31, 35)",female,european/caucasian-american,Non-Vegetarian,law,0.9,0.8,1.0,0.875,0.875,1.0,1.0,0.75,0.75,0.8,0.4,Sometimes,No,McCarthy Park
@@ -2983,26 +2967,6 @@ age-range,gender,race,FoodChoice,field,reading_normalized,gaming_normalized,dini
 "(26, 30)",male,asian/pacific islander/asian-american,Vegetarian,mba,0.9,0.875,0.9,0.875,0.9,1.0,0.75,0.4,0.9,1.0,1.0,No,Occasionally,Lakesidge Gardens
 "(26, 30)",male,asian/pacific islander/asian-american,Vegetarian,mba,0.9,0.875,0.9,0.875,0.9,1.0,0.75,0.4,0.9,1.0,1.0,Yes,Yes,South Lakeview see Lakeview South
 "(26, 30)",male,asian/pacific islander/asian-american,Vegetarian,mba,0.9,0.875,0.9,0.875,0.9,1.0,0.75,0.4,0.9,1.0,1.0,Sometimes,Yes,Windsor Park
-"(26, 30)",male,european/caucasian-american,Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,No,Yes,Normandy Heights
-"(26, 30)",male,european/caucasian-american,Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,Yes,No,Westhill
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,Yes,No,Churchill Place
-"(26, 30)",male,european/caucasian-american,Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,No,No,CPR Annex
-"(26, 30)",male,european/caucasian-american,Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,Sometimes,Yes,Industrial Ross
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,No,No,Balbrigan Place
-"(26, 30)",male,european/caucasian-american,Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,No,Yes,Rosemont South
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,No,No,Albert Park
-"(26, 30)",male,european/caucasian-american,Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,No,Yes,Eastpoint Estates
-"(26, 30)",male,european/caucasian-american,Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,No,Occasionally,Albert Park
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,Yes,No,Rosemont North
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,Sometimes,No,North Annex
-"(26, 30)",male,european/caucasian-american,Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,Yes,No,Whitmore Park
-"(26, 30)",male,european/caucasian-american,Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,No,Occasionally,Varsity Park
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,No,No,Kensington Greens
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,Sometimes,No,Rochdale Park
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,No,No,Lakeview Annex
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,No,Occasionally,Lakeview
-"(26, 30)",male,european/caucasian-american,Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,Sometimes,No,Westridge
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,mba,1.3,1.0,0.875,1.0,0.875,0.75,0.2,0.6,0.4,0.4,1.0,No,Yes,Westridge
 "(26, 30)",male,european/caucasian-american,Non-Vegetarian,neurobiology,1.0,0.2,0.875,1.0,0.75,0.8,0.4,1.0,1.0,0.2,1.0,Sometimes,Occasionally,University Park
 "(26, 30)",male,european/caucasian-american,Vegetarian,neurobiology,1.0,0.2,0.875,1.0,0.75,0.8,0.4,1.0,1.0,0.2,1.0,Sometimes,Occasionally,Coventry Place
 "(26, 30)",male,european/caucasian-american,Non-Vegetarian,neurobiology,1.0,0.2,0.875,1.0,0.75,0.8,0.4,1.0,1.0,0.2,1.0,Yes,Occasionally,Harbour Landing
@@ -3395,15 +3359,6 @@ age-range,gender,race,FoodChoice,field,reading_normalized,gaming_normalized,dini
 "(31, 35)",female,european/caucasian-american,Non-Vegetarian,conservation biology,0.9,0.2,1.0,0.875,1.0,0.75,0.75,1.0,1.0,0.6,0.6,Sometimes,Yes,Churchill Place
 "(31, 35)",female,european/caucasian-american,Vegetarian,conservation biology,0.9,0.2,1.0,0.875,1.0,0.75,0.75,1.0,1.0,0.6,0.6,No,Yes,Lakesidge Gardens
 "(31, 35)",female,european/caucasian-american,Non-Vegetarian,conservation biology,0.9,0.2,1.0,0.875,1.0,0.75,0.75,1.0,1.0,0.6,0.6,No,No,North Regina
-"(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,mba,1.0,1.4,1.0,1.0,1.0,1.0,0.9,0.9,0.9,1.0,1.0,Yes,No,Eastgate
-"(26, 30)",female,asian/pacific islander/asian-american,Non-Vegetarian,mba,1.0,1.4,1.0,1.0,1.0,1.0,0.9,0.9,0.9,1.0,1.0,Yes,Occasionally,Parkview
-"(26, 30)",female,asian/pacific islander/asian-american,Non-Vegetarian,mba,1.0,1.4,1.0,1.0,1.0,1.0,0.9,0.9,0.9,1.0,1.0,Yes,Occasionally,Fairways West
-"(26, 30)",female,asian/pacific islander/asian-american,Non-Vegetarian,mba,1.0,1.4,1.0,1.0,1.0,1.0,0.9,0.9,0.9,1.0,1.0,Sometimes,No,University Park
-"(26, 30)",female,asian/pacific islander/asian-american,Non-Vegetarian,mba,1.0,1.4,1.0,1.0,1.0,1.0,0.9,0.9,0.9,1.0,1.0,Sometimes,Yes,South Lakeview see Lakeview South
-"(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,mba,1.0,1.4,1.0,1.0,1.0,1.0,0.9,0.9,0.9,1.0,1.0,No,No,Rosemont North
-"(26, 30)",female,asian/pacific islander/asian-american,Non-Vegetarian,mba,1.0,1.4,1.0,1.0,1.0,1.0,0.9,0.9,0.9,1.0,1.0,No,Occasionally,Tuxedo Park
-"(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,mba,1.0,1.4,1.0,1.0,1.0,1.0,0.9,0.9,0.9,1.0,1.0,Yes,Yes,Churchill Place
-"(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,mba,1.0,1.4,1.0,1.0,1.0,1.0,0.9,0.9,0.9,1.0,1.0,No,Yes,Rosemont South
 "(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,business,0.8,0.2,0.875,0.875,0.8,0.2,0.6,0.8,1.0,1.0,1.0,Sometimes,Yes,Lakeview Centre
 "(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,business,0.8,0.2,0.875,0.875,0.8,0.2,0.6,0.8,1.0,1.0,1.0,No,No,Mount Pleasant
 "(26, 30)",female,asian/pacific islander/asian-american,Non-Vegetarian,business,0.8,0.2,0.875,0.875,0.8,0.2,0.6,0.8,1.0,1.0,1.0,No,Occasionally,Rosemont North
@@ -3431,15 +3386,6 @@ age-range,gender,race,FoodChoice,field,reading_normalized,gaming_normalized,dini
 "(26, 30)",male,european/caucasian-american,Non-Vegetarian,japanese literature,0.9,0.875,0.9,1.0,0.9,1.0,0.6,1.0,0.875,0.875,0.6,No,Yes,Coventry Place
 "(26, 30)",male,european/caucasian-american,Vegetarian,japanese literature,0.9,0.875,0.9,1.0,0.9,1.0,0.6,1.0,0.875,0.875,0.6,Yes,Yes,Richmond Place
 "(26, 30)",male,european/caucasian-american,Vegetarian,japanese literature,0.9,0.875,0.9,1.0,0.9,1.0,0.6,1.0,0.875,0.875,0.6,No,Occasionally,Arnhem Place
-"(26, 30)",male,european/caucasian-american,Vegetarian,mba,1.3,0.2,1.0,0.8,0.9,0.9,0.6,0.9,1.0,1.0,0.9,Sometimes,No,Mayfair
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,mba,1.3,0.2,1.0,0.8,0.9,0.9,0.6,0.9,1.0,1.0,0.9,Sometimes,Occasionally,Gardiner Heights
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,mba,1.3,0.2,1.0,0.8,0.9,0.9,0.6,0.9,1.0,1.0,0.9,Sometimes,Occasionally,Rochdale Park
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,mba,1.3,0.2,1.0,0.8,0.9,0.9,0.6,0.9,1.0,1.0,0.9,No,Occasionally,North Regina
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,mba,1.3,0.2,1.0,0.8,0.9,0.9,0.6,0.9,1.0,1.0,0.9,No,No,North Annex
-"(26, 30)",male,european/caucasian-american,Vegetarian,mba,1.3,0.2,1.0,0.8,0.9,0.9,0.6,0.9,1.0,1.0,0.9,No,Occasionally,Glen Elm Park
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,mba,1.3,0.2,1.0,0.8,0.9,0.9,0.6,0.9,1.0,1.0,0.9,No,Yes,Highland Park
-"(26, 30)",male,european/caucasian-american,Vegetarian,mba,1.3,0.2,1.0,0.8,0.9,0.9,0.6,0.9,1.0,1.0,0.9,No,No,Dieppe Place
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,mba,1.3,0.2,1.0,0.8,0.9,0.9,0.6,0.9,1.0,1.0,0.9,No,No,Westridge
 "(31, 35)",male,european/caucasian-american,Non-Vegetarian,philosophy,0.9,1.0,0.75,0.75,1.0,0.4,0.75,0.8,0.4,0.6,0.6,No,Occasionally,Grand Trunk Annex
 "(31, 35)",male,european/caucasian-american,Non-Vegetarian,philosophy,0.9,1.0,0.75,0.75,1.0,0.4,0.75,0.8,0.4,0.6,0.6,Yes,No,Wascana Crescents
 "(31, 35)",male,european/caucasian-american,Non-Vegetarian,philosophy,0.9,1.0,0.75,0.75,1.0,0.4,0.75,0.8,0.4,0.6,0.6,Yes,Occasionally,Normanview West Addition
@@ -4192,27 +4138,6 @@ age-range,gender,race,FoodChoice,field,reading_normalized,gaming_normalized,dini
 "(26, 30)",male,european/caucasian-american,Vegetarian,business school,0.9,0.2,0.875,0.9,0.9,1.0,1.0,1.0,1.0,0.9,1.0,Sometimes,Yes,Mount Royal
 "(26, 30)",male,european/caucasian-american,Vegetarian,business school,0.9,0.2,0.875,0.9,0.9,1.0,1.0,1.0,1.0,0.9,1.0,No,Occasionally,Dieppe Place
 "(26, 30)",male,european/caucasian-american,Vegetarian,business school,0.9,0.2,0.875,0.9,0.9,1.0,1.0,1.0,1.0,0.9,1.0,Yes,Yes,Grand Trunk Annex
-"(21, 25)",male,other,Non-Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Yes,Yes,Belvedere
-"(21, 25)",male,other,Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,No,No,North Regina
-"(21, 25)",male,other,Non-Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Sometimes,No,Industrial Ross
-"(21, 25)",male,other,Non-Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Yes,No,Mount Pleasant
-"(21, 25)",male,other,Non-Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,No,Yes,Parkview
-"(21, 25)",male,other,Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Sometimes,No,River Heights
-"(21, 25)",male,other,Non-Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Sometimes,Yes,Normanview West
-"(21, 25)",male,other,Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Yes,No,Mount Pleasant
-"(21, 25)",male,other,Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Sometimes,Occasionally,Normanview West Addition
-"(21, 25)",male,other,Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Yes,Yes,Tuxedo Park
-"(21, 25)",male,other,Non-Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Yes,No,Coventry Place
-"(21, 25)",male,other,Non-Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Yes,Occasionally,Mirror Sun Gardens
-"(21, 25)",male,other,Non-Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Yes,Occasionally,Tuxedo Park
-"(21, 25)",male,other,Non-Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Sometimes,Occasionally,Windsor Park
-"(21, 25)",male,other,Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Sometimes,No,Dominion Heights
-"(21, 25)",male,other,Non-Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Yes,No,CPR Annex
-"(21, 25)",male,other,Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Sometimes,Yes,Lakeview
-"(21, 25)",male,other,Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Yes,Yes,Argyle Park
-"(21, 25)",male,other,Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Sometimes,Yes,Richmond Place
-"(21, 25)",male,other,Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,Yes,Yes,Varsity Park
-"(21, 25)",male,other,Non-Vegetarian,engineering,0.9,1.4,1.0,1.0,1.0,0.875,1.0,0.9,0.75,1.0,1.0,No,Occasionally,Industrial Ross
 "(21, 25)",male,european/caucasian-american,Vegetarian,mathematics,1.0,0.9,0.6,0.75,0.875,0.75,0.8,0.9,0.8,0.875,0.7,No,Occasionally,Glencairn Village
 "(21, 25)",male,european/caucasian-american,Non-Vegetarian,mathematics,1.0,0.9,0.6,0.75,0.875,0.75,0.8,0.9,0.8,0.875,0.7,Sometimes,Occasionally,Rothwell Place
 "(21, 25)",male,european/caucasian-american,Vegetarian,mathematics,1.0,0.9,0.6,0.75,0.875,0.75,0.8,0.9,0.8,0.875,0.7,Sometimes,Yes,Mount Pleasant
@@ -6234,24 +6159,6 @@ age-range,gender,race,FoodChoice,field,reading_normalized,gaming_normalized,dini
 "(31, 35)",male,european/caucasian-american,Non-Vegetarian,finance,1.0,0.6,0.875,1.0,0.75,0.2,0.2,0.6,0.75,0.875,0.4,No,Occasionally,Wood Meadows
 "(31, 35)",male,european/caucasian-american,Vegetarian,finance,1.0,0.6,0.875,1.0,0.75,0.2,0.2,0.6,0.75,0.875,0.4,Yes,Occasionally,Normanview West
 "(31, 35)",male,european/caucasian-american,Vegetarian,finance,1.0,0.6,0.875,1.0,0.75,0.2,0.2,0.6,0.75,0.875,0.4,Yes,Yes,Lakeview Annex
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,No,No,Albert Park
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,No,Yes,Churchill Place
-"(26, 30)",male,european/caucasian-american,Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,Yes,Yes,Hillsdale
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,Sometimes,Yes,Varsity Park
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,Sometimes,Occasionally,Douglas Place
-"(26, 30)",male,european/caucasian-american,Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,Yes,Yes,CPR Annex
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,No,Yes,Parkridge
-"(26, 30)",male,european/caucasian-american,Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,No,Yes,Lakeview Centre
-"(26, 30)",male,european/caucasian-american,Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,Sometimes,No,Dieppe Place
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,Yes,Occasionally,Albert Park
-"(26, 30)",male,european/caucasian-american,Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,Sometimes,Yes,Lewvan Park
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,Sometimes,Occasionally,Eastern Annex
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,Yes,Occasionally,Fairways West
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,Yes,Yes,Mount Pleasant
-"(26, 30)",male,european/caucasian-american,Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,Sometimes,No,Fairways West
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,No,Occasionally,Normanview
-"(26, 30)",male,european/caucasian-american,Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,No,Occasionally,Churchill Place
-"(26, 30)",male,european/caucasian-american,Vegetarian,business,1.0,0.875,1.0,1.0,1.0,0.75,0.6,0.0,1.0,1.0,1.0,Yes,Occasionally,Rochdale Park
 "(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,0.75,1.0,0.875,0.75,0.9,1.0,0.8,1.0,1.0,0.75,0.6,No,Yes,Maple Ridge
 "(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,0.75,1.0,0.875,0.75,0.9,1.0,0.8,1.0,1.0,0.75,0.6,No,Yes,Mayfair
 "(26, 30)",male,european/caucasian-american,Vegetarian,business,0.75,1.0,0.875,0.75,0.9,1.0,0.8,1.0,1.0,0.75,0.6,Sometimes,Yes,Highland Park
@@ -6270,24 +6177,6 @@ age-range,gender,race,FoodChoice,field,reading_normalized,gaming_normalized,dini
 "(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,0.75,1.0,0.875,0.75,0.9,1.0,0.8,1.0,1.0,0.75,0.6,Sometimes,Occasionally,Riverside
 "(26, 30)",male,european/caucasian-american,Vegetarian,business,0.75,1.0,0.875,0.75,0.9,1.0,0.8,1.0,1.0,0.75,0.6,Sometimes,No,Glen Elm Park
 "(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,0.75,1.0,0.875,0.75,0.9,1.0,0.8,1.0,1.0,0.75,0.6,No,Yes,Lakeview Annex
-"(26, 30)",male,european/caucasian-american,Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,No,No,Arnhem Place
-"(26, 30)",male,european/caucasian-american,Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,Sometimes,No,Lakesidge Gardens
-"(26, 30)",male,european/caucasian-american,Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,Yes,Yes,Grand Trunk Annex
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,Sometimes,Occasionally,Wascana Addition
-"(26, 30)",male,european/caucasian-american,Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,No,No,Mount Pleasant
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,Yes,No,Mirror Sun Gardens
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,Sometimes,Occasionally,Dominion Heights
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,Yes,No,Arcola Sub
-"(26, 30)",male,european/caucasian-american,Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,Yes,Yes,Dewdney Place
-"(26, 30)",male,european/caucasian-american,Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,Sometimes,Yes,Assiniboia East
-"(26, 30)",male,european/caucasian-american,Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,Yes,Occasionally,Garden Ridge
-"(26, 30)",male,european/caucasian-american,Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,No,Occasionally,Harbour Landing
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,Sometimes,Occasionally,Gardiner Heights
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,No,Occasionally,Lewvan Park
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,Yes,No,Lakeview South
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,No,Yes,Douglas Place
-"(26, 30)",male,european/caucasian-american,Non-Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,Sometimes,No,Assiniboia East
-"(26, 30)",male,european/caucasian-american,Vegetarian,business,1.0,1.0,1.0,0.2,0.0,0.875,0.0,1.0,0.9,1.0,1.0,Sometimes,Yes,Glen Elm Park
 "(31, 35)",male,european/caucasian-american,Non-Vegetarian,mba,1.0,0.2,0.75,0.875,0.75,0.2,0.6,0.2,0.75,0.2,1.0,Yes,Yes,River Heights
 "(31, 35)",male,european/caucasian-american,Non-Vegetarian,mba,1.0,0.2,0.75,0.875,0.75,0.2,0.6,0.2,0.75,0.2,1.0,Sometimes,Yes,Wascana View
 "(31, 35)",male,european/caucasian-american,Non-Vegetarian,mba,1.0,0.2,0.75,0.875,0.75,0.2,0.6,0.2,0.75,0.2,1.0,Yes,Yes,Creekside
@@ -6552,16 +6441,6 @@ age-range,gender,race,FoodChoice,field,reading_normalized,gaming_normalized,dini
 "(21, 25)",male,european/caucasian-american,Vegetarian,law,0.6,0.6,1.0,1.0,1.0,1.0,0.2,0.875,1.0,1.0,0.4,Sometimes,No,Wascana Park
 "(21, 25)",male,european/caucasian-american,Vegetarian,law,0.6,0.6,1.0,1.0,1.0,1.0,0.2,0.875,1.0,1.0,0.4,Yes,Yes,City View
 "(21, 25)",male,european/caucasian-american,Non-Vegetarian,law,0.6,0.6,1.0,1.0,1.0,1.0,0.2,0.875,1.0,1.0,0.4,No,Occasionally,Transcona
-"(21, 25)",male,european/caucasian-american,Vegetarian,law,0.9,1.4,0.875,1.0,1.0,1.0,0.9,0.875,0.75,0.75,0.4,Yes,Yes,Crescents
-"(21, 25)",male,european/caucasian-american,Vegetarian,law,0.9,1.4,0.875,1.0,1.0,1.0,0.9,0.875,0.75,0.75,0.4,No,Yes,Old 33
-"(21, 25)",male,european/caucasian-american,Vegetarian,law,0.9,1.4,0.875,1.0,1.0,1.0,0.9,0.875,0.75,0.75,0.4,Sometimes,Occasionally,Highland Park
-"(21, 25)",male,european/caucasian-american,Vegetarian,law,0.9,1.4,0.875,1.0,1.0,1.0,0.9,0.875,0.75,0.75,0.4,No,No,Connaught Park
-"(21, 25)",male,european/caucasian-american,Vegetarian,law,0.9,1.4,0.875,1.0,1.0,1.0,0.9,0.875,0.75,0.75,0.4,Yes,Yes,Mayfair
-"(21, 25)",male,european/caucasian-american,Non-Vegetarian,law,0.9,1.4,0.875,1.0,1.0,1.0,0.9,0.875,0.75,0.75,0.4,No,Occasionally,Douglas Place
-"(21, 25)",male,european/caucasian-american,Non-Vegetarian,law,0.9,1.4,0.875,1.0,1.0,1.0,0.9,0.875,0.75,0.75,0.4,Sometimes,Occasionally,Parliament Place
-"(21, 25)",male,european/caucasian-american,Non-Vegetarian,law,0.9,1.4,0.875,1.0,1.0,1.0,0.9,0.875,0.75,0.75,0.4,Sometimes,No,Rosemont
-"(21, 25)",male,european/caucasian-american,Vegetarian,law,0.9,1.4,0.875,1.0,1.0,1.0,0.9,0.875,0.75,0.75,0.4,No,Occasionally,Westridge
-"(21, 25)",male,european/caucasian-american,Vegetarian,law,0.9,1.4,0.875,1.0,1.0,1.0,0.9,0.875,0.75,0.75,0.4,Sometimes,Yes,Mount Pleasant
 "(21, 25)",male,european/caucasian-american,Vegetarian,law,0.75,0.2,1.0,1.0,1.0,0.2,1.0,0.875,0.875,0.875,1.0,Yes,Occasionally,Premier Place
 "(21, 25)",male,european/caucasian-american,Non-Vegetarian,law,0.75,0.2,1.0,1.0,1.0,0.2,1.0,0.875,0.875,0.875,1.0,No,Yes,Woodland Grove
 "(21, 25)",male,european/caucasian-american,Vegetarian,law,0.75,0.2,1.0,1.0,1.0,0.2,1.0,0.875,0.875,0.875,1.0,No,Occasionally,Lakewood
@@ -6887,21 +6766,6 @@ age-range,gender,race,FoodChoice,field,reading_normalized,gaming_normalized,dini
 "(26, 30)",female,black/african american,Non-Vegetarian,biotechnology,1.0,0.4,1.0,1.0,0.6,0.2,0.9,0.9,1.0,1.0,1.0,No,Yes,Coventry Place
 "(26, 30)",female,black/african american,Vegetarian,biotechnology,1.0,0.4,1.0,1.0,0.6,0.2,0.9,0.9,1.0,1.0,1.0,Yes,Yes,Rosemont
 "(26, 30)",female,black/african american,Non-Vegetarian,biotechnology,1.0,0.4,1.0,1.0,0.6,0.2,0.9,0.9,1.0,1.0,1.0,Sometimes,Occasionally,Creekside
-"(26, 30)",female,latino/hispanic american,Vegetarian,sipa-international affairs,0.8,0.0,1.0,1.0,1.0,0.8,1.0,0.4,0.75,0.2,0.4,Sometimes,Occasionally,Lakeview Centre
-"(26, 30)",female,latino/hispanic american,Non-Vegetarian,sipa-international affairs,0.8,0.0,1.0,1.0,1.0,0.8,1.0,0.4,0.75,0.2,0.4,No,Yes,Belvedere
-"(26, 30)",female,latino/hispanic american,Non-Vegetarian,sipa-international affairs,0.8,0.0,1.0,1.0,1.0,0.8,1.0,0.4,0.75,0.2,0.4,Sometimes,Occasionally,University Park East
-"(26, 30)",female,latino/hispanic american,Non-Vegetarian,sipa-international affairs,0.8,0.0,1.0,1.0,1.0,0.8,1.0,0.4,0.75,0.2,0.4,Sometimes,No,University Park East
-"(26, 30)",female,latino/hispanic american,Non-Vegetarian,sipa-international affairs,0.8,0.0,1.0,1.0,1.0,0.8,1.0,0.4,0.75,0.2,0.4,No,Yes,Spruce Meadows
-"(26, 30)",female,latino/hispanic american,Non-Vegetarian,sipa-international affairs,0.8,0.0,1.0,1.0,1.0,0.8,1.0,0.4,0.75,0.2,0.4,Sometimes,Yes,River Heights
-"(26, 30)",female,latino/hispanic american,Vegetarian,sipa-international affairs,0.8,0.0,1.0,1.0,1.0,0.8,1.0,0.4,0.75,0.2,0.4,Yes,Yes,Eastern Annex
-"(26, 30)",female,latino/hispanic american,Non-Vegetarian,sipa-international affairs,0.8,0.0,1.0,1.0,1.0,0.8,1.0,0.4,0.75,0.2,0.4,Yes,No,Richmond Place
-"(26, 30)",female,latino/hispanic american,Vegetarian,sipa-international affairs,0.8,0.0,1.0,1.0,1.0,0.8,1.0,0.4,0.75,0.2,0.4,Sometimes,No,Connaught Park
-"(26, 30)",female,latino/hispanic american,Non-Vegetarian,sipa-international affairs,0.8,0.0,1.0,1.0,1.0,0.8,1.0,0.4,0.75,0.2,0.4,Yes,Occasionally,Innismore
-"(26, 30)",female,latino/hispanic american,Non-Vegetarian,sipa-international affairs,0.8,0.0,1.0,1.0,1.0,0.8,1.0,0.4,0.75,0.2,0.4,Yes,No,Rosemont
-"(26, 30)",female,latino/hispanic american,Vegetarian,sipa-international affairs,0.8,0.0,1.0,1.0,1.0,0.8,1.0,0.4,0.75,0.2,0.4,No,No,Lakeview Annex
-"(26, 30)",female,latino/hispanic american,Vegetarian,sipa-international affairs,0.8,0.0,1.0,1.0,1.0,0.8,1.0,0.4,0.75,0.2,0.4,No,No,Parkridge
-"(26, 30)",female,latino/hispanic american,Vegetarian,sipa-international affairs,0.8,0.0,1.0,1.0,1.0,0.8,1.0,0.4,0.75,0.2,0.4,No,No,Eastpoint Estates
-"(26, 30)",female,latino/hispanic american,Non-Vegetarian,sipa-international affairs,0.8,0.0,1.0,1.0,1.0,0.8,1.0,0.4,0.75,0.2,0.4,Sometimes,No,Walsh Acres
 "(21, 25)",female,european/caucasian-american,Non-Vegetarian,sipa-international affairs,0.6,0.2,0.9,0.875,0.6,0.6,0.875,0.8,0.875,0.8,0.6,No,Occasionally,Westridge
 "(21, 25)",female,european/caucasian-american,Non-Vegetarian,sipa-international affairs,0.6,0.2,0.9,0.875,0.6,0.6,0.875,0.8,0.875,0.8,0.6,Yes,Occasionally,Spruce Meadows
 "(21, 25)",female,european/caucasian-american,Vegetarian,sipa-international affairs,0.6,0.2,0.9,0.875,0.6,0.6,0.875,0.8,0.875,0.8,0.6,No,No,McCarthy Park
@@ -7352,28 +7216,6 @@ age-range,gender,race,FoodChoice,field,reading_normalized,gaming_normalized,dini
 "(21, 25)",female,asian/pacific islander/asian-american,Vegetarian,electrical engineering,1.0,0.6,0.875,1.0,0.9,1.0,0.9,1.0,1.0,0.75,0.4,Yes,Occasionally,Fairways West
 "(21, 25)",female,asian/pacific islander/asian-american,Vegetarian,electrical engineering,1.0,0.6,0.875,1.0,0.9,1.0,0.9,1.0,1.0,0.75,0.4,Sometimes,No,Pasqua Place
 "(21, 25)",female,asian/pacific islander/asian-american,Non-Vegetarian,electrical engineering,1.0,0.6,0.875,1.0,0.9,1.0,0.9,1.0,1.0,0.75,0.4,Yes,No,Industrial Centre
-"(21, 25)",female,european/caucasian-american,Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,No,Yes,Whitmore Park
-"(21, 25)",female,european/caucasian-american,Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,Yes,No,Transcona
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,Sometimes,Occasionally,Transcona
-"(21, 25)",female,european/caucasian-american,Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,Yes,Yes,Eastern Annex
-"(21, 25)",female,european/caucasian-american,Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,Yes,No,Glencairn Village
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,Sometimes,Occasionally,Lakeview Annex
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,Sometimes,Occasionally,Lakeview Centre
-"(21, 25)",female,european/caucasian-american,Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,No,No,Garden Ridge
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,No,Yes,Dewdney Place
-"(21, 25)",female,european/caucasian-american,Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,Sometimes,No,Wascana Park
-"(21, 25)",female,european/caucasian-american,Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,No,Yes,University Park
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,Yes,Occasionally,CPR Annex
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,Yes,Occasionally,Lakeview
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,No,No,Westridge
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,No,Yes,Wascana View
-"(21, 25)",female,european/caucasian-american,Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,No,Occasionally,Richmond Place
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,Yes,No,Broders Annex
-"(21, 25)",female,european/caucasian-american,Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,Sometimes,Yes,Arcola Sub
-"(21, 25)",female,european/caucasian-american,Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,No,Occasionally,Premier Place
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,No,Yes,Mirror Sun Gardens
-"(21, 25)",female,european/caucasian-american,Non-Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,No,No,Dewdney Place
-"(21, 25)",female,european/caucasian-american,Vegetarian,mfa acting program,0.9,0.0,0.9,1.0,1.0,1.0,1.0,0.2,0.9,0.2,1.0,Sometimes,Occasionally,Wascana Crescents
 "(21, 25)",female,european/caucasian-american,Non-Vegetarian,sociology,1.0,0.4,0.875,1.0,1.0,0.75,0.2,0.4,0.875,1.0,0.9,Sometimes,Occasionally,Crescents
 "(21, 25)",female,european/caucasian-american,Vegetarian,sociology,1.0,0.4,0.875,1.0,1.0,0.75,0.2,0.4,0.875,1.0,0.9,Yes,No,Albert Park
 "(21, 25)",female,european/caucasian-american,Vegetarian,sociology,1.0,0.4,0.875,1.0,1.0,0.75,0.2,0.4,0.875,1.0,0.9,No,Yes,Pasqua Place
@@ -7570,28 +7412,6 @@ age-range,gender,race,FoodChoice,field,reading_normalized,gaming_normalized,dini
 "(21, 25)",female,european/caucasian-american,Vegetarian,law,0.9,0.6,0.875,0.875,1.0,1.0,0.875,0.6,0.75,0.75,0.6,Yes,Yes,Albert Park
 "(21, 25)",female,european/caucasian-american,Non-Vegetarian,law,0.9,0.6,0.875,0.875,1.0,1.0,0.875,0.6,0.75,0.75,0.6,Sometimes,Occasionally,Garden Ridge
 "(21, 25)",female,european/caucasian-american,Non-Vegetarian,law,0.9,0.6,0.875,0.875,1.0,1.0,0.875,0.6,0.75,0.75,0.6,Yes,Yes,Parkview
-"(26, 30)",female,asian/pacific islander/asian-american,Non-Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,Sometimes,No,McCarthy Park
-"(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,Yes,No,Maple Ridge
-"(26, 30)",female,asian/pacific islander/asian-american,Non-Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,Yes,No,Lakeview Annex
-"(26, 30)",female,asian/pacific islander/asian-american,Non-Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,Sometimes,No,Washington Park
-"(26, 30)",female,asian/pacific islander/asian-american,Non-Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,Yes,Occasionally,Lakeview Centre
-"(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,Yes,Occasionally,Hillsdale
-"(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,Sometimes,No,Westridge
-"(26, 30)",female,asian/pacific islander/asian-american,Non-Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,No,Occasionally,Albert Park
-"(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,Yes,Yes,North Regina
-"(26, 30)",female,asian/pacific islander/asian-american,Non-Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,Sometimes,No,North Annex
-"(26, 30)",female,asian/pacific islander/asian-american,Non-Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,Sometimes,Yes,Mount Royal
-"(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,No,No,Varsity Park
-"(26, 30)",female,asian/pacific islander/asian-american,Non-Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,Yes,Occasionally,Lakeview Annex
-"(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,No,Occasionally,Dieppe Place
-"(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,Sometimes,Occasionally,McCarthy Park
-"(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,Yes,No,Mount Royal
-"(26, 30)",female,asian/pacific islander/asian-american,Non-Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,Sometimes,Yes,Hillsdale
-"(26, 30)",female,asian/pacific islander/asian-american,Non-Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,Yes,No,Lakewood
-"(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,Yes,No,Lakeview
-"(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,Sometimes,No,Rochdale Park
-"(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,No,Yes,Riverside
-"(26, 30)",female,asian/pacific islander/asian-american,Vegetarian,education,1.3,0.875,0.9,0.9,0.875,1.0,1.0,0.75,1.0,1.0,0.4,No,Occasionally,Lewvan Park
 "(21, 25)",female,asian/pacific islander/asian-american,Non-Vegetarian,medicine,0.875,0.6,0.9,1.0,1.0,0.875,1.0,0.75,0.875,0.8,0.6,Sometimes,Occasionally,Parkridge
 "(21, 25)",female,asian/pacific islander/asian-american,Non-Vegetarian,medicine,0.875,0.6,0.9,1.0,1.0,0.875,1.0,0.75,0.875,0.8,0.6,Sometimes,No,Fairways West
 "(21, 25)",female,asian/pacific islander/asian-american,Non-Vegetarian,medicine,0.875,0.6,0.9,1.0,1.0,0.875,1.0,0.75,0.875,0.8,0.6,Sometimes,Occasionally,Lakeview Annex
@@ -8029,28 +7849,6 @@ age-range,gender,race,FoodChoice,field,reading_normalized,gaming_normalized,dini
 "(21, 25)",male,asian/pacific islander/asian-american,Vegetarian,electrical engineering,1.0,0.9,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.6,No,Occasionally,Dewdney Place
 "(21, 25)",male,asian/pacific islander/asian-american,Non-Vegetarian,electrical engineering,1.0,0.9,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.6,Sometimes,Yes,South Lakeview see Lakeview South
 "(21, 25)",male,asian/pacific islander/asian-american,Vegetarian,electrical engineering,1.0,0.9,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.6,Yes,No,Garden Ridge
-"(21, 25)",male,asian/pacific islander/asian-american,Non-Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,Yes,Occasionally,Lakeview Annex
-"(21, 25)",male,asian/pacific islander/asian-american,Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,Yes,No,Douglas Place
-"(21, 25)",male,asian/pacific islander/asian-american,Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,Sometimes,Occasionally,Lakesidge Gardens
-"(21, 25)",male,asian/pacific islander/asian-american,Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,Sometimes,Occasionally,Coronation Park
-"(21, 25)",male,asian/pacific islander/asian-american,Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,Yes,No,Garden Ridge
-"(21, 25)",male,asian/pacific islander/asian-american,Non-Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,No,Occasionally,Argyle Park
-"(21, 25)",male,asian/pacific islander/asian-american,Non-Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,No,Yes,Gardiner Heights
-"(21, 25)",male,asian/pacific islander/asian-american,Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,Sometimes,Yes,Dieppe Place
-"(21, 25)",male,asian/pacific islander/asian-american,Non-Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,No,Occasionally,Normandy Heights
-"(21, 25)",male,asian/pacific islander/asian-american,Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,Yes,Yes,River Heights
-"(21, 25)",male,asian/pacific islander/asian-american,Non-Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,Yes,Occasionally,City View
-"(21, 25)",male,asian/pacific islander/asian-american,Non-Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,Yes,No,Whitmore Park
-"(21, 25)",male,asian/pacific islander/asian-american,Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,Sometimes,Occasionally,Glencairn Village
-"(21, 25)",male,asian/pacific islander/asian-american,Non-Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,Yes,Occasionally,Varsity Park
-"(21, 25)",male,asian/pacific islander/asian-american,Non-Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,Yes,Occasionally,Rosemont
-"(21, 25)",male,asian/pacific islander/asian-american,Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,Yes,No,Varsity Park
-"(21, 25)",male,asian/pacific islander/asian-american,Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,No,Occasionally,Rosemont South
-"(21, 25)",male,asian/pacific islander/asian-american,Non-Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,Sometimes,Yes,Wascana Addition
-"(21, 25)",male,asian/pacific islander/asian-american,Non-Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,Sometimes,Occasionally,Glen Elm Park South
-"(21, 25)",male,asian/pacific islander/asian-american,Non-Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,No,No,Whitmore Park
-"(21, 25)",male,asian/pacific islander/asian-american,Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,Yes,No,Glen Elm Park South
-"(21, 25)",male,asian/pacific islander/asian-american,Non-Vegetarian,biomedical engineering,0.4,1.4,1.0,0.9,1.0,1.0,0.9,1.0,0.6,0.6,0.8,Yes,Occasionally,Normanview West
 "(21, 25)",male,european/caucasian-american,Vegetarian,biomedical informatics,0.875,1.0,1.0,1.0,0.8,0.8,0.8,0.875,0.4,1.0,1.0,Yes,Yes,Uplands
 "(21, 25)",male,european/caucasian-american,Vegetarian,biomedical informatics,0.875,1.0,1.0,1.0,0.8,0.8,0.8,0.875,0.4,1.0,1.0,Yes,No,Lakesidge Gardens
 "(21, 25)",male,european/caucasian-american,Vegetarian,biomedical informatics,0.875,1.0,1.0,1.0,0.8,0.8,0.8,0.875,0.4,1.0,1.0,No,Yes,Creekside

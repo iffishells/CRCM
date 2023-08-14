@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[34]:
+# In[15]:
 
 
 import pandas as pd
@@ -16,7 +16,7 @@ df=df[['age','gender','race','importance_same_religion','field','reading','gamin
 df
 
 
-# In[35]:
+# In[16]:
 
 
 def normalize_values(df,current_feature_name ,current_scaled_feature_name , new_feature_name):
@@ -57,7 +57,7 @@ df = df[interestedColumns]
 df
 
 
-# In[36]:
+# In[17]:
 
 
 def measure_age_range(value):
@@ -186,7 +186,7 @@ df['locations'] = df['locations'].apply(lambda loc : listSubdivOfRegina[np.rando
 df
 
 
-# In[37]:
+# In[18]:
 
 
 sel_Col=['age-range','gender','race','FoodChoice','field','reading_normalized','gaming_normalized','dining_normalized','music_normalized','movies_normalized','tv_normalized','clubbing_normalized','hiking_normalized','exercise_normalized','sports_normalized','importance_same_religion_normalized','Smoking','Drinking','locations']
@@ -195,13 +195,13 @@ field_preference_dict = {index: field for index, field in enumerate(df['field'].
 df
 
 
-# In[38]:
+# In[19]:
 
 
 df.isnull().sum()
 
 
-# In[39]:
+# In[20]:
 
 
 df.dropna(inplace=True)
@@ -210,58 +210,48 @@ duplicateRows = df[df.duplicated()]
 duplicateRows
 
 
-# In[40]:
+# In[21]:
 
 
 duplicateRows.shape
 
 
-# In[41]:
+# In[22]:
 
 
 print("Total null value", df.isnull().sum())
 df = df.drop_duplicates()
-print("\nDuplicate rows", df.duplicated().sum())
+print("Duplicate rows", df.duplicated().sum())
 df
 
 
-# In[42]:
+# In[23]:
 
 
 df.to_csv('RCC_Cleaned.csv',index = False)
 
 
-# In[43]:
+# In[24]:
 
 
 new_df= pd.read_csv('RCC_Cleaned.csv')
 new_df.describe()
 
 
-# In[44]:
+# In[25]:
 
 
 # Check for duplicates
 print("duplicate rows:", new_df.duplicated().sum())
 
 
-# In[45]:
-
-
-# Check for missing values
-print("NULL values:")
-print(new_df.isnull().sum())
-print("\n\n\nNaN values:")
-print(new_df.isna().sum())
-
-
-# In[46]:
+# In[26]:
 
 
 new_df.shape
 
 
-# In[47]:
+# In[27]:
 
 
 c=1
@@ -270,20 +260,19 @@ for i in df:
     c=c+1
 
 
-# In[48]:
+# In[28]:
 
 
 for column in new_df:
     if new_df[column].dtype == 'float64':
-            icondition=new_df[(new_df[column] >= 0.1) & (new_df[column] <= 1.0)]
-            new_df = icondition
+            icondition=new_df[(new_df[column]
 
 # Print the DataFrame after removing outliers
 print(new_df)
-new_df.shape  
+new_df.shape            
 
 
-# In[49]:
+# In[29]:
 
 
 # Filter outliers based on the specified range
@@ -312,7 +301,7 @@ for i in new_df:
                 plt.show()            
 
 
-# In[52]:
+# In[30]:
 
 
 import matplotlib.pyplot as plt
@@ -336,7 +325,7 @@ for colName in list(new_df):
     plot_categorical_bar(new_df, column=colName, xlabel=colName, ylabel='Frequency', title=f'{colName} Distribution')
 
 
-# In[100]:
+# In[31]:
 
 
 # Count the occurrences of each category
@@ -355,7 +344,7 @@ plt.title('Location Distribution')
 plt.show()
 
 
-# In[99]:
+# In[32]:
 
 
 # Count the occurrences of each category
@@ -372,6 +361,14 @@ plt.title('Field Distribution')
 
 # Display the plot
 plt.show()
+
+
+# In[34]:
+
+
+new_df.to_csv('RCC_Dataset.csv',index = False)
+df1= pd.read_csv('RCC_Dataset.csv')
+df1.shape
 
 
 # In[ ]:
