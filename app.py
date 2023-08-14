@@ -122,7 +122,7 @@ def calculate_compatibility(user_preferences):
 
 
     # Calculate the maximum compatibility score in the dataset
-    max_compatibility_score = len(list(user_preferences.keys()))+9
+    max_compatibility_score = len(list(user_preferences.keys()))+7
 
     # Iterate through the DataFrame and calculate the normalized compatibility score as a percentage
     for index, row in df.iterrows():
@@ -133,7 +133,7 @@ def calculate_compatibility(user_preferences):
     compatible_df.sort_values(by='compatbilityScorePercentage', ascending=False,inplace=True)
     return compatible_df
 
-df = pd.read_csv('RCC_cleaned.csv')
+df = pd.read_csv('RCC_Dataset.csv')
 
 st.set_page_config(layout='wide',page_icon='!',page_title='Roommate Compatibility Connection')
 path =  os.path.dirname(__file__)
