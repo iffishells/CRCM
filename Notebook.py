@@ -1,18 +1,23 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# In[34]:
+
+
 import pandas as pd
 import numpy as np
 import os
 import glob
 import matplotlib.pyplot as plt
 import logging
-import seaborn as sns
-import os
 
 df = pd.read_csv('speed-dating_csv.csv')
 df=df[['age','gender','race','importance_same_religion','field','reading','gaming', 'dining','music','movies','tv','clubbing','hiking','exercise','sports','tvsports','d_importance_same_religion','d_reading','d_gaming', 'd_dining','d_music','d_movies','d_tv','d_clubbing','d_hiking','d_exercise','d_sports','d_tvsports']]
 df
+
+
+# In[35]:
+
 
 def normalize_values(df,current_feature_name ,current_scaled_feature_name , new_feature_name):
     # current_feature_name = 'yoga'
@@ -51,6 +56,10 @@ interestedColumns = ['age','gender','race','importance_same_religion','field','r
 df = df[interestedColumns]
 df
 
+
+# In[36]:
+
+
 def measure_age_range(value):
     age_bins = [(15,20), (21,25),(26,30),(31,35),(36,40),(41,60)]
     for range in age_bins:
@@ -64,10 +73,15 @@ df['age-range'] = df['age'].apply(measure_age_range)
 df['FoodChoice'] = np.random.choice([0, 1], size=len(df))
 df['Smoking'] = np.random.choice([0, 1,2], size=len(df))
 df['Drinking'] = np.random.choice([0, 1,2], size=len(df))
+
+
+
 df['Smoking'] = df['Smoking'].apply(lambda food: 'No' if food == 0 else ('Yes' if food == 1  else 'Sometimes'))
 df['Drinking'] = df['Drinking'].apply(lambda food: 'No' if food == 0 else ('Yes' if food == 1  else 'Occasionally'))
+
 # Converting binary values to labels
 df['FoodChoice'] = df['FoodChoice'].apply(lambda food: 'Vegetarian' if food == 0 else 'Non-Vegetarian')
+
 listSubdivOfRegina = ['Albert Park',
 'Arcola Sub',
 'Argyle Park',
@@ -168,7 +182,12 @@ listSubdivOfRegina = ['Albert Park',
 'Woodland Grove']
 df['locations'] =0
 df['locations'] = df['locations'].apply(lambda loc : listSubdivOfRegina[np.random.randint(0,len(listSubdivOfRegina))] )
+
 df
+
+
+# In[37]:
+
 
 sel_Col=['age-range','gender','race','FoodChoice','field','reading_normalized','gaming_normalized','dining_normalized','music_normalized','movies_normalized','tv_normalized','clubbing_normalized','hiking_normalized','exercise_normalized','sports_normalized','importance_same_religion_normalized','Smoking','Drinking','locations']
 df=df[sel_Col]
@@ -176,11 +195,29 @@ field_preference_dict = {index: field for index, field in enumerate(df['field'].
 df
 
 
+# In[38]:
+
+
 df.isnull().sum()
+
+
+# In[39]:
+
+
 df.dropna(inplace=True)
-print("Rows are deleted\n\n\n\n\n\n\n")
+print("Rows with Null values are deleted\n\n")
 duplicateRows = df[df.duplicated()]
-print("Number of duplicate rows \n", duplicateRows)
+duplicateRows
+
+
+# In[40]:
+
+
+duplicateRows.shape
+
+
+# In[41]:
+
 
 print("Total null value", df.isnull().sum())
 df = df.drop_duplicates()
@@ -188,17 +225,27 @@ print("\nDuplicate rows", df.duplicated().sum())
 df
 
 
+# In[42]:
+
+
 df.to_csv('RCC_Cleaned.csv',index = False)
+
+
+# In[43]:
+
 
 new_df= pd.read_csv('RCC_Cleaned.csv')
 new_df.describe()
 
 
-
+# In[44]:
 
 
 # Check for duplicates
 print("duplicate rows:", new_df.duplicated().sum())
+
+
+# In[45]:
 
 
 # Check for missing values
@@ -208,40 +255,79 @@ print("\n\n\nNaN values:")
 print(new_df.isna().sum())
 
 
+# In[46]:
 
 
 new_df.shape
+
+
+# In[47]:
+
+
 c=1
 for i in df:
     print(c,".", i, ": " ,df[i].dtype)
     c=c+1
 
+
+# In[48]:
+
+
 for column in new_df:
     if new_df[column].dtype == 'float64':
-            condition = (new_df[column] >= 0.1) & (new_df[column] <= 1.0)
-            new_df = new_df[condition]
+            icondition=new_df[(new_df[column] >= 0.1) & (new_df[column] <= 1.0)]
+            new_df = icondition
 
 # Print the DataFrame after removing outliers
 print(new_df)
-new_df.shape
+new_df.shape  
 
+
+# In[49]:
+
+
+# Filter outliers based on the specified range
+lower_limit = 0.1
+upper_limit = 1.0
 for i in new_df:
         if new_df[i].dtypes == 'float64':
-            plt.figure(figsize=(3,6))
-            plt.boxplot(new_df[i])
-            plt.ylabel('Values')
-            plt.xlabel(i)
-            plt.show()
+            
+
+                outliers = new_df[(new_df[i] < lower_limit) | (new_df[i] > upper_limit)]
+
+                # Create a scatter plot
+                plt.figure(figsize=(12, 6))
+                plt.scatter(df.index, df[i], color='blue', label='Data points')
+
+                # Highlight outliers
+                plt.scatter(outliers.index, outliers[i], color='red', label='Outliers')
+
+                plt.axhline(y=lower_limit, color='green', linestyle='--', label='Lower Limit (0.1)')
+                plt.axhline(y=upper_limit, color='orange', linestyle='--', label='Upper Limit (1.0)')
+                
+                plt.title(i)
+                plt.xlabel('Population')
+                plt.ylabel('Preference Range')
+                plt.legend()
+                plt.show()            
+
+
+# In[52]:
+
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+import os
 
 def plot_categorical_bar(data, column, xlabel=None, ylabel='Count', title=None):
   
     os.makedirs('plots',exist_ok=True)
-    plt.figure(figsize=(10,10))
+    plt.figure(figsize=(12,6))
     sns.countplot(data=data, x=column)
     plt.xlabel(xlabel if xlabel else column)
     plt.ylabel(ylabel)
     plt.title(title if title else f'{column} Distribution')
-    plt.xticks(rotation=90)  # Rotates x-axis labels for better readability
+    plt.xticks(rotation=45)  # Rotates x-axis labels for better readability
     plt.savefig(f"plots/{column}.png")
     plt.show()
 
@@ -250,6 +336,45 @@ for colName in list(new_df):
     plot_categorical_bar(new_df, column=colName, xlabel=colName, ylabel='Frequency', title=f'{colName} Distribution')
 
 
+# In[100]:
+
+
+# Count the occurrences of each category
+category_counts = new_df['locations'].value_counts()
+
+# Create a horizontal bar plot
+plt.figure(figsize=(8, 20))
+category_counts.plot(kind='barh', color='blue')
+
+# Adding labels and title
+plt.xlabel('Frequency')
+plt.ylabel('Locations')
+plt.title('Location Distribution')
+
+# Display the plot
+plt.show()
+
+
+# In[99]:
+
+
+# Count the occurrences of each category
+category_counts = new_df['field'].value_counts()
+
+# Create a horizontal bar plot
+plt.figure(figsize=(10, 30))
+category_counts.plot(kind='barh', color='blue')
+
+# Adding labels and title
+plt.xlabel('Frequency')
+plt.ylabel('Field of Work')
+plt.title('Field Distribution')
+
+# Display the plot
+plt.show()
+
+
+# In[ ]:
 
 
 
