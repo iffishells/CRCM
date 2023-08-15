@@ -7,6 +7,7 @@ import os
 import glob
 import requests
 import math
+import random
 
 warnings.simplefilter(action='ignore',category=FutureWarning)
 
@@ -26,6 +27,23 @@ def haversine_distance(lat1, lon1, lat2, lon2):
 
     distance = R * c
     return distance
+
+def random_name(gen):
+    # Lists of sample names
+    first_names = ['Axy', 'Bmn', 'Cpq', 'Dij', 'Epo', 'Fst','Grs','Hbc']
+    last_names =  ['101', '202', '303', '404', '505', '606','707','808']
+
+    # Generate a random name
+    random_first_name = random.choice(first_names)
+    random_last_name = random.choice(last_names)
+    random_full_name = f"{random_first_name} {random_last_name}"
+    if gen == 'male':
+        return "Mr. "+random_full_name
+    else:
+        return "Ms. "+random_full_name
+
+
+
 def get_coordinates(api_key, city_name):
     base_url = "https://atlas.microsoft.com/search/address/json"
     params = {
@@ -147,13 +165,13 @@ st.markdown("Use the options below to select your preferences for finding compat
 col1, col2,col3 = st.columns(3)
 
 
-
 with col1:
     
     # Add style to differentiate columns
     st.markdown("<style>div[role='listbox'] { background-color: #f2f2f2; padding: 5px; }</style>", unsafe_allow_html=True)
     
     # Dropdown menu
+    
     selected_option_age = st.selectbox("Select an option for Age :", sorted(df['age-range'].unique().tolist()))
     # Display the selected option
     st.write("You selected:", selected_option_age)
@@ -162,11 +180,11 @@ with col1:
     # Display the selected option
     st.write("You selected:", selected_option_gender)
 
-    selected_option_race = st.selectbox("Select an option for Ethnicity :", df['race'].unique().tolist())
+    selected_option_race = st.selectbox("Select an option for Ethnicity :", sorted(df['race'].unique().tolist()))
     # Display the selected option
     st.write("You selected:", selected_option_race)
 
-    selected_option_field = st.selectbox("Select an option for Field :", df['field'].unique().tolist())
+    selected_option_field = st.selectbox("Select an option for Field of Work :", sorted(df['field'].unique().tolist()))
     # Display the selected option
     st.write("You selected:", selected_option_field)
 
@@ -182,26 +200,20 @@ with col1:
     # Display the selected option   
     st.write("You selected:", selected_option_drinking)
     
-    selected_option_religion = get_numeric_input("Select an option for Religion Faith & Belief (Preference order(0-1)):")   
-
-    
-
 with col2:
-
-    selected_option_reading = get_numeric_input("Select an option for Academic (Preference order(0-1)):")   
-    selected_option_gaming = get_numeric_input("Select an option for Gaming Habit(Preference order(0-1)):")   
-    selected_option_movie = get_numeric_input("Select an option for Movie lover(Preference order(0-1)):")   
-    selected_option_sports = get_numeric_input("Select an option for Sports Enthusiasm(Preference order(0-1)):")   
-    selected_option_music = get_numeric_input("Select an option for Music Lover(Preference order(0-1)):")   
-    selected_option_cleanliness = get_numeric_input("Select an option for cleanliness and hygiene (Preference order(0-1)):")
     
-    selected_option_tv = get_numeric_input("Select an option for Binge-Watching (Preference order(0-1)):")   
-    selected_option_clubbing = get_numeric_input("Select an option for party & Clubbing(Preference order(0-1)):")   
-    selected_option_hiking = get_numeric_input("Select an option for Trip & Hiking(Preference order(0-1)):")   
-    selected_option_exercise = get_numeric_input("Select an option for Exercise and yoga(Preference order(0-1):")   
-   
- 
-  
+    st.markdown("<style>div[role='listbox'] { background-color: #f2f2f2; padding: 5px; }</style>", unsafe_allow_html=True)
+    selected_option_reading = get_numeric_input("Select an option for Academic (Preference order(0-1)):")  
+    selected_option_cleanliness = get_numeric_input("Select an option for cleanliness and hygiene (Preference order(0-1)):") 
+    selected_option_exercise = get_numeric_input("Select an option for Exercise and yoga(Preference order(0-1):") 
+    selected_option_hiking = get_numeric_input("Select an option for Trip & Hiking(Preference order(0-1)):")
+    selected_option_religion = get_numeric_input("Select an option for Religion Faith & Belief (Preference order(0-1)):")
+    selected_option_movie = get_numeric_input("Select an option for Movie lover(Preference order(0-1)):")  
+    selected_option_music = get_numeric_input("Select an option for Music Lover(Preference order(0-1)):") 
+    selected_option_sports = get_numeric_input("Select an option for Sports Enthusiasm(Preference order(0-1)):") 
+    selected_option_tv = get_numeric_input("Select an option for Binge-Watching (Preference order(0-1)):")    
+    selected_option_gaming = get_numeric_input("Select an option for Gaming Habit(Preference order(0-1)):")   
+    selected_option_clubbing = get_numeric_input("Select an option for party & Clubbing(Preference order(0-1)):")     
 selected_option_origon_location = st.text_input("Enter Your University/office/Home location:")
 # Display the entered text
 st.write("You entered:", selected_option_origon_location)
@@ -243,31 +255,30 @@ if selected_option_origon_location:
             compatible_sorted_df = compatibility_df.head()
             # st.dataframe(compatible_sorted_df) 
             # st.dataframe(compatible_sorted_df)            
-
+            i=0
             for index,row in compatible_sorted_df.iterrows():
                 distance = get_distance(row['locations'], selected_option_origon_location)
+                i=i+1
                 if distance:
                     st.markdown(
                         f"""
                         <div style="background-color: #f9f9f9; padding: 15px; border-radius: 15px; box-shadow: 2px 2px 5px #888888;">
-                        <h3>Name- XYZ-{index} </h3>
-                        <h5>Distance between {row['locations']} - {selected_option_origon_location} : {distance/1000}-KM</h5>
-                        <h5><strong>Compatibility Score:</strong> {row['compatbilityScorePercentage']}%</h5>
-                        <table border="0">
+                        <h4>OPTION: {(i)} </h4>
+                        <table border="1">
                             <tr>
                                 <td><strong>Age Range:</strong> {row['age-range']}</td>
                                 <td><strong>Gender:</strong> {row['gender']}</td>
-                                <td><strong>Race:</strong> {row['race']}</td>
+                                <td><strong>Ethnicity:</strong> {row['race']}</td>
                             </tr>
                             <tr>
                                 <td><strong>Field of Interest:</strong> {row['field']}</td>
                                 <td><strong>Academic and Reading Preference:</strong> {row['reading_normalized']}</td>
-                                <td><strong>Gaming Habit :</strong> {row['gaming_normalized']}</td>
+                                <td><strong>Cleanliness and hygiene :</strong> {row['cleanliness_normalized']}</td>
                             </tr>
                             <tr>
-                                <td><strong>Music Lover:</strong> {row['music_normalized']}</td>
-                                <td><strong>Eating Ritual :</strong> {row['cleanliness_normalized']}</td>
-                                <td><strong>Location :</strong> {row['locations']}</td>
+                                <td><strong>Music Lover :</strong> {row['music_normalized']}</td>
+                                <td><strong>Gaming Habit :</strong> {row['gaming_normalized']}</td>
+                                <td><strong>Alcohol Consumption :</strong> {row['Drinking']}</td>  
                             </tr>
                             <tr>
                                 <td><strong>Movie Lover:</strong> {row['movies_normalized']}</td>
@@ -285,7 +296,7 @@ if selected_option_origon_location:
                                 <td><strong>Smooking Habit :</strong> {row['Smoking']}</td>
                             </tr>
                             <tr>
-                                <td><strong>Alcohol Consumption :</strong> {row['Drinking']}</td>   
+                                 <td><strong>Location :</strong> {row['locations']}</td>
                             </tr> 
                             
                             
@@ -296,22 +307,26 @@ if selected_option_origon_location:
                         unsafe_allow_html=True
                     )
         with col2:
-            
+            j=0
             compatible_sorted_df = compatibility_df.head()
             for index,row in compatible_sorted_df.iterrows():
                 distance = get_distance(row['locations'], selected_option_origon_location)
-
+                j=j+1
                 if distance:
                     st.markdown(
                         f"""
                         <div style="background-color: #f9f9f9; padding: 15px; border-radius: 15px; box-shadow: 2px 2px 5px #888888;">
-                        <h3>Name- XYZ-{index} </h3>
-                        <h5>Distance between {row['locations']} - {selected_option_origon_location} : {distance/1000}-KM</h5>
-                        <h5><strong>Compatibility Score:</strong> {row['compatbilityScorePercentage']}% </h5>
+                        <h3>OPTION: {(j)} </h3>
+                        <h4><strong>Compatibility Score : </strong> {row['compatbilityScorePercentage']}% </h4>
+                        <h5>Name: {random_name(row['gender'])} </h5>
                         <h5><strong>Location :</strong> {row['locations']}</h5>
+                        <h5>Distance between : {row['locations']} - {selected_option_origon_location} : {distance/1000}-KM</h5>
+                        
+                        
 
                         </div>
                         """,
                         unsafe_allow_html=True
                     )
-                    
+                   
+ 
