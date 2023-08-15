@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[15]:
+# In[11]:
 
 
 import pandas as pd
@@ -12,11 +12,11 @@ import matplotlib.pyplot as plt
 import logging
 
 df = pd.read_csv('speed-dating_csv.csv')
-df=df[['age','gender','race','importance_same_religion','field','reading','gaming', 'dining','music','movies','tv','clubbing','hiking','exercise','sports','tvsports','d_importance_same_religion','d_reading','d_gaming', 'd_dining','d_music','d_movies','d_tv','d_clubbing','d_hiking','d_exercise','d_sports','d_tvsports']]
+df=df[['age','gender','race','importance_same_religion','field','reading','gaming', 'cleanliness','music','movies','tv','clubbing','hiking','exercise','sports','tvsports','d_importance_same_religion','d_reading','d_gaming', 'd_cleanliness','d_music','d_movies','d_tv','d_clubbing','d_hiking','d_exercise','d_sports','d_tvsports']]
 df
 
 
-# In[16]:
+# In[12]:
 
 
 def normalize_values(df,current_feature_name ,current_scaled_feature_name , new_feature_name):
@@ -36,7 +36,7 @@ def normalize_values(df,current_feature_name ,current_scaled_feature_name , new_
 
 df = normalize_values(df,'reading','d_reading','reading_normalized')
 df = normalize_values(df,'gaming','d_gaming','gaming_normalized')
-df = normalize_values(df,'dining','d_dining','dining_normalized')
+df = normalize_values(df,'cleanliness','d_cleanliness','cleanliness_normalized')
 df = normalize_values(df,'music','d_music','music_normalized')
 df = normalize_values(df,'movies','d_movies','movies_normalized')
 df = normalize_values(df,'tv','d_tv','tv_normalized')
@@ -47,9 +47,9 @@ df = normalize_values(df,'sports','d_sports','sports_normalized')
 df = normalize_values(df,'importance_same_religion','d_importance_same_religion','importance_same_religion_normalized')
 
 interestedColumns = ['age','gender','race','importance_same_religion','field','reading','gaming',
-                 'dining','music','movies','tv','clubbing','hiking','exercise',
+                 'cleanliness','music','movies','tv','clubbing','hiking','exercise',
                  'sports','tvsports','reading_normalized',
-                 'gaming_normalized','dining_normalized','music_normalized',
+                 'gaming_normalized','cleanliness_normalized','music_normalized',
                  'movies_normalized','tv_normalized','clubbing_normalized',
                  'hiking_normalized','exercise_normalized','sports_normalized',
                  'importance_same_religion_normalized']
@@ -57,7 +57,7 @@ df = df[interestedColumns]
 df
 
 
-# In[17]:
+# In[13]:
 
 
 def measure_age_range(value):
@@ -186,22 +186,22 @@ df['locations'] = df['locations'].apply(lambda loc : listSubdivOfRegina[np.rando
 df
 
 
-# In[18]:
+# In[14]:
 
 
-sel_Col=['age-range','gender','race','FoodChoice','field','reading_normalized','gaming_normalized','dining_normalized','music_normalized','movies_normalized','tv_normalized','clubbing_normalized','hiking_normalized','exercise_normalized','sports_normalized','importance_same_religion_normalized','Smoking','Drinking','locations']
+sel_Col=['age-range','gender','race','FoodChoice','field','reading_normalized','gaming_normalized','cleanliness_normalized','music_normalized','movies_normalized','tv_normalized','clubbing_normalized','hiking_normalized','exercise_normalized','sports_normalized','importance_same_religion_normalized','Smoking','Drinking','locations']
 df=df[sel_Col]
 field_preference_dict = {index: field for index, field in enumerate(df['field'].unique())}
 df
 
 
-# In[19]:
+# In[15]:
 
 
 df.isnull().sum()
 
 
-# In[20]:
+# In[16]:
 
 
 df.dropna(inplace=True)
@@ -210,13 +210,13 @@ duplicateRows = df[df.duplicated()]
 duplicateRows
 
 
-# In[21]:
+# In[17]:
 
 
 duplicateRows.shape
 
 
-# In[22]:
+# In[18]:
 
 
 print("Total null value", df.isnull().sum())
@@ -225,33 +225,33 @@ print("Duplicate rows", df.duplicated().sum())
 df
 
 
-# In[23]:
+# In[19]:
 
 
 df.to_csv('RCC_Cleaned.csv',index = False)
 
 
-# In[24]:
+# In[20]:
 
 
 new_df= pd.read_csv('RCC_Cleaned.csv')
 new_df.describe()
 
 
-# In[25]:
+# In[21]:
 
 
 # Check for duplicates
 print("duplicate rows:", new_df.duplicated().sum())
 
 
-# In[26]:
+# In[22]:
 
 
 new_df.shape
 
 
-# In[27]:
+# In[23]:
 
 
 c=1
@@ -260,19 +260,20 @@ for i in df:
     c=c+1
 
 
-# In[28]:
+# In[26]:
 
 
 for column in new_df:
     if new_df[column].dtype == 'float64':
-            icondition=new_df[(new_df[column]
+            icondition=new_df[(new_df[column] >= 0.1) & (new_df[column] <= 1.0)]
+            new_df = icondition
 
 # Print the DataFrame after removing outliers
 print(new_df)
-new_df.shape            
+new_df.shape      
 
 
-# In[29]:
+# In[27]:
 
 
 # Filter outliers based on the specified range
@@ -301,7 +302,7 @@ for i in new_df:
                 plt.show()            
 
 
-# In[30]:
+# In[28]:
 
 
 import matplotlib.pyplot as plt
@@ -325,7 +326,7 @@ for colName in list(new_df):
     plot_categorical_bar(new_df, column=colName, xlabel=colName, ylabel='Frequency', title=f'{colName} Distribution')
 
 
-# In[31]:
+# In[29]:
 
 
 # Count the occurrences of each category
@@ -344,7 +345,7 @@ plt.title('Location Distribution')
 plt.show()
 
 
-# In[32]:
+# In[30]:
 
 
 # Count the occurrences of each category
@@ -363,7 +364,7 @@ plt.title('Field Distribution')
 plt.show()
 
 
-# In[34]:
+# In[31]:
 
 
 new_df.to_csv('RCC_Dataset.csv',index = False)

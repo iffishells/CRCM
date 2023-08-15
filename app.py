@@ -193,7 +193,7 @@ with col2:
     selected_option_movie = get_numeric_input("Select an option for Movie lover(Preference order(0-1)):")   
     selected_option_sports = get_numeric_input("Select an option for Sports Enthusiasm(Preference order(0-1)):")   
     selected_option_music = get_numeric_input("Select an option for Music Lover(Preference order(0-1)):")   
-    selected_option_dining = get_numeric_input("Select an option for Eating Ritual(Preference order(0-1)):")
+    selected_option_cleanliness = get_numeric_input("Select an option for cleanliness and hygiene (Preference order(0-1)):")
     
     selected_option_tv = get_numeric_input("Select an option for Binge-Watching (Preference order(0-1)):")   
     selected_option_clubbing = get_numeric_input("Select an option for party & Clubbing(Preference order(0-1)):")   
@@ -219,7 +219,7 @@ if selected_option_origon_location:
                     'reading_normalized':selected_option_reading,
                     'gaming_normalized':selected_option_gaming,
                     'music_normalized':selected_option_music,
-                    'dining_normalized':selected_option_dining,
+                    'cleanliness_normalized':selected_option_cleanliness,
                     'movies_normalized':selected_option_movie,
                     'tv_normalized':selected_option_tv,
                     'clubbing_normalized':selected_option_clubbing,
@@ -266,7 +266,7 @@ if selected_option_origon_location:
                             </tr>
                             <tr>
                                 <td><strong>Music Lover:</strong> {row['music_normalized']}</td>
-                                <td><strong>Eating Ritual :</strong> {row['dining_normalized']}</td>
+                                <td><strong>Eating Ritual :</strong> {row['cleanliness_normalized']}</td>
                                 <td><strong>Location :</strong> {row['locations']}</td>
                             </tr>
                             <tr>
