@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[11]:
+# In[1]:
 
 
 import pandas as pd
@@ -16,7 +16,7 @@ df=df[['age','gender','race','importance_same_religion','field','reading','gamin
 df
 
 
-# In[12]:
+# In[2]:
 
 
 def normalize_values(df,current_feature_name ,current_scaled_feature_name , new_feature_name):
@@ -57,7 +57,7 @@ df = df[interestedColumns]
 df
 
 
-# In[13]:
+# In[3]:
 
 
 def measure_age_range(value):
@@ -186,7 +186,7 @@ df['locations'] = df['locations'].apply(lambda loc : listSubdivOfRegina[np.rando
 df
 
 
-# In[14]:
+# In[4]:
 
 
 sel_Col=['age-range','gender','race','FoodChoice','field','reading_normalized','gaming_normalized','cleanliness_normalized','music_normalized','movies_normalized','tv_normalized','clubbing_normalized','hiking_normalized','exercise_normalized','sports_normalized','importance_same_religion_normalized','Smoking','Drinking','locations']
@@ -195,13 +195,13 @@ field_preference_dict = {index: field for index, field in enumerate(df['field'].
 df
 
 
-# In[15]:
+# In[5]:
 
 
 df.isnull().sum()
 
 
-# In[16]:
+# In[6]:
 
 
 df.dropna(inplace=True)
@@ -210,48 +210,49 @@ duplicateRows = df[df.duplicated()]
 duplicateRows
 
 
-# In[17]:
+# In[7]:
 
 
 duplicateRows.shape
 
 
-# In[18]:
+# In[20]:
 
 
-print("Total null value", df.isnull().sum())
+print("Total null value")
+print(df.isnull().sum())
 df = df.drop_duplicates()
 print("Duplicate rows", df.duplicated().sum())
 df
 
 
-# In[19]:
+# In[9]:
 
 
 df.to_csv('RCC_Cleaned.csv',index = False)
 
 
-# In[20]:
+# In[10]:
 
 
 new_df= pd.read_csv('RCC_Cleaned.csv')
 new_df.describe()
 
 
-# In[21]:
+# In[11]:
 
 
 # Check for duplicates
 print("duplicate rows:", new_df.duplicated().sum())
 
 
-# In[22]:
+# In[12]:
 
 
 new_df.shape
 
 
-# In[23]:
+# In[13]:
 
 
 c=1
@@ -260,7 +261,7 @@ for i in df:
     c=c+1
 
 
-# In[26]:
+# In[14]:
 
 
 for column in new_df:
@@ -273,7 +274,7 @@ print(new_df)
 new_df.shape      
 
 
-# In[27]:
+# In[15]:
 
 
 # Filter outliers based on the specified range
@@ -302,7 +303,7 @@ for i in new_df:
                 plt.show()            
 
 
-# In[28]:
+# In[16]:
 
 
 import matplotlib.pyplot as plt
@@ -326,7 +327,7 @@ for colName in list(new_df):
     plot_categorical_bar(new_df, column=colName, xlabel=colName, ylabel='Frequency', title=f'{colName} Distribution')
 
 
-# In[29]:
+# In[17]:
 
 
 # Count the occurrences of each category
@@ -345,7 +346,7 @@ plt.title('Location Distribution')
 plt.show()
 
 
-# In[30]:
+# In[18]:
 
 
 # Count the occurrences of each category
@@ -364,7 +365,7 @@ plt.title('Field Distribution')
 plt.show()
 
 
-# In[31]:
+# In[19]:
 
 
 new_df.to_csv('RCC_Dataset.csv',index = False)
